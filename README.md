@@ -134,7 +134,7 @@ gantt
 gantt
     dateFormat YYYY-MM-DD
     axisFormat %Y
-    title My Technology Stack (SecDevOps)
+    title My Technology Stack (Application Deployment)
     section Total
         from 2000 to 2038                  :active  ,            1997-09-01, 2038-04-05
     section Company
