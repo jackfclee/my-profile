@@ -1,6 +1,6 @@
 # résumé
 
-```mermaid
+@startmermaid
 gantt
     dateFormat YYYY-MM-DD
     axisFormat %Y
@@ -30,7 +30,7 @@ gantt
         Consultancy, TCS                   :crit    ,            2022-06-15, 2023-10-31
         Senior Engineer, Westpac           :done    , crit     , 2022-07-04, 2023-08-25
         API Developer, Ramsay              :active  ,            2023-08-28, 2023-10-31
-```
+@endmermaid
 
 ```mermaid
 gantt
