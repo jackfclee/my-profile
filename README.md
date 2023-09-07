@@ -69,7 +69,6 @@ gantt
         COBOL                              :done    ,            2005-05-09, 2006-06-30
         JCL                                :done    ,            2005-05-09, 2006-06-30
         DataWeave                          :done    ,            2016-01-01, 2019-12-31
-        Mule Configuration                 :done    ,            2016-01-01, 2019-12-31
         Mule Expression Language           :done    ,            2016-01-01, 2019-12-31
         JavaScript                         :done    ,            2019-01-01, 2023-12-31
         Python 3                           :done    ,            2020-01-01, 2023-12-31
@@ -89,6 +88,7 @@ gantt
         Spring Integration                 :done    ,            2013-01-01, 2013-12-31
         Spring Boot                        :done    ,            2015-07-01, 2023-12-31
         Spring Web                         :done    ,            2015-07-01, 2022-04-06
+        Mule Configuration                 :done    ,            2016-01-01, 2019-12-31
         Mule Connector Kit                 :done    ,            2016-01-01, 2019-12-31
         Bootstrap                          :done    ,            2019-01-01, 2023-12-31
         Express.js                         :done    ,            2019-01-01, 2023-12-31
