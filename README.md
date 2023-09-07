@@ -36,7 +36,7 @@ gantt
 gantt
     dateFormat YYYY-MM-DD
     axisFormat %Y
-    title My Technology Stack
+    title My Technology Stack (Application Development)
     section Total
         from 2000 to 2038                  :active  ,            1997-09-01, 2038-04-05
     section Company
@@ -120,23 +120,47 @@ gantt
         IBM DB2                            :done    ,            2005-05-09, 2006-12-31
         Hazelcast                          :done    ,            2020-01-01, 2020-12-31
         PostgreSQL                         :done    ,            2021-01-01, 2022-04-06
-    section Source Management
-        MKS                                :done    ,            2005-05-09, 2010-06-30
-        IBM Rational Team Concert          :done    ,            2010-07-01, 2016-12-31
-        GitHub                             :done    ,            2017-01-01, 2023-12-31
-        Bitbucket                          :done    ,            2022-07-04, 2023-12-31
-    section Quality Gate
-        SonarQube                          :done    ,            2017-01-01, 2023-12-31
-        Artifactory XRay                   :done    ,            2023-08-28, 2023-12-31
-        TuffleHog                          :done    ,            2023-08-28, 2023-12-31
+    section Testing
+        Apache Jmeter                      :done    ,            2011-07-01, 2022-04-06
+        Apache Junit                       :done    ,            2011-07-01, 2023-12-31
+        JMX                                :done    ,            2011-07-01, 2012-12-31
+        YourKit                            :done    ,            2011-07-01, 2012-12-31
+        POSTMAN                            :done    ,            2017-01-01, 2023-12-31
+        Mockito                            :done    ,            2021-01-01, 2023-12-31
+        Wiremock                           :done    ,            2021-01-01, 2023-12-31
+```
+
+```mermaid
+gantt
+    dateFormat YYYY-MM-DD
+    axisFormat %Y
+    title My Technology Stack (SecDevOps)
+    section Total
+        from 2000 to 2038                  :active  ,            1997-09-01, 2038-04-05
+    section Company
+        PCCW                               :crit    ,            2000-05-29, 2001-03-06
+        Excel Technology (HK)              :crit    ,            2001-03-07, 2003-03-01
+        Hongkong Post                      :crit    ,            2003-03-03, 2005-05-08
+        HSBC (HK)                          :crit    ,            2005-05-09, 2022-04-06
+        Westpac                            :crit    ,            2022-07-04, 2023-08-25
+        Ramsay                             :crit    ,            2023-08-28, 2023-12-31
     section CICD Pipeline
         IBM Rational Team Concert          :done    ,            2010-07-01, 2016-12-31
         Jenkins                            :done    ,            2017-01-01, 2022-04-06
         TeamCity                           :done    ,            2023-08-28, 2023-12-31
         Terraform                          :done    ,            2023-08-28, 2023-12-31
+    section Source Management
+        MKS                                :done    ,            2005-05-09, 2010-06-30
+        IBM Rational Team Concert          :done    ,            2010-07-01, 2016-12-31
+        GitHub                             :done    ,            2017-01-01, 2023-12-31
+        Bitbucket                          :done    ,            2022-07-04, 2023-12-31
     section Repository
         Maven                              :done    ,            2010-07-01, 2023-12-31
         JForg Artifactory                  :done    ,            2022-07-04, 2023-12-31
+    section Quality Gate
+        SonarQube                          :done    ,            2017-01-01, 2023-12-31
+        Artifactory XRay                   :done    ,            2023-08-28, 2023-12-31
+        TuffleHog                          :done    ,            2023-08-28, 2023-12-31
     section Application Runtime
         Apache Web Server                  :done    ,            2000-05-29, 2005-05-08
         JRun 3                             :done    ,            2001-03-07, 2003-03-01
@@ -158,14 +182,6 @@ gantt
         Kong API Gateway                   :done    ,            2022-01-01, 2022-04-06
         GCP Anthos                         :done    ,            2023-08-28, 2023-12-31
         GCP Apigee                         :done    ,            2023-08-28, 2023-12-31
-    section Testing
-        Apache Jmeter                      :done    ,            2011-07-01, 2022-04-06
-        Apache Junit                       :done    ,            2011-07-01, 2023-12-31
-        JMX                                :done    ,            2011-07-01, 2012-12-31
-        YourKit                            :done    ,            2011-07-01, 2012-12-31
-        POSTMAN                            :done    ,            2017-01-01, 2023-12-31
-        Mockito                            :done    ,            2021-01-01, 2023-12-31
-        Wiremock                           :done    ,            2021-01-01, 2023-12-31
     section Logging & Monitoring
         AppDynamic                         :done    ,            2017-01-01, 2022-04-06
         Splunk                             :done    ,            2017-01-01, 2023-12-31
