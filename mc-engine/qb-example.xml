@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bank>
+  <entry>
+    <question>What is the best option?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>Apple</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Banana</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>What is the good answer?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>true</valid>
+          <detail>Red</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Blue</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Green</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Black</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>White</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>What is the correct number?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>0721</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>8964</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>0831</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>none of above</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+</bank>
