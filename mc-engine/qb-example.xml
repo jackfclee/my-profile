@@ -8,6 +8,13 @@
           <valid>false</valid>
           <detail>
 Apple is something for me to eat. Do you like it?
+
+|data|answer|
+|---|---|
+|option|more|
+|option|more|
+|option|more|
+
 Apple is something for me to eat. Do you like it?
 Apple is something for me to eat. Do you like it?
 Apple is something for me to eat. Do you like it?

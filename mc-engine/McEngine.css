@@ -67,8 +67,12 @@ html, body {
   padding-bottom: 50px; /* Adjust based on the height of .control-bar */
 }
 
+.btn {
+  width: 100px; /* Adjust this value to suit your needs */
+}
+
 .control-bar .btn {
-  margin: 0 1px; /* Spacing between buttons */
+  margin: 2px 0px; /* Spacing between buttons */
   text-align: center;
 }
 
@@ -85,5 +89,19 @@ html, body {
   .jumbotron.answer-content {
     font-size: 16px; /* Adjust for mobile screens */
   }
+}
+
+.markdownTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.markdownTable th, .markdownTable td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.markdownTable th {
+  background-color: #f2f2f2;
 }
 

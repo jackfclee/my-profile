@@ -12,15 +12,12 @@
 <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
 <link rel="shortcut icon" type="image/x-icon" href="assets/favicon.ico">
 <link rel="manifest" href="assets/site.webmanifest">
-<!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="McEngine.css"> 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-<!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<!-- Popper JS -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-<!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
 <div class="container">
@@ -36,9 +33,11 @@
     </form>
   </div>
   <div id="buttonContainer" class="control-bar">
-    <button id="previousBtn" class="btn btn-secondary">Previous</button>
+    <button id="resetBtn" class="btn btn-dark">Reset</button>
     <button id="submitBtn" class="btn btn-primary">Submit</button>
-    <button id="nextBtn" class="btn btn-secondary">Next</button>
+    <br/>
+    <button id="previousBtn" class="btn btn-success">Previous</button>
+    <button id="nextBtn" class="btn btn-success">Next</button>
   </div>
 </div>
 <script src="McEngine.js"></script>

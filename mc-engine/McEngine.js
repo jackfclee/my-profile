@@ -3,7 +3,7 @@ let currentQuestionIndex = 0;
 
 //--------------------------------------------------------------------------------
 function loadXmlDoc(filename, callback) {
-  var xhttp;
+  let xhttp;
   if (window.ActiveXObject) {
     xhttp = new ActiveXObject("Msxml2.XMLHTTP");
   } else {
@@ -50,18 +50,43 @@ function displayQuestion(index) {
   $("#questionText").text(thisQuestion.text);
   $("#answersForm").empty(); // Clear previous options
 
-  const isMultipleCorrect =
-  thisQuestion.options.filter((option) => option.isValid).length > 1;
+  const isMultipleCorrect = thisQuestion.options.filter(option => option.isValid).length > 1;
   const inputType = isMultipleCorrect ? "checkbox" : "radio";
+
   thisQuestion.options.forEach((option, index) => {
-    $("#answersForm").append(`
-          <div class="form-check">
-            <input class="form-check-input" type="${inputType}" name="answer" id="option${index}" value="${option.isValid}">
-            <label class="form-check-label" for="option${index}">${option.detail}</label>
-          </div>
-      `);
+    // Convert Markdown in option.detail to HTML
+    const detailHTML = marked.parse(option.detail);
+
+    // Create a new div element for the option
+    const $optionDiv = $(`
+      <div class="form-check">
+        <input class="form-check-input" type="${inputType}" name="answer" id="option${index}" value="${option.isValid}">
+        <label class="form-check-label" for="option${index}"></label>
+      </div>
+    `);
+    // Append the converted HTML to the label within the div
+    $optionDiv.find(`label[for="option${index}"]`).html("<div>" + detailHTML.replace(/<table>/g, '<table class="markdownTable">') + "</div>");
+    // Append the option div to the form
+    $("#answersForm").append($optionDiv);
   });
+
+  if (currentQuestionIndex <= 0) {
+    $("#previousBtn").prop('disabled', true);
+    $("#nextBtn").prop('disabled', false);
+  } else if (currentQuestionIndex >= currentQuestions.length - 1) {
+    $("#nextBtn").prop('disabled', true);
+    $("#previousBtn").prop('disabled', false);
+  } else {
+    $("#previousBtn").prop('disabled', false);
+    $("#nextBtn").prop('disabled', false);
+  }
 }
+
+//--------------------------------------------------------------------------------
+$("#resetBtn").click(function (e) {
+  e.preventDefault();
+  displayQuestion(currentQuestionIndex);
+});
 
 //--------------------------------------------------------------------------------
 $("#submitBtn").click(function (e) {
@@ -72,7 +97,6 @@ $("#submitBtn").click(function (e) {
       .next("label")
       .css("color", isCorrect ? "green" : "red");
   });
-  $("#submitBtn").show();
 });
 
 //--------------------------------------------------------------------------------
@@ -81,13 +105,6 @@ $("#nextBtn").click(function (e) {
   currentQuestionIndex++;
   if (currentQuestionIndex < currentQuestions.length) {
     displayQuestion(currentQuestionIndex);
-    $("#submitBtn").show();
-  }
-  if (currentQuestionIndex >= currentQuestions.length - 1) {
-    $("#nextBtn").hide();
-  } else {
-    $("#previousBtn").show();
-    $("#nextBtn").show();
   }
 });
 
@@ -97,15 +114,7 @@ $("#previousBtn").click(function (e) {
   currentQuestionIndex--;
   if (currentQuestionIndex < currentQuestions.length) {
     displayQuestion(currentQuestionIndex);
-    $("#submitBtn").show();
-    $("#previousBtn").hide();
   } 
-  if (currentQuestionIndex <= 0) {
-    $("#previousBtn").hide();
-  } else {
-    $("#previousBtn").show();
-    $("#nextBtn").show();
-  }
 });
 
 
