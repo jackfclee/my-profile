@@ -18,19 +18,23 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <div class="container">
-    <div id="topic">MC Engine</div>
-    <div id="questionContainer" class="mt-5">
-        <div id="questionText"></div>
-        <form id="answersForm">
-            <!-- Options will be populated here -->
-        </form>
-    </div>
-    <div id="buttonContainer" class="mt-5">
-      <button id="previousBtn" class="btn btn-secondary">Previous</button>
-      <button id="submitBtn" class="btn btn-primary">Submit</button>
-      <button id="nextBtn" class="btn btn-secondary">Next</button>
-    </div>
+<div class="container">
+  <div id="appHeader" class="app-header">
+    MC Engine V1
+  </div>
+  <div id="questionContainer" class="jumbotron question-content">
+    <div id="questionText"></div>
+  </div>
+  <div id="answerContainer" class="jumbotron answer-content">
+    <form id="answersForm">
+          <!-- Options will be populated here -->
+    </form>
+  </div>
+  <div id="buttonContainer" class="control-bar">
+    <button id="previousBtn" class="btn btn-secondary">Previous</button>
+    <button id="submitBtn" class="btn btn-primary">Submit</button>
+    <button id="nextBtn" class="btn btn-secondary">Next</button>
+  </div>
 </div>
 <script src="McEngine.js"></script>
 </body>

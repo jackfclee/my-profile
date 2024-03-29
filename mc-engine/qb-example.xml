@@ -6,7 +6,13 @@
       <options>
         <option>
           <valid>false</valid>
-          <detail>Apple</detail>
+          <detail>
+Apple is something for me to eat. Do you like it?
+Apple is something for me to eat. Do you like it?
+Apple is something for me to eat. Do you like it?
+Apple is something for me to eat. Do you like it?
+Apple is something for me to eat. Do you like it?
+          </detail>
         </option>
         <option>
           <valid>true</valid>

@@ -56,8 +56,8 @@ function displayQuestion(index) {
   thisQuestion.options.forEach((option, index) => {
     $("#answersForm").append(`
           <div class="form-check">
-              <input class="form-check-input" type="${inputType}" name="answer" id="option${index}" value="${option.isValid}">
-              <label class="form-check-label" for="option${index}">${option.detail}</label>
+            <input class="form-check-input" type="${inputType}" name="answer" id="option${index}" value="${option.isValid}">
+            <label class="form-check-label" for="option${index}">${option.detail}</label>
           </div>
       `);
   });
