@@ -1,4 +1,5 @@
 let currentQuestions = [];
+let currentTopic = "Loading...";
 let currentQuestionIndex = 0;
 
 //--------------------------------------------------------------------------------
@@ -27,6 +28,7 @@ function parseXML(xmlString) {
   const parser = new DOMParser();
   const xmlDoc = parser.parseFromString(xmlString, "text/xml");
   const entries = xmlDoc.getElementsByTagName("entry");
+  currentTopic = xmlDoc.getElementsByTagName("topic")[0].childNodes[0].nodeValue;
   const questions = [];
   for (let entry of entries) {
     const question = new Object();
@@ -45,6 +47,7 @@ function parseXML(xmlString) {
 
 //--------------------------------------------------------------------------------
 function displayQuestion(index) {
+  $("#topic").text(currentTopic);
   currentQuestionIndex = index;
   if (currentQuestions.length == 1) {
     $("#totalQuestions").text("1 question loaded.");

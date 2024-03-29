@@ -1,88 +1,272 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <bank>
+  <topic>Google Cloud Big Data and Machine Learning Fundamentals</topic>
   <entry>
-    <question>What is the good answer?</question>
+    <question>Which Google hardware innovation tailors architecture to meet the computation needs on a domain, such as the matrix multiplication in machine learning?</question>
     <answer>
       <options>
         <option>
-          <valid>true</valid>
-          <detail>Red</detail>
-        </option>
-        <option>
-          <valid>true</valid>
-          <detail>Blue</detail>
-        </option>
-        <option>
-          <valid>true</valid>
-          <detail>Green</detail>
+          <valid>false</valid>
+          <detail>CPUs (central processing units)</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Black</detail>
+          <detail>GPUs (graphic processing units)</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>White</detail>
+          <detail>DPUs (data processing units)</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>TPUs (Tensor Processing Units)</detail>
         </option>
       </options>
     </answer>
   </entry>
   <entry>
-    <question>
-- What is the best option?
-  |data|answer|
-  |---|---|
-  |option|more|
-  |option|more|
-  |option|more|
-    </question>
+    <question>Cloud Storage, Cloud Bigtable, Cloud SQL, Cloud Spanner, and Firestore represent which type of services?</question>
     <answer>
       <options>
         <option>
           <valid>false</valid>
-          <detail>
-Apple is something for me to eat. Do you like it?
+          <detail>Machine learning</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Networking</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Compute</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Database and storage</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>AutoML, Vertex AI Workbench, and TensorFlow align to which stage of the data-to-AI workflow?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>Ingestion and process</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Storage</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Machine learning</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Analytics</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>Pub/Sub, Dataflow, Dataproc, and Cloud Data Fusion align to which stage of the data-to-AI workflow?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>Machine learning</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Ingestion and process</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Storage</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Analytics</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>Which data storage class is best for storing data that needs to be accessed less than once a year, such as online backups and disaster recovery?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>true</valid>
+          <detail>Archive storage</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Standard storage</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Coldline storage</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Nearline storage</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>Compute Engine, Google Kubernetes Engine, App Engine, and Cloud Functions represent which type of services?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>Database and storage</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Compute</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Networking</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Machine learning</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>Which Google Cloud product is a distributed messaging service that is designed to ingest messages from multiple device streams such as gaming events, IoT devices, and application streams?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>Looker</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Looker Studio</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Pub/Sub</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Apache Beam</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>Which Google Cloud product acts as an execution engine to process and implement data processing pipelines?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>Looker</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Dataflow</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Looker Studio</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Apache Beam</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>Select the correct streaming data workflow.</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>Visualize the data, process the data, and ingest the streaming data.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Process the data, visualize the data, and ingest the data.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Ingest the streaming data, visualize the data, and process the data.</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Ingest the streaming data, process the data, and visualize the results.</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>Due to several data types and sources, big data often has many data dimensions. This can introduce data inconsistencies and uncertainties. Which type of challenge might this present to data engineers?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>Volume</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Veracity</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Velocity</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Variety</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>When you build scalable and reliable pipelines, data often needs to be processed in near-real time, as soon as it reaches the system. Which type of challenge might this present to data engineers?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>Variety</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Velocity</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Volume</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Veracity</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
 
-|data|answer|
-|---|---|
-|option|more|
-|option|more|
-|option|more|
-
-Apple is something for me to eat. Do you like it?
-Apple is something for me to eat. Do you like it?
-Apple is something for me to eat. Do you like it?
-Apple is something for me to eat. Do you like it?
-          </detail>
-        </option>
-        <option>
-          <valid>true</valid>
-          <detail>Banana</detail>
-        </option>
-      </options>
-    </answer>
-  </entry>
+  <!--
+  STRUCTURE DEFINITION:
   <entry>
-    <question>What is the correct number to show more questions and answers?</question>
+    <question>XXX</question>
     <answer>
       <options>
         <option>
           <valid>false</valid>
-          <detail>0721</detail>
-        </option>
-        <option>
-          <valid>true</valid>
-          <detail>8964</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>0831</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>none of above</detail>
+          <detail>XXX</detail>
         </option>
       </options>
     </answer>
   </entry>
+  -->
 </bank>
