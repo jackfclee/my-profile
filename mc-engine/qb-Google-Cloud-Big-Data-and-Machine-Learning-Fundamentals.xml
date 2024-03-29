@@ -567,4 +567,134 @@
     </answer>
   </entry>
   -->
+  <entry>
+    <question>A hospital uses Google’s machine learning technology to help pre-diagnose cancer by feeding historical patient medical data to the model. The goal is to identify as many potential cases as possible. Which metric should the model focus on?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>Feature importance</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Recall</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Precision</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Confusion matrix</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>Which Vertex AI tool automates, monitors, and governs machine learning systems by orchestrating the workflow in a serverless manner?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>true</valid>
+          <detail>Vertex AI Pipelines</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Vertex AI console</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Vertex AI Workbench</detail>
+        </option>
+        <option>
+          <valid>false</valid> 
+          <detail>Vertex AI Feature Store</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>Select the correct machine learning workflow.</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>Model serving, data preparation, model training</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Data preparation, model serving, model training</detail>
+        </option>
+        <option>
+          <valid>false</valid> 
+          <detail>Model training, data preparation, model serving</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Data preparation, model training, model serving</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>Which stage of the machine learning workflow includes feature engineering?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>true</valid>
+          <detail>Data preparation</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Model serving</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Model training</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>Which stage of the machine learning workflow includes model evaluation?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>Model serving</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Model training</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Data preparation</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>A farm uses Google’s machine learning technology to detect defective apples in their crop, such as those that are irregular in size or have scratches. The goal is to identify only the apples that are actually bad so that no good apples are wasted. Which metric should the model focus on?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>true</valid>
+          <detail>Precision</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Feature importance</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Confusion matrix</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Recall</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
 </bank>

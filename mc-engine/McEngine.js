@@ -132,7 +132,7 @@ $("#previousBtn").click(function (e) {
 
 //--------------------------------------------------------------------------------
 $(document).ready(function () {
-  loadXmlDoc("qb-example.xml", function(responseText) {
+  loadXmlDoc("qb-Google-Cloud-Big-Data-and-Machine-Learning-Fundamentals.xml", function(responseText) {
     currentQuestions = parseXML(responseText);
     displayQuestion(currentQuestionIndex);
   });
