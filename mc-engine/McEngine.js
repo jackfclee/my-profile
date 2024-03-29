@@ -10,9 +10,95 @@ const qbList = [
   "qb-09-Serverless-Data-Processing-with-Dataflow-Operations.xml"
 ];
 
-let currentQuestions = [];
-let currentTopic = "Loading...";
-let currentQuestionIndex = 0;
+function setQuestions(currentTopic, currentQuestions) {
+
+  let currentQuestionIndex = 0;
+
+  //--------------------------------------------------------------------------------
+  function displayQuestion(index) {
+    currentQuestionIndex = index;
+    if (currentQuestions.length == 1) {
+      $("#totalQuestions").text("1 question loaded.");
+    } else {
+      $("#totalQuestions").text(currentQuestions.length + " questions loaded.");
+    }
+    const thisQuestion = currentQuestions[currentQuestionIndex];
+    $("#questionIndex").text("Q" + (index + 1) + ". ");
+    const questionTextHTML = marked.parse(thisQuestion.text);
+    $("#questionText").html('<div>' + questionTextHTML.replace(/<table>/g, '<table class="markdownTable">').replace(/<table>/g, '<table class="markdownTable">') + "</div>");
+    $("#answersForm").empty(); // Clear previous options
+
+    const isMultipleCorrect = thisQuestion.options.filter(option => option.isValid).length > 1;
+    const inputType = isMultipleCorrect ? "checkbox" : "radio";
+
+    thisQuestion.options.forEach((option, index) => {
+      // Convert Markdown in option.detail to HTML
+      const detailHTML = marked.parse(option.detail);
+
+      // Create a new div element for the option
+      const $optionDiv = $(`
+        <div class="form-check">
+          <input class="form-check-input" type="${inputType}" name="answer" id="option${index}" value="${option.isValid}">
+          <label class="form-check-label" for="option${index}"></label>
+        </div>
+      `);
+      // Append the converted HTML to the label within the div
+      $optionDiv.find(`label[for="option${index}"]`).html("<div>" + detailHTML.replace(/<table>/g, '<table class="markdownTable">').replace(/<p>/g, '<p class="optionPara">') + "</div>");
+      // Append the option div to the form
+      $("#answersForm").append($optionDiv);
+    });
+
+    $("#submitBtn").prop('disabled', false);
+    if (currentQuestionIndex <= 0) {
+      $("#previousBtn").prop('disabled', true);
+      $("#nextBtn").prop('disabled', false);
+    } else if (currentQuestionIndex >= currentQuestions.length - 1) {
+      $("#nextBtn").prop('disabled', true);
+      $("#previousBtn").prop('disabled', false);
+    } else {
+      $("#previousBtn").prop('disabled', false);
+      $("#nextBtn").prop('disabled', false);
+    }
+  }
+
+  //--------------------------------------------------------------------------------
+  $("#resetBtn").click(function (e) {
+    e.preventDefault();
+    displayQuestion(currentQuestionIndex);
+  });
+
+  //--------------------------------------------------------------------------------
+  $("#submitBtn").click(function (e) {
+    e.preventDefault();
+    $("#answersForm input").each(function () {
+      const isCorrect = $(this).val() === "true";
+      $(this)
+        .next("label")
+        .css("color", isCorrect ? "green" : "red");
+    });
+    $("#submitBtn").prop('disabled', true);
+  });
+
+  //--------------------------------------------------------------------------------
+  $("#nextBtn").click(function (e) {
+    e.preventDefault();
+    currentQuestionIndex++;
+    if (currentQuestionIndex < currentQuestions.length) {
+      displayQuestion(currentQuestionIndex);
+    }
+  });
+
+  //--------------------------------------------------------------------------------
+  $("#previousBtn").click(function (e) {
+    e.preventDefault();
+    currentQuestionIndex--;
+    if (currentQuestionIndex < currentQuestions.length) {
+      displayQuestion(currentQuestionIndex);
+    } 
+  });
+
+  displayQuestion(currentQuestionIndex);
+}
 
 //--------------------------------------------------------------------------------
 function loadXmlDoc(filename, callback) {
@@ -40,7 +126,7 @@ function parseXML(xmlString) {
   const parser = new DOMParser();
   const xmlDoc = parser.parseFromString(xmlString, "text/xml");
   const entries = xmlDoc.getElementsByTagName("entry");
-  currentTopic = xmlDoc.getElementsByTagName("topic")[0].childNodes[0].nodeValue;
+  const currentTopic = xmlDoc.getElementsByTagName("topic")[0].childNodes[0].nodeValue;
   const questions = [];
   for (let entry of entries) {
     const question = new Object();
@@ -54,99 +140,46 @@ function parseXML(xmlString) {
     }
     questions.push(question);
   }
-  return questions;
+  return { currentTopic, questions };
 }
 
 //--------------------------------------------------------------------------------
-function displayQuestion(index) {
-  $("#topic").text(currentTopic);
-  currentQuestionIndex = index;
-  if (currentQuestions.length == 1) {
-    $("#totalQuestions").text("1 question loaded.");
-  } else {
-    $("#totalQuestions").text(currentQuestions.length + " questions loaded.");
-  }
-  const thisQuestion = currentQuestions[currentQuestionIndex];
-  $("#questionIndex").text("Q" + (index + 1) + ". ");
-  const questionTextHTML = marked.parse(thisQuestion.text);
-  $("#questionText").html('<div>' + questionTextHTML.replace(/<table>/g, '<table class="markdownTable">').replace(/<table>/g, '<table class="markdownTable">') + "</div>");
-  $("#answersForm").empty(); // Clear previous options
-
-  const isMultipleCorrect = thisQuestion.options.filter(option => option.isValid).length > 1;
-  const inputType = isMultipleCorrect ? "checkbox" : "radio";
-
-  thisQuestion.options.forEach((option, index) => {
-    // Convert Markdown in option.detail to HTML
-    const detailHTML = marked.parse(option.detail);
-
-    // Create a new div element for the option
-    const $optionDiv = $(`
-      <div class="form-check">
-        <input class="form-check-input" type="${inputType}" name="answer" id="option${index}" value="${option.isValid}">
-        <label class="form-check-label" for="option${index}"></label>
-      </div>
-    `);
-    // Append the converted HTML to the label within the div
-    $optionDiv.find(`label[for="option${index}"]`).html("<div>" + detailHTML.replace(/<table>/g, '<table class="markdownTable">').replace(/<p>/g, '<p class="optionPara">') + "</div>");
-    // Append the option div to the form
-    $("#answersForm").append($optionDiv);
-  });
-
-  $("#submitBtn").prop('disabled', false);
-  if (currentQuestionIndex <= 0) {
-    $("#previousBtn").prop('disabled', true);
-    $("#nextBtn").prop('disabled', false);
-  } else if (currentQuestionIndex >= currentQuestions.length - 1) {
-    $("#nextBtn").prop('disabled', true);
-    $("#previousBtn").prop('disabled', false);
-  } else {
-    $("#previousBtn").prop('disabled', false);
-    $("#nextBtn").prop('disabled', false);
-  }
+function addOptionToDropdown(value, text) {
+  const dropdown = document.getElementById("topicOptions");
+  const option = document.createElement("option");
+  option.value = value;
+  option.text = text;
+  dropdown.appendChild(option);
 }
 
 //--------------------------------------------------------------------------------
-$("#resetBtn").click(function (e) {
-  e.preventDefault();
-  displayQuestion(currentQuestionIndex);
-});
+const topicQuestionsMap = new Map();
 
-//--------------------------------------------------------------------------------
-$("#submitBtn").click(function (e) {
-  e.preventDefault();
-  $("#answersForm input").each(function () {
-    const isCorrect = $(this).val() === "true";
-    $(this)
-      .next("label")
-      .css("color", isCorrect ? "green" : "red");
-  });
-  $("#submitBtn").prop('disabled', true);
-});
-
-//--------------------------------------------------------------------------------
-$("#nextBtn").click(function (e) {
-  e.preventDefault();
-  currentQuestionIndex++;
-  if (currentQuestionIndex < currentQuestions.length) {
-    displayQuestion(currentQuestionIndex);
-  }
-});
-
-//--------------------------------------------------------------------------------
-$("#previousBtn").click(function (e) {
-  e.preventDefault();
-  currentQuestionIndex--;
-  if (currentQuestionIndex < currentQuestions.length) {
-    displayQuestion(currentQuestionIndex);
-  } 
-});
-
-//--------------------------------------------------------------------------------
 $(document).ready(function () {
-  loadXmlDoc("qb-02-Google-Cloud-Big-Data-and-Machine-Learning-Fundamentals.xml", 
-    function(responseText) {
-      currentQuestions = parseXML(responseText);
-      displayQuestion(currentQuestionIndex);
-    }
-  );
+  let loadedCount = 0; // Track the number of XML files loaded
+  qbList.forEach(path => {
+    loadXmlDoc(path, 
+      function(responseText) {
+        const { currentTopic, questions } = parseXML(responseText);
+        topicQuestionsMap.set(currentTopic, questions);
+        addOptionToDropdown(currentTopic, currentTopic);
+
+        // Increment loadedCount
+        loadedCount++;
+        
+        // Check the size of topicQuestionsMap when all XML files have been processed
+        if (loadedCount === qbList.length && qbList.length > 0) {
+          const dropdown = document.getElementById("topicOptions");
+          const firstOptionValue = dropdown.options[0].value;
+          setQuestions(firstOptionValue, topicQuestionsMap.get(firstOptionValue));
+
+          $("#topicOptions").change(function() {
+            const selectedValue = $(this).val();
+            setQuestions(selectedValue, topicQuestionsMap.get(selectedValue));
+          });
+
+        }
+      }
+    );
+  });
 });

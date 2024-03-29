@@ -15,4 +15,15 @@
     </answer>
   </entry>
   -->
+  <entry>
+    <question>XXX</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>XXX</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
 </bank>
