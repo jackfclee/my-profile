@@ -254,7 +254,305 @@
       </options>
     </answer>
   </entry>
-
+  <entry>
+    <question>In a supervised machine learning model, what provides historical data that can be used to predict future data?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>Data points</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Examples</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Labels</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Features</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>BigQuery is a fully managed data warehouse. What does “fully managed” refer to?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>true</valid>
+          <detail>BigQuery manages the underlying structure for you.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>BigQuery manages the data quality for you.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>BigQuery manages the cost for you.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>BigQuery manages the data source for you.</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>Which pattern describes source data that is moved into a BigQuery table in a single operation?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>Spot load</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Streaming</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Batch load</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Generated data</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>Which BigQuery feature leverages geography data types and standard SQL geography functions to analyze a data set?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>true</valid>
+          <detail>Geospatial analysis</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Ad hoc analysis</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Building machine learning models</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Building business intelligence dashboards</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>Data has been loaded into BigQuery, and the features have been selected and preprocessed. What should happen next when you use BigQuery ML to develop a machine learning model?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>Classify labels to train on historical data.</detail>
+        </option>
+      </options>
+        <option>
+          <valid>false</valid>
+          <detail>Evaluate the performance of the trained ML model.</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Create the ML model inside BigQuery.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Use the ML model to make predictions.</detail>
+        </option>
+    </answer>
+  </entry>
+  <entry>
+    <question>Which two services does BigQuery provide?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>true</valid>
+          <detail>Storage and analytics</detail>
+        </option>
+      </options>
+        <option>
+          <valid>false</valid>
+          <detail>Application services and storage</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Application services and analytics</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Storage and compute</detail>
+        </option>
+    </answer>
+  </entry>
+  <entry>
+    <question>You want to use machine learning to group random photos into similar groups. Which should you use?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>Unsupervised learning, dimensionality reduction</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Supervised learning, logistic regression</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Supervised learning, linear regression</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Unsupervised learning, cluster analysis</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>You want to use machine learning to identify whether an email is spam. Which should you use?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>Supervised learning, linear regression</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Unsupervised learning, cluster analysis</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Supervised learning, logistic regression</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Unsupervised learning, dimensionality reduction</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>Which Google Cloud product lets users create, deploy, and manage machine learning models in one unified platform?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>AI Platform</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Document AI</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>TensorFlow</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Vertex AI</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>A video production company wants to use machine learning to categorize event footage but does not want to train its own ML model. Which option can help you get started?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>X
+          <detail>AutoML</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>BigQuery ML</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Custom training</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Pre-built APIs</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>Your company has a lot of data, and you want to train your own machine model to see what insights ML can provide. Due to resource constraints, you require a codeless solution. Which option is best?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>BigQuery ML</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Pre-built APIs</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>AutoML</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Custom training</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>Which code-based solution offered with Vertex AI gives data scientists full control over the development environment and process?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>AutoML</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Custom training</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>AI Platform</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>AI Solutions</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>You work for a global hotel chain that has recently loaded some guest data into BigQuery. You have experience writing SQL and want to leverage machine learning to help predict guest trends for the next few months. Which option is best?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>AutoML</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Pre-built APIs</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Custom training</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>BigQuery ML</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
   <!--
   STRUCTURE DEFINITION:
   <entry>
