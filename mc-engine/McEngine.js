@@ -47,7 +47,8 @@ function parseXML(xmlString) {
 function displayQuestion(index) {
   currentQuestionIndex = index;
   const thisQuestion = currentQuestions[currentQuestionIndex];
-  $("#questionText").text(thisQuestion.text);
+  const questionTextHTML = marked.parse(thisQuestion.text);
+  $("#questionText").html("<div>" + questionTextHTML.replace(/<table>/g, '<table class="markdownTable">') + "</div>");
   $("#answersForm").empty(); // Clear previous options
 
   const isMultipleCorrect = thisQuestion.options.filter(option => option.isValid).length > 1;
@@ -70,6 +71,7 @@ function displayQuestion(index) {
     $("#answersForm").append($optionDiv);
   });
 
+  $("#submitBtn").prop('disabled', false);
   if (currentQuestionIndex <= 0) {
     $("#previousBtn").prop('disabled', true);
     $("#nextBtn").prop('disabled', false);
@@ -97,6 +99,7 @@ $("#submitBtn").click(function (e) {
       .next("label")
       .css("color", isCorrect ? "green" : "red");
   });
+  $("#submitBtn").prop('disabled', true);
 });
 
 //--------------------------------------------------------------------------------

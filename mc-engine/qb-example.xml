@@ -1,34 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <bank>
   <entry>
-    <question>What is the best option?</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>
-Apple is something for me to eat. Do you like it?
-
-|data|answer|
-|---|---|
-|option|more|
-|option|more|
-|option|more|
-
-Apple is something for me to eat. Do you like it?
-Apple is something for me to eat. Do you like it?
-Apple is something for me to eat. Do you like it?
-Apple is something for me to eat. Do you like it?
-          </detail>
-        </option>
-        <option>
-          <valid>true</valid>
-          <detail>Banana</detail>
-        </option>
-      </options>
-    </answer>
-  </entry>
-  <entry>
     <question>What is the good answer?</question>
     <answer>
       <options>
@@ -51,6 +23,41 @@ Apple is something for me to eat. Do you like it?
         <option>
           <valid>false</valid>
           <detail>White</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>
+- What is the best option?
+  |data|answer|
+  |---|---|
+  |option|more|
+  |option|more|
+  |option|more|
+    </question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>
+Apple is something for me to eat. Do you like it?
+
+|data|answer|
+|---|---|
+|option|more|
+|option|more|
+|option|more|
+
+Apple is something for me to eat. Do you like it?
+Apple is something for me to eat. Do you like it?
+Apple is something for me to eat. Do you like it?
+Apple is something for me to eat. Do you like it?
+          </detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Banana</detail>
         </option>
       </options>
     </answer>
