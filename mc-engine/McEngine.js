@@ -54,7 +54,7 @@ function displayQuestion(index) {
   const thisQuestion = currentQuestions[currentQuestionIndex];
   $("#questionIndex").text("Q" + (index + 1) + ". ");
   const questionTextHTML = marked.parse(thisQuestion.text);
-  $("#questionText").html("<div>" + questionTextHTML.replace(/<table>/g, '<table class="markdownTable">') + "</div>");
+  $("#questionText").html('<div>' + questionTextHTML.replace(/<table>/g, '<table class="markdownTable">').replace(/<table>/g, '<table class="markdownTable">') + "</div>");
   $("#answersForm").empty(); // Clear previous options
 
   const isMultipleCorrect = thisQuestion.options.filter(option => option.isValid).length > 1;
@@ -72,7 +72,7 @@ function displayQuestion(index) {
       </div>
     `);
     // Append the converted HTML to the label within the div
-    $optionDiv.find(`label[for="option${index}"]`).html("<div>" + detailHTML.replace(/<table>/g, '<table class="markdownTable">') + "</div>");
+    $optionDiv.find(`label[for="option${index}"]`).html("<div>" + detailHTML.replace(/<table>/g, '<table class="markdownTable">').replace(/<p>/g, '<p class="optionPara">') + "</div>");
     // Append the option div to the form
     $("#answersForm").append($optionDiv);
   });

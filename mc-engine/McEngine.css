@@ -23,12 +23,11 @@ html, body {
 
 /* Question Content Styles */
 .jumbotron.question-content {
-  background-color: #eeeeee;
+  background-color: #f3f3f3;
   color: black;
   font-size: 20px; /* Suggestion for bigger font size, adjust as needed */
   padding: 20px;
   margin-bottom: 0px;
-  flex-shrink: 0; /* Prevent shrinking to ensure they maintain their content size */
   display: flex;
   gap: 10px;
 }
@@ -40,8 +39,16 @@ html, body {
   font-size: 20px; /* Suggestion for bigger font size, adjust as needed */
   padding: 20px;
   margin-right: 5px;
-  margin-bottom: 20px;
-  flex-shrink: 0; /* Prevent shrinking to ensure they maintain their content size */
+}
+
+#questionText * {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+#answersForm * {
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .answer-content {
@@ -54,7 +61,7 @@ html, body {
 }
 
 .form-check-input {
-  transform: scale(1.5); /* Adjust the scale value as needed */
+  transform: scale(1.8); /* Adjust the scale value as needed */
 }
 
 .form-check-label {
