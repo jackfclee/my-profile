@@ -46,7 +46,13 @@ function parseXML(xmlString) {
 //--------------------------------------------------------------------------------
 function displayQuestion(index) {
   currentQuestionIndex = index;
+  if (currentQuestions.length == 1) {
+    $("#totalQuestions").text("1 question loaded.");
+  } else {
+    $("#totalQuestions").text(currentQuestions.length + " questions loaded.");
+  }
   const thisQuestion = currentQuestions[currentQuestionIndex];
+  $("#questionIndex").text("Q" + (index + 1) + ". ");
   const questionTextHTML = marked.parse(thisQuestion.text);
   $("#questionText").html("<div>" + questionTextHTML.replace(/<table>/g, '<table class="markdownTable">') + "</div>");
   $("#answersForm").empty(); // Clear previous options

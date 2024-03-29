@@ -16,6 +16,9 @@ html, body {
   font-size: 12px;
   padding: 5px 10px;
   text-align: left;
+  display: flex;
+  justify-content: space-between; /* This will space out the child elements */
+  gap: 10px;
 }
 
 /* Question Content Styles */
@@ -26,6 +29,8 @@ html, body {
   padding: 20px;
   margin-bottom: 0px;
   flex-shrink: 0; /* Prevent shrinking to ensure they maintain their content size */
+  display: flex;
+  gap: 10px;
 }
 
 /* Answer Content Styles */
