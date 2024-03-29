@@ -10,7 +10,7 @@ const qbList = [
   "qb-09-Serverless-Data-Processing-with-Dataflow-Operations.xml"
 ];
 
-function setQuestions(currentTopic, currentQuestions) {
+function setQuestions(currentQuestions) {
 
   let currentQuestionIndex = 0;
 
@@ -51,12 +51,12 @@ function setQuestions(currentTopic, currentQuestions) {
     $("#submitBtn").prop('disabled', false);
     if (currentQuestionIndex <= 0) {
       $("#previousBtn").prop('disabled', true);
-      $("#nextBtn").prop('disabled', false);
-    } else if (currentQuestionIndex >= currentQuestions.length - 1) {
-      $("#nextBtn").prop('disabled', true);
-      $("#previousBtn").prop('disabled', false);
     } else {
       $("#previousBtn").prop('disabled', false);
+    }
+    if (currentQuestionIndex >= currentQuestions.length - 1) {
+      $("#nextBtn").prop('disabled', true);
+    } else {
       $("#nextBtn").prop('disabled', false);
     }
   }
@@ -169,13 +169,10 @@ $(document).ready(function () {
         
         // Check the size of topicQuestionsMap when all XML files have been processed
         if (loadedCount === qbList.length && qbList.length > 0) {
-          const dropdown = document.getElementById("topicOptions");
-          const firstOptionValue = dropdown.options[0].value;
-          setQuestions(firstOptionValue, topicQuestionsMap.get(firstOptionValue));
-
+          const firstOptionValue = document.getElementById("topicOptions").options[0].value;
+          setQuestions(topicQuestionsMap.get(firstOptionValue));
           $("#topicOptions").change(function() {
-            const selectedValue = $(this).val();
-            setQuestions(selectedValue, topicQuestionsMap.get(selectedValue));
+            setQuestions(topicQuestionsMap.get($(this).val()));
           });
 
         }
