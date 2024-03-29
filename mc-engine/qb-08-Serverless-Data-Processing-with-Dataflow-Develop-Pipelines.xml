@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bank>
+  <topic>Serverless Data Processing with Dataflow: Develop Pipelines</topic>
+  <!--
+  STRUCTURE DEFINITION:
+  <entry>
+    <question>XXX</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>XXX</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  -->
+</bank>

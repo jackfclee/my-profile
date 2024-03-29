@@ -553,20 +553,6 @@
       </options>
     </answer>
   </entry>
-  <!--
-  STRUCTURE DEFINITION:
-  <entry>
-    <question>XXX</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>XXX</detail>
-        </option>
-      </options>
-    </answer>
-  </entry>
-  -->
   <entry>
     <question>A hospital uses Google’s machine learning technology to help pre-diagnose cancer by feeding historical patient medical data to the model. The goal is to identify as many potential cases as possible. Which metric should the model focus on?</question>
     <answer>
@@ -697,4 +683,18 @@
       </options>
     </answer>
   </entry>
+  <!--
+  STRUCTURE DEFINITION:
+  <entry>
+    <question>XXX</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>XXX</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  -->
 </bank>

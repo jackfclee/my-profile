@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bank>
+  <topic>Modernizing Data Lakes and Data Warehouses with Google Cloud</topic>
+  <!--
+  STRUCTURE DEFINITION:
+  <entry>
+    <question>XXX</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>XXX</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  -->
+</bank>
