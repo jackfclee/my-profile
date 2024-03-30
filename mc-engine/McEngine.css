@@ -93,16 +93,6 @@ html, body {
   opacity: 0.5; /* Dim disabled buttons */
 }
 
-/* Adjust this media query for smaller screens */
-@media (max-width: 768px) {
-  .jumbotron.question-content {
-    font-size: 16px; /* Adjust for mobile screens */
-  }
-  .jumbotron.answer-content {
-    font-size: 16px; /* Adjust for mobile screens */
-  }
-}
-
 .markdownTable {
   width: 100%;
   border-collapse: collapse;
@@ -117,3 +107,15 @@ html, body {
   background-color: #f2f2f2;
 }
 
+/* Adjust this media query for smaller screens */
+@media (max-width: 768px) {
+  .jumbotron.question-content {
+    font-size: 16px; /* Adjust for mobile screens */
+  }
+  .jumbotron.answer-content {
+    font-size: 16px; /* Adjust for mobile screens */
+  }
+  #topicOptions {
+    max-width: 200px; /* Set the maximum width as needed */
+  }
+}

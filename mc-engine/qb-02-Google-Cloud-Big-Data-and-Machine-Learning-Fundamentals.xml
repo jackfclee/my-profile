@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <bank>
-  <topic>Google Cloud Big Data and Machine Learning Fundamentals</topic>
+  <topic>PDE02 - Google Cloud Big Data and Machine Learning Fundamentals</topic>
   <entry>
     <question>Which Google hardware innovation tailors architecture to meet the computation needs on a domain, such as the matrix multiplication in machine learning?</question>
     <answer>

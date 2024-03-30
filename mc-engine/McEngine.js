@@ -152,6 +152,16 @@ function addOptionToDropdown(value, text) {
   dropdown.appendChild(option);
 }
 
+function sortDropdownOptions() {
+  const dropdown = document.getElementById("topicOptions");
+  const optionsArray = Array.from(dropdown.options);
+  optionsArray.sort((a, b) => a.text.localeCompare(b.text));
+  dropdown.innerHTML = "";
+  optionsArray.forEach(option => {
+    dropdown.appendChild(option);
+  });
+}
+
 //--------------------------------------------------------------------------------
 const topicQuestionsMap = new Map();
 
@@ -169,8 +179,10 @@ $(document).ready(function () {
         
         // Check the size of topicQuestionsMap when all XML files have been processed
         if (loadedCount === qbList.length && qbList.length > 0) {
+          sortDropdownOptions();
           const firstOptionValue = document.getElementById("topicOptions").options[0].value;
           setQuestions(topicQuestionsMap.get(firstOptionValue));
+          document.getElementById("topicOptions").selectedIndex = 0;
           $("#topicOptions").change(function() {
             setQuestions(topicQuestionsMap.get($(this).val()));
           });
