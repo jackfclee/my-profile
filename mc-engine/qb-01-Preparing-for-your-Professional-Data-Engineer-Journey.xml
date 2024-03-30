@@ -1105,6 +1105,52 @@
       </options>
     </answer>
   </entry>
+  <entry>
+    <question>Your company is very serious about data protection and hence decides to implement the Principle of Least Privilege. What should you do to comply with this policy?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>When a task is assigned, ensure that it gets assigned to a person with the minimum privileges.</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Give just enough permissions to get the task done.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Ensure that the users are verified every time they request access, even if they were authenticated earlier.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Ensure that the access permissions are given strictly based on the person’s title and job role.</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>A company collects lots of consumer data from online marketing campaigns. Company plans to use Google Cloud to store this collected data. The top management is worried about exposing personally identifiable information (PII) that may be present in this data. What should you do to reduce the risk of exposing PII data?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>Ensure that all PII data is removed from the collected data before storing it on Google Cloud.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Store all data in BigQuery and turn on column level access to protect sensitive data.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Ensure that all stored data is monitored by Security Command Center.</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Use Cloud Data Loss Prevention (Cloud DLP) to inspect and redact PII data.</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
   <!--
   STRUCTURE DEFINITION:
   <entry>
@@ -1119,4 +1165,234 @@
     </answer>
   </entry>
   -->
+  <entry>
+    <question>You are ingesting data that is spread out over a wide range of dates into BigQuery at a fast rate. You need to partition the table to make queries performant. What should you do?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>true</valid>
+          <detail>Create an ingestion-time partitioned table with daily partitioning type.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Create an integer-range partitioned table.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Create an ingestion-time partitioned table with yearly partitioning type.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Create a time-unit column-partitioned table with yearly partitioning type.</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>You have several large tables in your transaction databases. You need to move all the data to BigQuery for the business analysts to explore and analyze the data. How should you design the schema in BigQuery?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>Retain the data on BigQuery with the same schema as the source.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Combine all the transactional database tables into a single table using outer joins.</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Redesign the schema to denormalize the data with nested and repeated data.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Redesign the schema to normalize the data by removing all redundancies.</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>You need to store data long term and use it to create quarterly reports. What storage class should you choose?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>Standard</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Archive</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Nearline</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Coldline</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>You have data stored in a Cloud Storage bucket. You are using both Identity and Access Management (IAM) and Access Control Lists (ACLs) to configure access control. Which statement describes a user's access to objects in the bucket?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>The user has no access if either IAM or ACLs deny a permission.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>The user has no access if IAM denies the permission.</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>The user has access if either IAM or ACLs grant a permission.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>The user only has access if both IAM and ACLs grant a permission.</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>You have large amounts of data stored on Cloud Storage and BigQuery. Some of it is processed, but some is yet unprocessed. You have a data mesh created in Dataplex. You need to make it convenient for internal users of the data to discover and use the data. What should you do?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>true</valid>
+          <detail>Create a raw zone for the unprocessed data and a curated zone for the processed data.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Create a lake for BigQuery data and a zone for Cloud Storage data.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Create a lake for unprocessed data and assets for processed data.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Create a lake for Cloud Storage data and a zone for BigQuery data.</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>You need to choose a data storage solution to support a transactional system. Your customers are primarily based in one region. You want to reduce your administration tasks and focus engineering effort on building your business application. What should you do?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>true</valid>
+          <detail>Use Cloud SQL.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Install a database of your choice on a Compute Engine VM.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Create a Cloud Storage bucket with a regional bucket.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Use Cloud Spanner.</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>You have data that is ingested daily and frequently analyzed in the first month. Thereafter, the data is retained only for audits, which happen occasionally every few years. You need to configure cost-effective storage. What should you do?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>Create a bucket on Cloud Storage with object versioning configured.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Create a bucket on Cloud Storage with Autoclass configured.</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Configure a lifecycle policy on Cloud Storage.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Configure a data retention policy on Cloud Storage.</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>Cymbal Retail has accumulated a large amount of data. Analysts and leadership are finding it difficult to understand the meaning of the data, such as BigQuery columns. Users of the data don't know who owns what. You need to improve the searchability of the data. What should you do?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>true</valid>
+          <detail>Create tags for data entries in Cloud Catalog.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Rename BigQuery columns with more descriptive names.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Add a description column corresponding to each data column.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Export the data to Cloud Storage with descriptive file names.</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>Your analysts repeatedly run the same complex queries that combine and filter through a lot of data on BigQuery. The data changes frequently. You need to reduce the effort for the analysts. What should you do?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>Create a dataset with the data that is frequently queried.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Export the frequently queried data into a new table.</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Create a view of the frequently queried data.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Export the frequently queried data into Cloud SQL.</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <entry>
+    <question>A manager at Cymbal Retail expresses concern about unauthorized access to objects in your Cloud Storage bucket. You need to evaluate all access on all objects in the bucket. What should you do?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>Review the Admin Activity audit logs.</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Enable and then review the Data Access audit logs.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Change the permissions on the bucket to only trusted employees.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Route the Admin Activity logs to a BigQuery sink and analyze the logs with SQL queries.</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
 </bank>
