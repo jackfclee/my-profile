@@ -1151,20 +1151,6 @@
       </options>
     </answer>
   </entry>
-  <!--
-  STRUCTURE DEFINITION:
-  <entry>
-    <question>XXX</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>XXX</detail>
-        </option>
-      </options>
-    </answer>
-  </entry>
-  -->
   <entry>
     <question>You are ingesting data that is spread out over a wide range of dates into BigQuery at a fast rate. You need to partition the table to make queries performant. What should you do?</question>
     <answer>
@@ -1395,4 +1381,18 @@
       </options>
     </answer>
   </entry>
+  <!--
+  STRUCTURE DEFINITION:
+  <entry>
+    <question>XXX</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>XXX</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  -->
 </bank>
