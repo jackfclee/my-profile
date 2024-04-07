@@ -3,8 +3,18 @@ const qbList = [
 ];
 
 function setQuestions(currentQuestions) {
+  $("#submitBtn").prop('disabled', false);
+  $("#nextBtn").prop('disabled', true);
 
   let currentQuestionIndex = 0;
+  let correctCount = 0;
+  let wrongCount = 0;
+  let totalCount = currentQuestions.length;
+
+  function showResult() {
+    const percentage = ((correctCount / totalCount) * 100).toFixed(2);
+    alert("Number of Questions = " + totalCount + "\n\nCorrect = " + correctCount + " ; Wrong = " + wrongCount + "\n\nSuccess Rate = " + percentage + "%");
+  }
 
   //--------------------------------------------------------------------------------
   function displayQuestion(index) {
@@ -39,31 +49,50 @@ function setQuestions(currentQuestions) {
       // Append the option div to the form
       $("#answersForm").append($optionDiv);
     });
-
     $("#submitBtn").prop('disabled', false);
-    if (currentQuestionIndex >= currentQuestions.length - 1) {
-      $("#nextBtn").prop('disabled', true);
-    } else {
-      $("#nextBtn").prop('disabled', false);
-    }
+    $("#nextBtn").prop('disabled', true);  
   }
-
-  //--------------------------------------------------------------------------------
-  $("#resetBtn").click(function (e) {
-    e.preventDefault();
-    displayQuestion(currentQuestionIndex);
-  });
 
   //--------------------------------------------------------------------------------
   $("#submitBtn").click(function (e) {
     e.preventDefault();
+    let valid = true;
+    let anySelected = false; // Flag to check if any option is selected
+
     $("#answersForm input").each(function () {
+      const isSelected = $(this).prop('checked'); 
+      if (isSelected) {
+        anySelected = true;
+      }
+    });
+    if (!anySelected) {
+      alert("Please choose the answer(s).");
+      return;
+    }
+
+    $("#answersForm input").each(function () {
+      const isSelected = $(this).prop('checked'); 
       const isCorrect = $(this).val() === "true";
+      if ((!isSelected && isCorrect)
+        || (isSelected && !isCorrect)) {
+        valid = false;
+      }
       $(this)
         .next("label")
         .css("color", isCorrect ? "green" : "red");
     });
+    if (valid) {
+      correctCount++;
+    } else {
+      wrongCount++;
+    }
     $("#submitBtn").prop('disabled', true);
+    if (currentQuestionIndex >= currentQuestions.length - 1) {
+      $("#nextBtn").prop('disabled', true);
+      showResult();
+    } else {
+      $("#nextBtn").prop('disabled', false);
+    }
   });
 
   //--------------------------------------------------------------------------------
@@ -74,8 +103,13 @@ function setQuestions(currentQuestions) {
       displayQuestion(currentQuestionIndex);
     }
   });
-
   displayQuestion(currentQuestionIndex);
+
+  //--------------------------------------------------------------------------------
+  $("#infoBtn").click(function (e) {
+    e.preventDefault();
+    showResult();
+  });
 }
 
 //--------------------------------------------------------------------------------
@@ -164,7 +198,6 @@ $(document).ready(function () {
           $("#topicOptions").change(function() {
             setQuestions(topicQuestionsMap.get($(this).val()));
           });
-
         }
       }
     );
