@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<bank>
+  <topic>EXAM01 - Geography</topic>
+  <entry>
+    <question>Which one is the captial city of United State?</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>Washington</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Beijing</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Tokyo</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>London</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  <!--
+  STRUCTURE DEFINITION:
+  <entry>
+    <question>XXX</question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>XXX</detail>
+        </option>
+      </options>
+    </answer>
+  </entry>
+  -->
+</bank>
