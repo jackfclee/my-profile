@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Reference Diagram V1</title>
+<title>Reference Diagrams V1</title>
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
 <meta http-equiv="Pragma" content="no-cache" />
 <meta http-equiv="Expires" content="0" />
@@ -18,13 +18,15 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 <script src="ReferenceDiagram.js"></script>
 </head>
-<body onload="goDefault()">
-  <div id="banner" class="bg-primary text-light"><h1><b>Reference Diagram</b></h1></div>
+<body onload="doInit()">
+  <div id="banner" class="bg-primary text-light"><b>Reference Diagrams</b></div>
   <div id="query">
     <input id="tagFilterInput" type="text" class="text-input" onkeyup="javascript: filterByTag();" placeholder="Filter by tag ..."/>
     <input id="keywordFilterInput" type="text" class="text-input" onkeyup="javascript: filterByKeyword();" placeholder="Filter by keyword ..."/>
-    <input type="button" class="btn-type" onclick="javascript: goQuestionBank('Architecture')" value="Architecture"/>
+    <select id="topicDropdown" onchange="displayImages()">
+      <option value="">Select a Topic ...</option>
+    </select>
   </div>
-  <div id="resultBody"></div>
+  <div id="imageDisplay"></div>
 </body>
 </html>

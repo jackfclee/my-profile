@@ -1,6 +1,6 @@
 [
   {
-    "category": "ai-ml",
+    "topic": "ai-ml",
     "displayName": "AI and ML",
     "references": [
       {
@@ -26,7 +26,7 @@
     ]
   },
   {
-    "category": "alerting-auditing-logging-monitoring",
+    "topic": "alerting-auditing-logging-monitoring",
     "displayName": "Alerting, Auditing, Logging and Monitoring",
     "references": [
       {
@@ -53,7 +53,7 @@
     ]
   },
   {
-    "category": "api-microservices",
+    "topic": "api-microservices",
     "displayName": "API microservices",
     "references": [
       {
@@ -98,7 +98,7 @@
     ]
   },
   {
-    "category": "architecture-design",
+    "topic": "architecture-design",
     "displayName": "Architecture Design",
     "references": [
       {
@@ -137,7 +137,7 @@
     ]
   },
   {
-    "category": "caching",
+    "topic": "caching",
     "displayName": "Caching",
     "references": [
       {
@@ -167,7 +167,7 @@
     ]
   },
   {
-    "category": "cicd-devops",
+    "topic": "cicd-devops",
     "displayName": "CICD and DevOps",
     "references": [
       {
@@ -194,7 +194,7 @@
     ]
   },
   {
-    "category": "clouds",
+    "topic": "clouds",
     "displayName": "Cloud Technology",
     "references": [
       {
@@ -215,7 +215,7 @@
     ]
   },
   {
-    "category": "coding",
+    "topic": "coding",
     "displayName": "Coding",
     "references": [
       {
@@ -236,7 +236,7 @@
     ]
   },
   {
-    "category": "container",
+    "topic": "container",
     "displayName": "Container",
     "references": [
       {
@@ -263,7 +263,7 @@
     ]
   },
   {
-    "category": "datastore",
+    "topic": "datastore",
     "displayName": "Datastore",
     "references": [
       {
@@ -302,7 +302,7 @@
     ]
   },
   {
-    "category": "domain-concept",
+    "topic": "domain-concept",
     "displayName": "Domain Concepts",
     "references": [
       {
@@ -350,7 +350,7 @@
     ]
   },
   {
-    "category": "error-handling",
+    "topic": "error-handling",
     "displayName": "Error Handling",
     "references": [
       {
@@ -362,7 +362,7 @@
     ]
   },
   {
-    "category": "network",
+    "topic": "network",
     "displayName": "Network",
     "references": [
       {
@@ -410,7 +410,7 @@
     ]
   },
   {
-    "category": "performance",
+    "topic": "performance",
     "displayName": "Performance",
     "references": [
       {
@@ -440,7 +440,7 @@
     ]
   },
   {
-    "category": "queue-n-pubsub",
+    "topic": "queue-n-pubsub",
     "displayName": "Message Queue and PubSub",
     "references": [
       {
@@ -452,7 +452,7 @@
     ]
   },
   {
-    "category": "security",
+    "topic": "security",
     "displayName": "Security",
     "references": [
       {
@@ -473,7 +473,7 @@
     ]
   },
   {
-    "category": "system",
+    "topic": "system",
     "displayName": "System (Linux / Unix)",
     "references": [
       {
@@ -491,12 +491,12 @@
     ]
   },
   {
-    "category": "ui-ux",
+    "topic": "ui-ux",
     "displayName": "UI and UX",
     "references": []
   },
   {
-    "category": "use-case",
+    "topic": "use-case",
     "displayName": "Use Cases",
     "references": [
       {
@@ -547,7 +547,7 @@
     ]
   },
   {
-    "category": "web",
+    "topic": "web",
     "displayName": "Web Development",
     "references": [
       {
