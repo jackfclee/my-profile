@@ -1,3 +1,5 @@
+window.jsonData = [];
+
 function doInit() {
   fetchJsonData('images/_assets.json');
 }
@@ -34,21 +36,41 @@ function initDropdown(jsonData) {
 
 // Function to display images based on the selected topic
 function displayImages() {
+  const tagFilter = document.getElementById('tagFilterInput').value.toLowerCase(); 
+  const keywordFilter = document.getElementById('keywordFilterInput').value.toLowerCase(); 
   const selectedtopic = document.getElementById('topicDropdown').value;
   const display = document.getElementById('imageDisplay');
   display.innerHTML = ''; // Clear previous images
 
-  const topic = jsonData.find(cat => cat.topic === selectedtopic);
-  if (topic?.references) {
-    topic.references.forEach(ref => {
-      let img = document.createElement('img');
-      img.src = 'images/' + topic.topic + "/" + ref.file; // Assuming the file path is correct
-      img.alt = ref.displayName || ref.file;
-      let p = document.createElement('p');
-      p.innerText = ref.displayName || ref.file;
-      p.className = "sub-banner";
-      display.appendChild(p);
-      display.appendChild(img);
-    });
-  }
+  // Get topics based on the selected topic or all topics if none is selected
+  const topics = selectedtopic ? [window.jsonData.find(cat => cat.topic === selectedtopic)] : window.jsonData;
+
+  topics.forEach(topic => {
+    if (topic?.references) {
+      topic.references.forEach(ref => {
+        const tagCondition = !tagFilter || (ref.tags?.map(tag => tag.toLowerCase()).includes(tagFilter) ?? false);
+        const keywordCondition = !keywordFilter || ref.file?.toLowerCase().includes(keywordFilter) || ref.displayName?.toLowerCase().includes(keywordFilter) ;
+
+        if (tagCondition && keywordCondition) {
+          let label = topic.displayName + " : " + (ref.displayName || ref.file);
+          let p = document.createElement('p');
+          p.innerText = label;
+          p.className = "sub-banner"; // Apply any necessary CSS class for styling
+          display.appendChild(p);
+
+          let img = document.createElement('img');
+          img.src = 'images/' + topic.topic + "/" + ref.file; // Ensure the path is correct
+          img.alt = label;
+          display.appendChild(img);
+        }
+      });
+    }
+  });
+}
+
+function resetInput() {
+  document.getElementById('tagFilterInput').value = '';
+  document.getElementById('keywordFilterInput').value = '';
+  document.getElementById('topicDropdown').value = '';
+  displayImages();
 }
