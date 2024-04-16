@@ -4,7 +4,12 @@
     "displayName": "AI and ML",
     "references": [
       {
-        "file": "AI Tools 2023.jpg"
+        "file": "AI Tools 2023.jpg",
+        "displayName": "AI Tools 2023",
+        "tags": [
+          "AI",
+          "Tool"
+        ]
       },
       {
         "file": "ChatGPT - How we get here.png"
@@ -22,6 +27,7 @@
   },
   {
     "category": "alerting-auditing-logging-monitoring",
+    "displayName": "Alerting, Auditing, Logging and Monitoring",
     "references": [
       {
         "file": "Debugging Tactics.jpg"
@@ -48,6 +54,7 @@
   },
   {
     "category": "api-microservices",
+    "displayName": "API microservices",
     "references": [
       {
         "file": "9 Types API Testing.gif"
@@ -92,6 +99,7 @@
   },
   {
     "category": "architecture-design",
+    "displayName": "Architecture Design",
     "references": [
       {
         "file": "18 Key Design Patterns.jpg"
@@ -130,6 +138,7 @@
   },
   {
     "category": "caching",
+    "displayName": "Caching",
     "references": [
       {
         "file": "Cache Miss Attack.jpg"
@@ -159,6 +168,7 @@
   },
   {
     "category": "cicd-devops",
+    "displayName": "CICD and DevOps",
     "references": [
       {
         "file": "CICD pipeline explained in 5 minutes.jpg"
@@ -185,6 +195,7 @@
   },
   {
     "category": "clouds",
+    "displayName": "Cloud Technology",
     "references": [
       {
         "file": "Cloud Comparison Cheet Sheet.jpg"
@@ -205,6 +216,7 @@
   },
   {
     "category": "coding",
+    "displayName": "Coding",
     "references": [
       {
         "file": "10 Good Coding Principles.gif"
@@ -225,6 +237,7 @@
   },
   {
     "category": "container",
+    "displayName": "Container",
     "references": [
       {
         "file": "Docker vs Container vs Podman.jpg"
@@ -251,6 +264,7 @@
   },
   {
     "category": "datastore",
+    "displayName": "Datastore",
     "references": [
       {
         "file": "At most once, At least once, Exactly once.png"
@@ -289,6 +303,7 @@
   },
   {
     "category": "domain-concept",
+    "displayName": "Domain Concepts",
     "references": [
       {
         "file": "Design a Payment System.png"
@@ -336,6 +351,7 @@
   },
   {
     "category": "error-handling",
+    "displayName": "Error Handling",
     "references": [
       {
         "file": "Retry Patterns.jpg"
@@ -347,6 +363,7 @@
   },
   {
     "category": "network",
+    "displayName": "Network",
     "references": [
       {
         "file": "8 Popular Network Protocols.gif"
@@ -394,6 +411,7 @@
   },
   {
     "category": "performance",
+    "displayName": "Performance",
     "references": [
       {
         "file": "Design Principles for High Concurrency, High Availability, and Quick Responsiveness System.png"
@@ -423,6 +441,7 @@
   },
   {
     "category": "queue-n-pubsub",
+    "displayName": "Message Queue and PubSub",
     "references": [
       {
         "file": "How do Message Queues evolve.gif"
@@ -434,6 +453,7 @@
   },
   {
     "category": "security",
+    "displayName": "Security",
     "references": [
       {
         "file": "How SSO works.jpg"
@@ -454,6 +474,7 @@
   },
   {
     "category": "system",
+    "displayName": "System (Linux / Unix)",
     "references": [
       {
         "file": "Cron Sheatsheet.jpg"
@@ -471,10 +492,12 @@
   },
   {
     "category": "ui-ux",
+    "displayName": "UI and UX",
     "references": []
   },
   {
     "category": "use-case",
+    "displayName": "Use Cases",
     "references": [
       {
         "file": "Airbnb Microservice Architecture.jpg"
@@ -525,6 +548,7 @@
   },
   {
     "category": "web",
+    "displayName": "Web Development",
     "references": [
       {
         "file": "How do modern browsers work.jpg"
