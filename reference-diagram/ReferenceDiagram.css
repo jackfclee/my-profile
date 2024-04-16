@@ -31,6 +31,12 @@ table.table-striped td {
   white-space: pre-wrap; 
   font-size: 16px;
 }
+#frozenSector {
+  padding: 0px 0px 0px 0px;
+  position: fixed;    /* Keeps the menu bar fixed at the top of the viewport */
+  width: 100%;        /* Makes the menu bar extend across the full width of the viewport */
+  z-index: 1000;      /* Ensures the menu bar stays on top of other content */
+}
 #banner {
   padding: 5px 10px 5px 10px;
 }

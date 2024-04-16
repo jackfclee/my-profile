@@ -24,15 +24,18 @@
 <script src="ReferenceDiagram.js"></script>
 </head>
 <body onload="doInit()">
-  <div id="banner" class="bg-primary text-light"><b>Reference Diagrams</b></div>
-  <div id="query">
-    <input id="tagFilterInput" type="text" class="text-input" onkeyup="javascript: displayImages();" placeholder="Filter by tag ..."/>
-    <input id="keywordFilterInput" type="text" class="text-input" onkeyup="javascript: displayImages();" placeholder="Filter by keyword ..."/>
-    <button class="btn-clear" onclick="resetInput()">Clear</button>
-    <select id="topicDropdown" class="select-red" onchange="displayImages()">
-      <option value="">Topic ...</option>
-    </select>
+  <div id="frozenSector">
+    <div id="banner" class="bg-primary text-light"><b>Reference Diagrams</b></div>
+    <div id="query">
+      <input id="tagFilterInput" type="text" class="text-input" onkeyup="javascript: displayImages();" placeholder="Filter by tag ..."/>
+      <input id="keywordFilterInput" type="text" class="text-input" onkeyup="javascript: displayImages();" placeholder="Filter by keyword ..."/>
+      <button class="btn-clear" onclick="resetInput()">Clear</button>
+      <select id="topicDropdown" class="select-red" onchange="displayImages()">
+        <option value="">Topic ...</option>
+      </select>
+    </div>
   </div>
-  <div id="imageDisplay"></div>
+  <br/>
+  <div id="imageDisplay" style="margin-top: 42px;"></div>
 </body>
 </html>
