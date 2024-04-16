@@ -30,20 +30,27 @@ for subdir, dirs, files in os.walk(root_path):
   if topic_name != os.path.basename(root_path):
     # Sort files first before creating references
     sorted_files = sorted([file for file in files if os.path.splitext(file)[1].lower() in image_extensions])
-    new_references = [{"file": file} for file in sorted_files]
+    new_references = [{"file": file, "displayName": "", "tags": []} for file in sorted_files]
 
     if topic_name in topic_map:
       # Update existing topic
-      existing_refs = {ref['file'] for ref in topic_map[topic_name]['references']}
-      new_files_set = {ref['file'] for ref in new_references}
+      existing_refs_dict = {ref['file']: ref for ref in topic_map[topic_name]['references']}
+      new_files_dict = {ref['file']: ref for ref in new_references}
 
       # Files to potentially remove
-      files_to_remove = existing_refs - new_files_set
+      files_to_remove = set(existing_refs_dict) - set(new_files_dict)
       updated_refs = [ref for ref in topic_map[topic_name]['references'] if ref['file'] not in files_to_remove]
 
-      # Files to add
-      files_to_add = new_files_set - existing_refs
-      updated_refs.extend({'file': file} for file in files_to_add)
+      # Files to add or update
+      for file, ref in new_files_dict.items():
+        if file in existing_refs_dict:
+          # Update existing entry, ensure displayName and tags are present
+          updated_ref = existing_refs_dict[file]
+          updated_ref['displayName'] = updated_ref.get('displayName', "")
+          updated_ref['tags'] = updated_ref.get('tags', [])
+        else:
+          # Add new entry
+          updated_refs.append(ref)
 
       # Sort updated references before assigning
       updated_refs_sorted = sorted(updated_refs, key=lambda x: x['file'])

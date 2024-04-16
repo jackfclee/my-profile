@@ -17,6 +17,7 @@ function fetchJsonData(url) {
       initDropdown(jsonData);
       // Store jsonData globally if needed for further use
       window.jsonData = jsonData;
+      displayImages();
     })
     .catch(error => {
       console.error('There has been a problem with your fetch operation:', error);
@@ -36,11 +37,14 @@ function initDropdown(jsonData) {
 
 // Function to display images based on the selected topic
 function displayImages() {
-  const tagFilter = document.getElementById('tagFilterInput').value.toLowerCase(); 
+  const tagFilterInput = document.getElementById('tagFilterInput').value.toLowerCase(); 
   const keywordFilter = document.getElementById('keywordFilterInput').value.toLowerCase(); 
   const selectedtopic = document.getElementById('topicDropdown').value;
   const display = document.getElementById('imageDisplay');
   display.innerHTML = ''; // Clear previous images
+
+  // Split tag input by spaces into an array of keywords
+  const tagFilters = tagFilterInput.split(/\s+/).filter(Boolean);
 
   // Get topics based on the selected topic or all topics if none is selected
   const topics = selectedtopic ? [window.jsonData.find(cat => cat.topic === selectedtopic)] : window.jsonData;
@@ -48,11 +52,12 @@ function displayImages() {
   topics.forEach(topic => {
     if (topic?.references) {
       topic.references.forEach(ref => {
-        const tagCondition = !tagFilter || (ref.tags?.map(tag => tag.toLowerCase()).includes(tagFilter) ?? false);
+        const tagCondition = tagFilters.length === 0 || tagFilters.every(filter => 
+          ref.tags?.some(tag => tag.toLowerCase().includes(filter)) ?? false);
         const keywordCondition = !keywordFilter || ref.file?.toLowerCase().includes(keywordFilter) || ref.displayName?.toLowerCase().includes(keywordFilter) ;
 
         if (tagCondition && keywordCondition) {
-          let label = topic.displayName + " : " + (ref.displayName || ref.file);
+          let label = (selectedtopic ? "": "【 " + topic.displayName + " 】 ") + (ref.displayName || ref.file);
           let p = document.createElement('p');
           p.innerText = label;
           p.className = "sub-banner"; // Apply any necessary CSS class for styling

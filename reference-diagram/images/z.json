@@ -5,23 +5,45 @@
     "references": [
       {
         "file": "AI Tools 2023.jpg",
-        "displayName": "AI Tools 2023",
+        "displayName": "AI Tools 2023 (Careerflow.ai)",
         "tags": [
           "AI",
           "Tool"
         ]
       },
       {
-        "file": "ChatGPT - How we get here.png"
+        "file": "ChatGPT - How we get here.png",
+        "displayName": "ChatGPT - How we get here? (bytebytego)",
+        "tags": [
+          "GPT",
+          "Timeline"
+        ]
       },
       {
-        "file": "GPT (Generative Pre-Train) Timeline.png"
+        "file": "GPT (Generative Pre-Train) Timeline.png",
+        "displayName": "",
+        "tags": [
+          "GPT",
+          "Timeline"
+        ]
       },
       {
-        "file": "How does ChatGPT like system work.png"
+        "file": "How does ChatGPT like system work.png",
+        "displayName": "How does ChatGPT like system work? (bytebytego)",
+        "tags": [
+          "GPT",
+          "Architecture",
+          "Design"
+        ]
       },
       {
-        "file": "Mapping AI in the software development lifecycle.jpg"
+        "file": "Mapping AI in the software development lifecycle.jpg",
+        "displayName": "Mapping AI in the software development lifecycle",
+        "tags": [
+          "AI",
+          "Tool",
+          "DevOps"
+        ]
       }
     ]
   },
@@ -30,25 +52,65 @@
     "displayName": "Alerting, Auditing, Logging and Monitoring",
     "references": [
       {
-        "file": "Debugging Tactics.jpg"
+        "file": "Debugging Tactics.jpg",
+        "displayName": "Debugging Tactics",
+        "tags": [
+          "Log",
+          "Debug"
+        ]
       },
       {
-        "file": "ELK Stack.png"
+        "file": "ELK Stack.png",
+        "displayName": "ELK Stack Illustrated (bytebytego)",
+        "tags": [
+          "Log",
+          "Debug",
+          "ELK"
+        ]
       },
       {
-        "file": "How are Notifications pushed to our devices.jpg"
+        "file": "How are Notifications pushed to our devices.jpg",
+        "displayName": "How are Notifications pushed to our devices (bytebytego)",
+        "tags": [
+          "Notification",
+          "Alert"
+        ]
       },
       {
-        "file": "Log Parsing Cheat Sheet.jpg"
+        "file": "Log Parsing Cheat Sheet.jpg",
+        "displayName": "",
+        "tags": [
+          "Log",
+          "Parse",
+          "Cheat Sheet"
+        ]
       },
       {
-        "file": "Logging Tracing Metrics.gif"
+        "file": "Logging Tracing Metrics.gif",
+        "displayName": "Logging, Tracing, Metrics (bytebytego)",
+        "tags": [
+          "Log",
+          "Trace",
+          "Metric"
+        ]
       },
       {
-        "file": "Metric Monitoring and Alerting system.png"
+        "file": "Metric Monitoring and Alerting system.png",
+        "displayName": "",
+        "tags": [
+          "Metric",
+          "Monitoring",
+          "Alerting"
+        ]
       },
       {
-        "file": "The log4j JNDI attack.jpg"
+        "file": "The log4j JNDI attack.jpg",
+        "displayName": "",
+        "tags": [
+          "Log",
+          "Bug",
+          "Attack"
+        ]
       }
     ]
   },
@@ -57,43 +119,69 @@
     "displayName": "API microservices",
     "references": [
       {
-        "file": "9 Types API Testing.gif"
+        "file": "9 Types API Testing.gif",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "API Architectural Styles - Comparison.jpg"
+        "file": "API Architectural Styles - Comparison.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "API Architectural Styles - Overview.jpg"
+        "file": "API Architectural Styles - Overview.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "API Architectural Styles - Simple.jpg"
+        "file": "API Architectural Styles - Simple.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "API Operation.png"
+        "file": "API Operation.png",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "API Response Code.png"
+        "file": "API Response Code.png",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "API Testing.gif"
+        "file": "API Testing.gif",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Design Effective and Safe APIs.jpg"
+        "file": "Design Effective and Safe APIs.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Evolution of an API Architecture.jpg"
+        "file": "Evolution of an API Architecture.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "HTTP Status Code.jpeg"
+        "file": "HTTP Status Code.jpeg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "How does API Gateway do.jpg"
+        "file": "How does API Gateway do.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Orchestration vs Choreography of Microservices.jpg"
+        "file": "Orchestration vs Choreography of Microservices.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Top 9 HTTP Request Methods.gif"
+        "file": "Top 9 HTTP Request Methods.gif",
+        "displayName": "",
+        "tags": []
       }
     ]
   },
@@ -102,37 +190,59 @@
     "displayName": "Architecture Design",
     "references": [
       {
-        "file": "18 Key Design Patterns.jpg"
+        "file": "18 Key Design Patterns.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Architectural Characteristics.png"
+        "file": "Architectural Characteristics.png",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Backend Burger 1.jpg"
+        "file": "Backend Burger 1.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Backend Burger 2.jpg"
+        "file": "Backend Burger 2.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Backend for Frontend pattern.png"
+        "file": "Backend for Frontend pattern.png",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Design for Internationalization.jpg"
+        "file": "Design for Internationalization.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "How do we design a chat application.jpg"
+        "file": "How do we design a chat application.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Microservice Architecture.jpg"
+        "file": "Microservice Architecture.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Possible experiment platform architecture.jpg"
+        "file": "Possible experiment platform architecture.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Proximity Service Design.jpg"
+        "file": "Proximity Service Design.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "System Design Interview - Step by Step guide.jpg"
+        "file": "System Design Interview - Step by Step guide.jpg",
+        "displayName": "",
+        "tags": []
       }
     ]
   },
@@ -141,28 +251,44 @@
     "displayName": "Caching",
     "references": [
       {
-        "file": "Cache Miss Attack.jpg"
+        "file": "Cache Miss Attack.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Memcached vs Redis.jpg"
+        "file": "Memcached vs Redis.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Read Replica Pattern.png"
+        "file": "Read Replica Pattern.png",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Things to consider when using Cache.png"
+        "file": "Things to consider when using Cache.png",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Top Redis Use Cases.jpg"
+        "file": "Top Redis Use Cases.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Top caching strategies.jpg"
+        "file": "Top caching strategies.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Where do we Cache Data.jpg"
+        "file": "Where do we Cache Data.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Why is Redis so fast.jpg"
+        "file": "Why is Redis so fast.jpg",
+        "displayName": "",
+        "tags": []
       }
     ]
   },
@@ -171,25 +297,39 @@
     "displayName": "CICD and DevOps",
     "references": [
       {
-        "file": "CICD pipeline explained in 5 minutes.jpg"
+        "file": "CICD pipeline explained in 5 minutes.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Deployment Strategies.jpg"
+        "file": "Deployment Strategies.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "DevOps vs DataOps vs MLOps.gif"
+        "file": "DevOps vs DataOps vs MLOps.gif",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Git Workflow and Immutability.jpg"
+        "file": "Git Workflow and Immutability.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "How Git Commands work.jpg"
+        "file": "How Git Commands work.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Netflix Tech Stack for CICD pipeline.jpg"
+        "file": "Netflix Tech Stack for CICD pipeline.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Shipping Code to Production.gif"
+        "file": "Shipping Code to Production.gif",
+        "displayName": "",
+        "tags": []
       }
     ]
   },
@@ -198,19 +338,29 @@
     "displayName": "Cloud Technology",
     "references": [
       {
-        "file": "Cloud Comparison Cheet Sheet.jpg"
+        "file": "Cloud Comparison Cheet Sheet.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Cloud Services.gif"
+        "file": "Cloud Services.gif",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Google Sheets as backend.jpg"
+        "file": "Google Sheets as backend.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "How does AWS Lambda work.jpg"
+        "file": "How does AWS Lambda work.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "What is cloud native.jpg"
+        "file": "What is cloud native.jpg",
+        "displayName": "",
+        "tags": []
       }
     ]
   },
@@ -219,19 +369,29 @@
     "displayName": "Coding",
     "references": [
       {
-        "file": "10 Good Coding Principles.gif"
+        "file": "10 Good Coding Principles.gif",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Algorithms for System Design.jpg"
+        "file": "Algorithms for System Design.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Array, Filter, Map, Reduce.png"
+        "file": "Array, Filter, Map, Reduce.png",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Diagram as Code.png"
+        "file": "Diagram as Code.png",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "What are the greenest programming languages.jpg"
+        "file": "What are the greenest programming languages.jpg",
+        "displayName": "",
+        "tags": []
       }
     ]
   },
@@ -240,25 +400,39 @@
     "displayName": "Container",
     "references": [
       {
-        "file": "Docker vs Container vs Podman.jpg"
+        "file": "Docker vs Container vs Podman.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "How does Docker work.jpg"
+        "file": "How does Docker work.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Kubernetes-1-comparison.png"
+        "file": "Kubernetes-1-comparison.png",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Kubernetes-2-components.png"
+        "file": "Kubernetes-2-components.png",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Kubernetes-3-borg.jpg"
+        "file": "Kubernetes-3-borg.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Virtualization vs Containerization.jpg"
+        "file": "Virtualization vs Containerization.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "What is kubernetes.jpg"
+        "file": "What is kubernetes.jpg",
+        "displayName": "",
+        "tags": []
       }
     ]
   },
@@ -267,37 +441,59 @@
     "displayName": "Datastore",
     "references": [
       {
-        "file": "At most once, At least once, Exactly once.png"
+        "file": "At most once, At least once, Exactly once.png",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Database Selection Process.jpg"
+        "file": "Database Selection Process.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Eight Data Structures that power DB - a.jpg"
+        "file": "Eight Data Structures that power DB - a.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Eight Data Structures that power DB - b.jpg"
+        "file": "Eight Data Structures that power DB - b.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Evaluating DB options.png"
+        "file": "Evaluating DB options.png",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Inner, Left, Right, Full Join.jpg"
+        "file": "Inner, Left, Right, Full Join.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Latency and consistency tradeoffs for data replication.jpg"
+        "file": "Latency and consistency tradeoffs for data replication.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Smooth Data Migration with Avro.jpg"
+        "file": "Smooth Data Migration with Avro.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Upload a file to S3.jpg"
+        "file": "Upload a file to S3.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Which Database should I use.jpg"
+        "file": "Which Database should I use.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Why is PostgreSQL voted most loved.png"
+        "file": "Why is PostgreSQL voted most loved.png",
+        "displayName": "",
+        "tags": []
       }
     ]
   },
@@ -306,46 +502,74 @@
     "displayName": "Domain Concepts",
     "references": [
       {
-        "file": "Design a Payment System.png"
+        "file": "Design a Payment System.png",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "E-commerce workflow behind the scenes.jpg"
+        "file": "E-commerce workflow behind the scenes.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Foreign Exchange in Payments.jpg"
+        "file": "Foreign Exchange in Payments.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "How do Dispute and Chargeback Work.jpg"
+        "file": "How do Dispute and Chargeback Work.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "How to avoid double payment.jpg"
+        "file": "How to avoid double payment.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "How to learn Payments.png"
+        "file": "How to learn Payments.png",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "ISO standard for smart card.png"
+        "file": "ISO standard for smart card.png",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Key Terms in DDD.jpg"
+        "file": "Key Terms in DDD.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Long Term Implications.png"
+        "file": "Long Term Implications.png",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Longterm-timeline-of-technology.png"
+        "file": "Longterm-timeline-of-technology.png",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Money Movement.jpg"
+        "file": "Money Movement.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "SSA Framework.jpg"
+        "file": "SSA Framework.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "SWIFT for cross broder payments.png"
+        "file": "SWIFT for cross broder payments.png",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "The Payments Ecosystem.png"
+        "file": "The Payments Ecosystem.png",
+        "displayName": "",
+        "tags": []
       }
     ]
   },
@@ -354,10 +578,14 @@
     "displayName": "Error Handling",
     "references": [
       {
-        "file": "Retry Patterns.jpg"
+        "file": "Retry Patterns.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "What makes a good error message.jpg"
+        "file": "What makes a good error message.jpg",
+        "displayName": "",
+        "tags": []
       }
     ]
   },
@@ -366,46 +594,74 @@
     "displayName": "Network",
     "references": [
       {
-        "file": "8 Popular Network Protocols.gif"
+        "file": "8 Popular Network Protocols.gif",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "A beginners guide to CDN.jpg"
+        "file": "A beginners guide to CDN.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Forward Proxy and Reverse Proxy.jpg"
+        "file": "Forward Proxy and Reverse Proxy.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "How HTTPS works.jpg"
+        "file": "How HTTPS works.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "How did we get to HTTP 3.png"
+        "file": "How did we get to HTTP 3.png",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "How does DNS resolve IP.jpg"
+        "file": "How does DNS resolve IP.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "How does HTTPS work.png"
+        "file": "How does HTTPS work.png",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "How does gPRC work.jpg"
+        "file": "How does gPRC work.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Is HTTPS reliable.jpg"
+        "file": "Is HTTPS reliable.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Load Balancer vs API Gateway.png"
+        "file": "Load Balancer vs API Gateway.png",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Load Balancing Algorithms.jpg"
+        "file": "Load Balancing Algorithms.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Reliable UDP in Gaming.jpg"
+        "file": "Reliable UDP in Gaming.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Types of VPNs.jpg"
+        "file": "Types of VPNs.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "What is OSI model.jpg"
+        "file": "What is OSI model.jpg",
+        "displayName": "",
+        "tags": []
       }
     ]
   },
@@ -414,28 +670,44 @@
     "displayName": "Performance",
     "references": [
       {
-        "file": "Design Principles for High Concurrency, High Availability, and Quick Responsiveness System.png"
+        "file": "Design Principles for High Concurrency, High Availability, and Quick Responsiveness System.png",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "From 0 to Millions - a Guide to Scaling Your App.jpg"
+        "file": "From 0 to Millions - a Guide to Scaling Your App.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "How does a modern stock exchange achieve microsecond latency - a.png"
+        "file": "How does a modern stock exchange achieve microsecond latency - a.png",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "How does a modern stock exchange achieve microsecond latency - b.png"
+        "file": "How does a modern stock exchange achieve microsecond latency - b.png",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "How to scale a website step by step.jpg"
+        "file": "How to scale a website step by step.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Latency Numbers you show know.jpg"
+        "file": "Latency Numbers you show know.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Performance testing and Benchmarking.png"
+        "file": "Performance testing and Benchmarking.png",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Vertical partitioning vs Horizontal partitioning.png"
+        "file": "Vertical partitioning vs Horizontal partitioning.png",
+        "displayName": "",
+        "tags": []
       }
     ]
   },
@@ -444,10 +716,14 @@
     "displayName": "Message Queue and PubSub",
     "references": [
       {
-        "file": "How do Message Queues evolve.gif"
+        "file": "How do Message Queues evolve.gif",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Why is Kafka fast.jpg"
+        "file": "Why is Kafka fast.jpg",
+        "displayName": "",
+        "tags": []
       }
     ]
   },
@@ -456,19 +732,29 @@
     "displayName": "Security",
     "references": [
       {
-        "file": "How SSO works.jpg"
+        "file": "How SSO works.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "How to design secure web API.jpg"
+        "file": "How to design secure web API.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "JSON Web Token Simple Explanation.jpg"
+        "file": "JSON Web Token Simple Explanation.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Session, Cookie, JWT, Token, SSO, OAuth2.jpg"
+        "file": "Session, Cookie, JWT, Token, SSO, OAuth2.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "The payment security - problem and solution.png"
+        "file": "The payment security - problem and solution.png",
+        "displayName": "",
+        "tags": []
       }
     ]
   },
@@ -477,16 +763,24 @@
     "displayName": "System (Linux / Unix)",
     "references": [
       {
-        "file": "Cron Sheatsheet.jpg"
+        "file": "Cron Sheatsheet.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Linux File Permissions.jpg"
+        "file": "Linux File Permissions.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Linux Performance Observability Tools.jpg"
+        "file": "Linux Performance Observability Tools.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "What is Time and Clock.jpg"
+        "file": "What is Time and Clock.jpg",
+        "displayName": "",
+        "tags": []
       }
     ]
   },
@@ -500,49 +794,79 @@
     "displayName": "Use Cases",
     "references": [
       {
-        "file": "Airbnb Microservice Architecture.jpg"
+        "file": "Airbnb Microservice Architecture.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Amazon System Architecture in 1998.jpg"
+        "file": "Amazon System Architecture in 1998.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Apple Pay and Google Pay Security.jpg"
+        "file": "Apple Pay and Google Pay Security.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Google Maps.png"
+        "file": "Google Maps.png",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "How Slack decides whether to send a user a notification.jpg"
+        "file": "How Slack decides whether to send a user a notification.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "How does Live Streaming work.jpg"
+        "file": "How does Live Streaming work.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "How does Order Books work.png"
+        "file": "How does Order Books work.png",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "How does Scan2Pay work.jpg"
+        "file": "How does Scan2Pay work.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "How does VISA make money.jpg"
+        "file": "How does VISA make money.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "How does VISA work.jpg"
+        "file": "How does VISA work.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "How does YouTube handle massive video content upload.png"
+        "file": "How does YouTube handle massive video content upload.png",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Instagram Architecture.gif"
+        "file": "Instagram Architecture.gif",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Stack Overflow Architecture.jpg"
+        "file": "Stack Overflow Architecture.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Tickets booking system.jpg"
+        "file": "Tickets booking system.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "Twitter Architecture 2022.png"
+        "file": "Twitter Architecture 2022.png",
+        "displayName": "",
+        "tags": []
       }
     ]
   },
@@ -551,19 +875,29 @@
     "displayName": "Web Development",
     "references": [
       {
-        "file": "How do modern browsers work.jpg"
+        "file": "How do modern browsers work.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "How does the browser render a web page.jpg"
+        "file": "How does the browser render a web page.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "MVC, MVP, MVVM, MVVMC, VIPER.jpg"
+        "file": "MVC, MVP, MVVM, MVVMC, VIPER.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "URL, URI, URN.jpg"
+        "file": "URL, URI, URN.jpg",
+        "displayName": "",
+        "tags": []
       },
       {
-        "file": "What happens when you type a URL into your browser.jpg"
+        "file": "What happens when you type a URL into your browser.jpg",
+        "displayName": "",
+        "tags": []
       }
     ]
   }
