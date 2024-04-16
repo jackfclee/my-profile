@@ -1,7 +1,7 @@
 window.jsonData = [];
 
 function doInit() {
-  fetchJsonData('images/_assets.json');
+  fetchJsonData('images/z.json');
 }
 
 // Function to fetch JSON data from URL
