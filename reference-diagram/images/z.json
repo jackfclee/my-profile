@@ -33,7 +33,8 @@
         "tags": [
           "GPT",
           "Architecture",
-          "Design"
+          "Design",
+          "Flow"
         ]
       },
       {
@@ -56,7 +57,9 @@
         "displayName": "Debugging Tactics",
         "tags": [
           "Log",
-          "Debug"
+          "Logging",
+          "Debug",
+          "Debugging"
         ]
       },
       {
@@ -64,8 +67,13 @@
         "displayName": "ELK Stack Illustrated (bytebytego)",
         "tags": [
           "Log",
+          "Logging",
           "Debug",
-          "ELK"
+          "Debugging",
+          "ELK",
+          "Architecture",
+          "Design",
+          "Flow"
         ]
       },
       {
@@ -73,16 +81,24 @@
         "displayName": "How are Notifications pushed to our devices (bytebytego)",
         "tags": [
           "Notification",
-          "Alert"
+          "Alert",
+          "Alerting",
+          "Architecture",
+          "Design",
+          "Flow"
         ]
       },
       {
         "file": "Log Parsing Cheat Sheet.jpg",
-        "displayName": "",
+        "displayName": "Log Parsing Cheat Sheet",
         "tags": [
           "Log",
+          "Logging",
           "Parse",
-          "Cheat Sheet"
+          "Parsing",
+          "Cheat",
+          "Command",
+          "Comparison"
         ]
       },
       {
@@ -90,26 +106,35 @@
         "displayName": "Logging, Tracing, Metrics (bytebytego)",
         "tags": [
           "Log",
+          "Logging",
           "Trace",
-          "Metric"
+          "Tracing",
+          "Metric",
+          "Flow",
+          "Comparison"
         ]
       },
       {
         "file": "Metric Monitoring and Alerting system.png",
-        "displayName": "",
+        "displayName": "Metric, Monitoring and Alerting System",
         "tags": [
           "Metric",
           "Monitoring",
-          "Alerting"
+          "Alerting",
+          "Architecture",
+          "Design"
         ]
       },
       {
         "file": "The log4j JNDI attack.jpg",
-        "displayName": "",
+        "displayName": "The Log4j JNDI Attack and how to prevent it",
         "tags": [
           "Log",
+          "Logging",
+          "Incident",
           "Bug",
-          "Attack"
+          "Attack",
+          "Flow"
         ]
       }
     ]
@@ -120,38 +145,72 @@
     "references": [
       {
         "file": "9 Types API Testing.gif",
-        "displayName": "",
-        "tags": []
+        "displayName": "9 Types API Testing (bytebytego)",
+        "tags": [
+          "Testing",
+          "API",
+          "Comparison"
+        ]
       },
       {
         "file": "API Architectural Styles - Comparison.jpg",
-        "displayName": "",
-        "tags": []
+        "displayName": "API Architectural Styles Comparison",
+        "tags": [
+          "API",
+          "Architecture",
+          "Design",
+          "Message",
+          "Format",
+          "Timeline",
+          "Comparison"
+        ]
       },
       {
         "file": "API Architectural Styles - Overview.jpg",
-        "displayName": "",
-        "tags": []
+        "displayName": "API Architectural Styles Overview (bytebytego)",
+        "tags": [
+          "API",
+          "Architecture",
+          "Design",
+          "Flow"
+        ]
       },
       {
         "file": "API Architectural Styles - Simple.jpg",
-        "displayName": "",
-        "tags": []
+        "displayName": "API Architectural Styles Simple",
+        "tags": [
+          "API",
+          "Architecture",
+          "Design",
+          "Flow"
+        ]
       },
       {
         "file": "API Operation.png",
-        "displayName": "",
-        "tags": []
+        "displayName": "API Operation",
+        "tags": [
+          "HTTP",
+          "Verb",
+          "Request",
+          "API",
+          "GET",
+          "PUT",
+          "POST",
+          "DELETE",
+          "PATCH",
+          "Comparison"
+        ]
       },
       {
         "file": "API Response Code.png",
-        "displayName": "",
-        "tags": []
-      },
-      {
-        "file": "API Testing.gif",
-        "displayName": "",
-        "tags": []
+        "displayName": "API Response Code",
+        "tags": [
+          "HTTP",
+          "Response",
+          "Code",
+          "API",
+          "Comparison"
+        ]
       },
       {
         "file": "Design Effective and Safe APIs.jpg",
