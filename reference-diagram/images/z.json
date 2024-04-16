@@ -305,57 +305,118 @@
       {
         "file": "18 Key Design Patterns.jpg",
         "displayName": "18 Key Design Patterns (bytebytego)",
-        "tags": []
+        "tags": [
+          "Design",
+          "Pattern"
+        ]
       },
       {
         "file": "Architectural Characteristics.png",
         "displayName": "Architectural Characteristics.",
-        "tags": []
+        "tags": [
+          "Atrchitecture",
+          "Characteristics",
+          "Non-Functional",
+          "Requirement",
+          "Creational",
+          "Structural",
+          "Behavioral",
+          "Pattern",
+          "Design",
+          "Factor"
+        ]
       },
       {
         "file": "Backend Burger 1.jpg",
         "displayName": "Backend Burger",
-        "tags": []
+        "tags": [
+          "Overview",
+          "Backend"
+        ]
       },
       {
         "file": "Backend Burger 2.jpg",
         "displayName": "Backend Burger (bytebytego)",
-        "tags": []
+        "tags": [
+          "Overview",
+          "Backend"
+        ]
       },
       {
         "file": "Backend for Frontend pattern.png",
         "displayName": "Backend for Frontend pattern",
-        "tags": []
+        "tags": [
+          "BFF",
+          "Backend",
+          "Flow",
+          "Protocol"
+        ]
       },
       {
         "file": "Design for Internationalization.jpg",
         "displayName": "Design for Internationalization (bytebytego)",
-        "tags": []
+        "tags": [
+          "Language",
+          "Internationalization",
+          "Design",
+          "Time",
+          "Content"
+        ]
       },
       {
         "file": "How do we design a chat application.jpg",
         "displayName": "How do we design a chat application? (bytebytego)",
-        "tags": []
+        "tags": [
+          "Chat",
+          "Architecture",
+          "Design",
+          "Flow"
+        ]
       },
       {
         "file": "Microservice Architecture.jpg",
         "displayName": "Microservice Architecture (bytebytego)",
-        "tags": []
+        "tags": [
+          "API",
+          "Microservice",
+          "Gateway",
+          "Architecture",
+          "Design",
+          "Flow"
+        ]
       },
       {
         "file": "Possible experiment platform architecture.jpg",
         "displayName": "Possible experiment platform architecture",
-        "tags": []
+        "tags": [
+          "Experiment",
+          "Platform",
+          "Architecture",
+          "Flow",
+          "Design"
+        ]
       },
       {
         "file": "Proximity Service Design.jpg",
         "displayName": "Proximity Service Design (bytebytego)",
-        "tags": []
+        "tags": [
+          "Map",
+          "Proximity",
+          "Service",
+          "Design",
+          "Flow",
+          "Atrchitecture"
+        ]
       },
       {
         "file": "System Design Interview - Step by Step guide.jpg",
         "displayName": "System Design Interview - Step by Step guide",
-        "tags": []
+        "tags": [
+          "System",
+          "Design",
+          "Layer",
+          "Architecture"
+        ]
       }
     ]
   },
@@ -366,42 +427,86 @@
       {
         "file": "Cache Miss Attack.jpg",
         "displayName": "Cache Miss Attack (bytebytego)",
-        "tags": []
+        "tags": [
+          "Cache",
+          "Miss",
+          "Attack",
+          "Incident"
+        ]
       },
       {
         "file": "Memcached vs Redis.jpg",
         "displayName": "Memcached vs Redis (bytebytego)",
-        "tags": []
+        "tags": [
+          "Comparison",
+          "Memcached",
+          "Redis",
+          "Cache",
+          "Caching",
+          "Performance"
+        ]
       },
       {
         "file": "Read Replica Pattern.png",
         "displayName": "Read Replica Pattern (bytebytego)",
-        "tags": []
+        "tags": [
+          "Replica",
+          "Performance",
+          "Pattern"
+        ]
       },
       {
         "file": "Things to consider when using Cache.png",
         "displayName": "Things to consider when using Cache (bytebytego)",
-        "tags": []
+        "tags": [
+          "Cache",
+          "Factor",
+          "Techniques",
+          "Scenarios",
+          "Metrics",
+          "Algorithms"
+        ]
       },
       {
         "file": "Top Redis Use Cases.jpg",
         "displayName": "Top Redis Use Cases (bytebytego)",
-        "tags": []
+        "tags": [
+          "Redis",
+          "Caching",
+          "Data",
+          "Type",
+          "Use",
+          "Case"
+        ]
       },
       {
         "file": "Top caching strategies.jpg",
         "displayName": "Top caching strategies (bytebytego)",
-        "tags": []
+        "tags": [
+          "Caching",
+          "Cache",
+          "Strategies",
+          "Strategy",
+          "Flow"
+        ]
       },
       {
         "file": "Where do we Cache Data.jpg",
         "displayName": "Where do we Cache Data? (bytebytego)",
-        "tags": []
+        "tags": [
+          "Cache",
+          "Data",
+          "Comparison"
+        ]
       },
       {
         "file": "Why is Redis so fast.jpg",
         "displayName": "Why is Redis so fast? (bytebytego)",
-        "tags": []
+        "tags": [
+          "Redis",
+          "Cache",
+          "Performance"
+        ]
       }
     ]
   },
@@ -412,37 +517,86 @@
       {
         "file": "CICD pipeline explained in 5 minutes.jpg",
         "displayName": "CICD pipeline explained in 5 minutes",
-        "tags": []
+        "tags": [
+          "CICD",
+          "DevOps",
+          "Tool"
+        ]
       },
       {
         "file": "Deployment Strategies.jpg",
         "displayName": "Deployment Strategies (bytebytego)",
-        "tags": []
+        "tags": [
+          "Deployment",
+          "BigBang",
+          "Big-Bang",
+          "Rolling",
+          "Strategies",
+          "Strategy",
+          "Blue-Green",
+          "BlueGreen",
+          "Canary",
+          "Feature",
+          "Toggle"
+        ]
       },
       {
         "file": "DevOps vs DataOps vs MLOps.gif",
         "displayName": "DevOps vs DataOps vs MLOps",
-        "tags": []
+        "tags": [
+          "DevOps",
+          "DataOps",
+          "MLOps",
+          "Concept",
+          "Comparison",
+          "Flow"
+        ]
       },
       {
         "file": "Git Workflow and Immutability.jpg",
         "displayName": "Git Workflow and Immutability (bytebytego)",
-        "tags": []
+        "tags": [
+          "Git",
+          "Source",
+          "Management",
+          "Immutability"
+        ]
       },
       {
         "file": "How Git Commands work.jpg",
         "displayName": "How Git Commands work? (bytebytego)",
-        "tags": []
+        "tags": [
+          "Git",
+          "Command"
+        ]
       },
       {
         "file": "Netflix Tech Stack for CICD pipeline.jpg",
         "displayName": "Netflix Tech Stack CICD pipeline (bytebytego)",
-        "tags": []
+        "tags": [
+          "Netflix",
+          "Scenario",
+          "Stack",
+          "Tool",
+          "CICD",
+          "Pipeline",
+          "Flow",
+          "Development",
+          "Production"
+        ]
       },
       {
         "file": "Shipping Code to Production.gif",
         "displayName": "How companies ship code to production? (bytebytego)",
-        "tags": []
+        "tags": [
+          "Stack",
+          "Tool",
+          "CICD",
+          "Pipeline",
+          "Flow",
+          "Development",
+          "Production"
+        ]
       }
     ]
   },
@@ -453,27 +607,51 @@
       {
         "file": "Cloud Comparison Cheet Sheet.jpg",
         "displayName": "Cloud Comparison Cheet Sheet 2023 (bytebytego)",
-        "tags": []
+        "tags": [
+          "Cheatsheet",
+          "Cloud",
+          "Product",
+          "Comparison"
+        ]
       },
       {
         "file": "Cloud Services.gif",
         "displayName": "Cloud Services",
-        "tags": []
+        "tags": [
+          "Cheatsheet",
+          "Cloud",
+          "Product",
+          "Comparison"
+        ]
       },
       {
         "file": "Google Sheets as backend.jpg",
         "displayName": "Levels.fyi scaled to millions with Google Sheets as backend",
-        "tags": []
+        "tags": [
+          "Caching",
+          "Cache",
+          "Strategies",
+          "Strategy",
+          "Flow",
+          "Performance"
+        ]
       },
       {
         "file": "How does AWS Lambda work.jpg",
         "displayName": "How does AWS Lambda work?",
-        "tags": []
+        "tags": [
+          "Lambda",
+          "AWS",
+          "Flow"
+        ]
       },
       {
         "file": "What is cloud native.jpg",
         "displayName": "What is cloud native? (bytebytego)",
-        "tags": []
+        "tags": [
+          "Timeline",
+          "Cloud"
+        ]
       }
     ]
   },
@@ -484,27 +662,49 @@
       {
         "file": "10 Good Coding Principles.gif",
         "displayName": "10 Good Coding Principles (bytebytego)",
-        "tags": []
+        "tags": [
+          "Principles",
+          "Coding",
+          "SOILD",
+          "Design",
+          "Pattern"
+        ]
       },
       {
         "file": "Algorithms for System Design.jpg",
         "displayName": "Algorithms for System Design (bytebytego)",
-        "tags": []
+        "tags": [
+          "Algorithms",
+          "System",
+          "Design"
+        ]
       },
       {
         "file": "Array, Filter, Map, Reduce.png",
         "displayName": "Array, Filter, Map, Reduce",
-        "tags": []
+        "tags": [
+          "Array",
+          "Filter",
+          "Map",
+          "Reduce"
+        ]
       },
       {
         "file": "Diagram as Code.png",
         "displayName": "Diagram as Code",
-        "tags": []
+        "tags": [
+          "Diagram",
+          "Code"
+        ]
       },
       {
         "file": "What are the greenest programming languages.jpg",
         "displayName": "What are the greenest programming languages?",
-        "tags": []
+        "tags": [
+          "Comparison",
+          "Language",
+          "Coding"
+        ]
       }
     ]
   },
@@ -515,37 +715,72 @@
       {
         "file": "Docker vs Container vs Podman.jpg",
         "displayName": "Docker vs Container vs Podman",
-        "tags": []
+        "tags": [
+          "Command",
+          "Docker",
+          "Container",
+          "Podman",
+          "Comparison"
+        ]
       },
       {
         "file": "How does Docker work.jpg",
         "displayName": "How does Docker work? (bytebytego)",
-        "tags": []
+        "tags": [
+          "Docker",
+          "Flow",
+          "Practice",
+          "Development"
+        ]
       },
       {
         "file": "Kubernetes-1-comparison.png",
         "displayName": "Kubernetes comparison (bytebytego)",
-        "tags": []
+        "tags": [
+          "Bare",
+          "Metal",
+          "Virtualized",
+          "Containerized",
+          "Comparison",
+          "Kubernetes"
+        ]
       },
       {
         "file": "Kubernetes-2-components.png",
         "displayName": "Kubernetes components (bytebytego)",
-        "tags": []
+        "tags": [
+          "Kubernetes",
+          "pod",
+          "deployment",
+          "control-plane"
+        ]
       },
       {
         "file": "Kubernetes-3-borg.jpg",
         "displayName": "Kubernetes borg",
-        "tags": []
+        "tags": [
+          "Kubernetes",
+          "borg"
+        ]
       },
       {
         "file": "Virtualization vs Containerization.jpg",
         "displayName": "Virtualization vs Containerization",
-        "tags": []
+        "tags": [
+          "Virtualization",
+          "Containerization",
+          "Comparison"
+        ]
       },
       {
         "file": "What is kubernetes.jpg",
         "displayName": "What is kubernetes? (bytebytego)",
-        "tags": []
+        "tags": [
+          "Kubernetes",
+          "pod",
+          "deployment",
+          "control-plane"
+        ]
       }
     ]
   },
@@ -556,57 +791,123 @@
       {
         "file": "At most once, At least once, Exactly once.png",
         "displayName": "At most once, At least once, Exactly once",
-        "tags": []
+        "tags": [
+          "At-most-once",
+          "At-least-once",
+          "Exactly-once",
+          "Comparison",
+          "Concept"
+        ]
       },
       {
         "file": "Database Selection Process.jpg",
         "displayName": "Database Selection Process (bytebytego)",
-        "tags": []
+        "tags": [
+          "Database",
+          "Factor",
+          "Selection",
+          "Flow",
+          "Process",
+          "Practice",
+          "Requirement"
+        ]
       },
       {
         "file": "Eight Data Structures that power DB - a.jpg",
         "displayName": "8 Data Structures that power DB (bytebytego)",
-        "tags": []
+        "tags": [
+          "Scenario",
+          "Data",
+          "Strcuture",
+          "Database",
+          "Selection"
+        ]
       },
       {
         "file": "Eight Data Structures that power DB - b.jpg",
         "displayName": "8 Data Structures that power DB",
-        "tags": []
+        "tags": [
+          "Scenario",
+          "Data",
+          "Strcuture",
+          "Database",
+          "Selection"
+        ]
       },
       {
         "file": "Evaluating DB options.png",
         "displayName": "Evaluating DB options",
-        "tags": []
+        "tags": [
+          "Comparison",
+          "Evaluation",
+          "Database"
+        ]
       },
       {
         "file": "Inner, Left, Right, Full Join.jpg",
         "displayName": "Inner, Left, Right, Full Join",
-        "tags": []
+        "tags": [
+          "Join",
+          "Inner",
+          "Outer",
+          "Left",
+          "Right",
+          "Full",
+          "SQL",
+          "Query",
+          "Comparison"
+        ]
       },
       {
         "file": "Latency and consistency tradeoffs for data replication.jpg",
         "displayName": "Latency and consistency tradeoffs for data replication",
-        "tags": []
+        "tags": [
+          "Latency",
+          "Consistency",
+          "Tradeoffs",
+          "Data",
+          "Replication"
+        ]
       },
       {
         "file": "Smooth Data Migration with Avro.jpg",
         "displayName": "Smooth Data Migration with Avro (bytebytego)",
-        "tags": []
+        "tags": [
+          "Migration",
+          "Data",
+          "Avro"
+        ]
       },
       {
         "file": "Upload a file to S3.jpg",
         "displayName": "Upload a file to S3",
-        "tags": []
+        "tags": [
+          "AWS",
+          "Storage",
+          "S3",
+          "Upload",
+          "File",
+          "Flow"
+        ]
       },
       {
         "file": "Which Database should I use.jpg",
         "displayName": "Which Database should I use?",
-        "tags": []
+        "tags": [
+          "Database",
+          "Comparison",
+          "Relational",
+          "NOSQL",
+          "In-Memory"
+        ]
       },
       {
         "file": "Why is PostgreSQL voted most loved.png",
         "displayName": "Why is PostgreSQL voted most loved? (bytebytego)",
-        "tags": []
+        "tags": [
+          "Factor",
+          "PostgreSQL"
+        ]
       }
     ]
   },
@@ -617,72 +918,183 @@
       {
         "file": "Design a Payment System.png",
         "displayName": "Design a Payment System",
-        "tags": []
+        "tags": [
+          "Payment",
+          "System",
+          "Architecture",
+          "Design",
+          "Flow",
+          "Domain",
+          "Use",
+          "Case"
+        ]
       },
       {
         "file": "E-commerce workflow behind the scenes.jpg",
         "displayName": "E-commerce workflow behind the scenes (bytebytego)",
-        "tags": []
+        "tags": [
+          "E-commerce",
+          "Workflow",
+          "System",
+          "Architecture",
+          "Design",
+          "Flow",
+          "Domain",
+          "Use",
+          "Case"
+        ]
       },
       {
         "file": "Foreign Exchange in Payments.jpg",
         "displayName": "Foreign Exchange in Payments",
-        "tags": []
+        "tags": [
+          "Exchange",
+          "Payment",
+          "Foreign",
+          "System",
+          "Architecture",
+          "Design",
+          "Flow",
+          "Domain",
+          "Use",
+          "Case"
+        ]
       },
       {
         "file": "How do Dispute and Chargeback Work.jpg",
         "displayName": "How do Dispute and Chargeback Work? (bytebytego)",
-        "tags": []
+        "tags": [
+          "Dispute",
+          "Chargeback",
+          "Payment",
+          "System",
+          "Architecture",
+          "Design",
+          "Flow",
+          "Domain",
+          "Use",
+          "Case"
+        ]
       },
       {
         "file": "How to avoid double payment.jpg",
         "displayName": "How to avoid double payment? (bytebytego)",
-        "tags": []
+        "tags": [
+          "Prevention",
+          "Payment",
+          "System",
+          "Architecture",
+          "Design",
+          "Flow",
+          "Domain",
+          "Use",
+          "Case",
+          "Duplication",
+          "Idempotency"
+        ]
       },
       {
         "file": "How to learn Payments.png",
         "displayName": "How to learn Payments? (bytebytego)",
-        "tags": []
+        "tags": [
+          "Payment",
+          "System",
+          "Architecture",
+          "Design",
+          "Flow",
+          "Domain",
+          "Use",
+          "Case",
+          "Concept"
+        ]
       },
       {
         "file": "ISO standard for smart card.png",
         "displayName": "ISO standard for smart card (bytebytego)",
-        "tags": []
+        "tags": [
+          "ISO",
+          "standard",
+          "Smart",
+          "Card"
+        ]
       },
       {
         "file": "Key Terms in DDD.jpg",
         "displayName": "Key Terms in Domain Driven Design - DDD (bytebytego)",
-        "tags": []
+        "tags": [
+          "Concept",
+          "Term",
+          "Domain",
+          "Driven",
+          "Design"
+        ]
       },
       {
         "file": "Long Term Implications.png",
         "displayName": "Long Term Implications",
-        "tags": []
+        "tags": [
+          "Long",
+          "Term",
+          "Implications",
+          "Requirement"
+        ]
       },
       {
         "file": "Longterm-timeline-of-technology.png",
         "displayName": "A longterm timeline of technology",
-        "tags": []
+        "tags": [
+          "Technology",
+          "Timeline"
+        ]
       },
       {
         "file": "Money Movement.jpg",
         "displayName": "Money Movement (bytebytego)",
-        "tags": []
+        "tags": [
+          "Money",
+          "Movement",
+          "Payment",
+          "System",
+          "Architecture",
+          "Design",
+          "Flow",
+          "Domain",
+          "Use",
+          "Case"
+        ]
       },
       {
         "file": "SSA Framework.jpg",
         "displayName": "SSA Framework ",
-        "tags": []
+        "tags": [
+          "SSA",
+          "Framework"
+        ]
       },
       {
-        "file": "SWIFT for cross broder payments.png",
-        "displayName": "SWIFT for cross broder payments (bytebytego)",
-        "tags": []
+        "file": "SWIFT for cross border payments.png",
+        "displayName": "SWIFT for cross border payments (bytebytego)",
+        "tags": [
+          "SWIFT",
+          "Cross",
+          "Border",
+          "Payment"
+        ]
       },
       {
         "file": "The Payments Ecosystem.png",
         "displayName": "The Payments Ecosystem (bytebytego)",
-        "tags": []
+        "tags": [
+          "Ecosystem",
+          "Payment",
+          "System",
+          "Architecture",
+          "Design",
+          "Flow",
+          "Domain",
+          "Use",
+          "Case"
+        ]
       }
     ]
   },
@@ -693,12 +1105,23 @@
       {
         "file": "Retry Patterns.jpg",
         "displayName": "Retry Patterns (bytebytego)",
-        "tags": []
+        "tags": [
+          "Retry",
+          "Pattern",
+          "Concept",
+          "Factor"
+        ]
       },
       {
         "file": "What makes a good error message.jpg",
         "displayName": "What makes a good error message?",
-        "tags": []
+        "tags": [
+          "Error",
+          "Handling",
+          "Log",
+          "Logging",
+          "Message"
+        ]
       }
     ]
   },
@@ -709,72 +1132,138 @@
       {
         "file": "8 Popular Network Protocols.gif",
         "displayName": "8 Popular Network Protocols (bytebytego)",
-        "tags": []
+        "tags": [
+          "Network",
+          "Protocol",
+          "Comparison"
+        ]
       },
       {
         "file": "A beginners guide to CDN.jpg",
         "displayName": "A beginner's guide to CDN (bytebytego)",
-        "tags": []
+        "tags": [
+          "CDN"
+        ]
       },
       {
         "file": "Forward Proxy and Reverse Proxy.jpg",
         "displayName": "Forward Proxy and Reverse Proxy (bytebytego)",
-        "tags": []
+        "tags": [
+          "Forward",
+          "Reverse",
+          "Proxy",
+          "Comparison"
+        ]
       },
       {
         "file": "How HTTPS works.jpg",
         "displayName": "How HTTPS works? (bytebytego)",
-        "tags": []
+        "tags": [
+          "HTTPS",
+          "Flow",
+          "Concept",
+          "SSL",
+          "TLS",
+          "Handshaking"
+        ]
       },
       {
         "file": "How did we get to HTTP 3.png",
         "displayName": "How did we get to HTTP 3? (bytebytego)",
-        "tags": []
+        "tags": [
+          "HTTP",
+          "Flow"
+        ]
       },
       {
         "file": "How does DNS resolve IP.jpg",
         "displayName": "How does DNS resolve IP?",
-        "tags": []
+        "tags": [
+          "DNS",
+          "Flow"
+        ]
       },
       {
         "file": "How does HTTPS work.png",
         "displayName": "How does HTTPS work? (bytebytego)",
-        "tags": []
+        "tags": [
+          "HTTPS",
+          "TLS",
+          "SSL",
+          "Handshaking",
+          "Flow"
+        ]
       },
       {
         "file": "How does gPRC work.jpg",
         "displayName": "How does gPRC work? (bytebytego)",
-        "tags": []
+        "tags": [
+          "gRPC",
+          "RPC",
+          "Comparison",
+          "Flow"
+        ]
       },
       {
         "file": "Is HTTPS reliable.jpg",
         "displayName": "Is HTTPS reliable? (bytebytego)",
-        "tags": []
+        "tags": [
+          "HTTPS",
+          "TLS",
+          "SSL",
+          "Handshaking",
+          "Flow"
+        ]
       },
       {
         "file": "Load Balancer vs API Gateway.png",
         "displayName": "Load Balancer vs API Gateway (bytebytego)",
-        "tags": []
+        "tags": [
+          "Load",
+          "Balancer",
+          "API",
+          "Gateway",
+          "Comparison"
+        ]
       },
       {
         "file": "Load Balancing Algorithms.jpg",
         "displayName": "Load Balancing Algorithms (bytebytego)",
-        "tags": []
+        "tags": [
+          "Load",
+          "Balancer",
+          "Algorithm",
+          "Comparison",
+          "Pattern"
+        ]
       },
       {
         "file": "Reliable UDP in Gaming.jpg",
         "displayName": "Reliable UDP in Gaming (bytebytego)",
-        "tags": []
+        "tags": [
+          "Protocol",
+          "UDP",
+          "Gaming",
+          "Flow"
+        ]
       },
       {
         "file": "Types of VPNs.jpg",
         "displayName": "Types of VPNs",
-        "tags": []
+        "tags": [
+          "VPN",
+          "Cheatsheet"
+        ]
       },
       {
         "file": "What is OSI model.jpg",
         "displayName": "What is OSI model (bytebytego)",
-        "tags": []
+        "tags": [
+          "OSI",
+          "Comparison",
+          "Layer",
+          "Network"
+        ]
       }
     ]
   },
@@ -785,42 +1274,82 @@
       {
         "file": "Design Principles for High Concurrency, High Availability, and Quick Responsiveness System.png",
         "displayName": "Design Principles for High Concurrency, High Availability, and Quick Responsiveness System",
-        "tags": []
+        "tags": [
+          "Design",
+          "Principles",
+          "Concurrency",
+          "Responsiveness",
+          "Performance"
+        ]
       },
       {
         "file": "From 0 to Millions - a Guide to Scaling Your App.jpg",
         "displayName": "From 0 to Millions - a Guide to Scaling Your App (bytebytego)",
-        "tags": []
+        "tags": [
+          "Scaling",
+          "Performance"
+        ]
       },
       {
         "file": "How does a modern stock exchange achieve microsecond latency - a.png",
         "displayName": "Low Latency Stock Exchange Design",
-        "tags": []
+        "tags": [
+          "Latency",
+          "Stock",
+          "Exchange",
+          "Performance"
+        ]
       },
       {
         "file": "How does a modern stock exchange achieve microsecond latency - b.png",
         "displayName": "Low Latency Stock Exchange Design",
-        "tags": []
+        "tags": [
+          "Latency",
+          "Stock",
+          "Exchange",
+          "Performance"
+        ]
       },
       {
         "file": "How to scale a website step by step.jpg",
         "displayName": "How to scale a website step by step? (bytebytego)",
-        "tags": []
+        "tags": [
+          "Latency",
+          "Stock",
+          "Exchange",
+          "Performance",
+          "Load",
+          "Balancer"
+        ]
       },
       {
         "file": "Latency Numbers you show know.jpg",
         "displayName": "Latency Numbers you show know (bytebytego)",
-        "tags": []
+        "tags": [
+          "Latency",
+          "Performance",
+          "Comparison"
+        ]
       },
       {
         "file": "Performance testing and Benchmarking.png",
         "displayName": "Performance testing and Benchmarking",
-        "tags": []
+        "tags": [
+          "Performance",
+          "SQL",
+          "Database",
+          "Factor"
+        ]
       },
       {
         "file": "Vertical partitioning vs Horizontal partitioning.png",
         "displayName": "Vertical partitioning vs Horizontal partitioning",
-        "tags": []
+        "tags": [
+          "Partitioning",
+          "Vertical",
+          "Horizontal",
+          "Performance"
+        ]
       }
     ]
   },
@@ -831,12 +1360,20 @@
       {
         "file": "How do Message Queues evolve.gif",
         "displayName": "How do Message Queues evolve? (bytebytego)",
-        "tags": []
+        "tags": [
+          "Message",
+          "Queue",
+          "Comparison",
+          "Tool"
+        ]
       },
       {
         "file": "Why is Kafka fast.jpg",
         "displayName": "Why is Kafka fast? (bytebytego)",
-        "tags": []
+        "tags": [
+          "Kafka",
+          "Flow"
+        ]
       }
     ]
   },
@@ -847,27 +1384,61 @@
       {
         "file": "How SSO works.jpg",
         "displayName": "How Single Sign-On (SSO) works? (bytebytego)",
-        "tags": []
+        "tags": [
+          "SSO",
+          "Single",
+          "Sign-on",
+          "Security",
+          "Token",
+          "Flow",
+          "SAML"
+        ]
       },
       {
         "file": "How to design secure web API.jpg",
         "displayName": "How to design secure web API",
-        "tags": []
+        "tags": [
+          "Comparison",
+          "Token",
+          "HMAC",
+          "Algorithm"
+        ]
       },
       {
         "file": "JSON Web Token Simple Explanation.jpg",
         "displayName": "JSON Web Token Simple Explanation (bytebytego)",
-        "tags": []
+        "tags": [
+          "JWT",
+          "Token",
+          "JSON",
+          "Concept",
+          "Structure"
+        ]
       },
       {
         "file": "Session, Cookie, JWT, Token, SSO, OAuth2.jpg",
         "displayName": "Session, Cookie, JWT, Token, SSO, OAuth2 (bytebytego)",
-        "tags": []
+        "tags": [
+          "Session",
+          "Cookie",
+          "JWT",
+          "Token",
+          "SSO",
+          "OAuth2",
+          "Flow",
+          "Comparison",
+          "Security"
+        ]
       },
       {
         "file": "The payment security - problem and solution.png",
         "displayName": "The payment security - problem and solution",
-        "tags": []
+        "tags": [
+          "Payment",
+          "Problem",
+          "Solution",
+          "Techniques"
+        ]
       }
     ]
   },
@@ -878,22 +1449,37 @@
       {
         "file": "Cron Cheatsheet.jpg",
         "displayName": "Cron Cheatsheet",
-        "tags": []
+        "tags": [
+          "Cron",
+          "Cheatsheet"
+        ]
       },
       {
         "file": "Linux File Permissions.jpg",
         "displayName": "Linux File Permissions (bytebytego)",
-        "tags": []
+        "tags": [
+          "Linux",
+          "File",
+          "Permissions"
+        ]
       },
       {
         "file": "Linux Performance Observability Tools.jpg",
         "displayName": "Linux Performance Observability Tools",
-        "tags": []
+        "tags": [
+          "Linux",
+          "Performance",
+          "Observability",
+          "Tool"
+        ]
       },
       {
         "file": "What is Time and Clock.jpg",
         "displayName": "What is Time and Clock?",
-        "tags": []
+        "tags": [
+          "Time",
+          "Clock"
+        ]
       }
     ]
   },
@@ -909,77 +1495,162 @@
       {
         "file": "Airbnb Microservice Architecture.jpg",
         "displayName": "Airbnb Microservice Architecture",
-        "tags": []
+        "tags": [
+          "Architecture",
+          "Design",
+          "Flow",
+          "Airbnb"
+        ]
       },
       {
         "file": "Amazon System Architecture in 1998.jpg",
         "displayName": "Amazon System Architecture in 1998",
-        "tags": []
+        "tags": [
+          "Architecture",
+          "Design",
+          "Flow",
+          "Amazon"
+        ]
       },
       {
         "file": "Apple Pay and Google Pay Security.jpg",
         "displayName": "Apple Pay and Google Pay Security? (bytebytego)",
-        "tags": []
+        "tags": [
+          "Architecture",
+          "Design",
+          "Flow",
+          "Apple",
+          "Google",
+          "Payment"
+        ]
       },
       {
         "file": "Google Maps.png",
         "displayName": "Google Maps?",
-        "tags": []
+        "tags": [
+          "Architecture",
+          "Design",
+          "Flow",
+          "Map",
+          "Google"
+        ]
       },
       {
         "file": "How Slack decides whether to send a user a notification.jpg",
         "displayName": "How Slack decides whether to send a user a notification?",
-        "tags": []
+        "tags": [
+          "Architecture",
+          "Design",
+          "Flow",
+          "Notification",
+          "Slack"
+        ]
       },
       {
         "file": "How does Live Streaming work.jpg",
         "displayName": "How does Live Streaming work? (bytebytego)",
-        "tags": []
+        "tags": [
+          "Architecture",
+          "Design",
+          "Flow",
+          "Streaming",
+          "YouTube"
+        ]
       },
       {
         "file": "How does Order Books work.png",
         "displayName": "How does Order Books work?",
-        "tags": []
+        "tags": [
+          "Architecture",
+          "Design",
+          "Flow",
+          "E-commerce"
+        ]
       },
       {
         "file": "How does Scan2Pay work.jpg",
         "displayName": "How does Scan2Pay work? (bytebytego)",
-        "tags": []
+        "tags": [
+          "Architecture",
+          "Design",
+          "Flow",
+          "Scan2Pay"
+        ]
       },
       {
         "file": "How does VISA make money.jpg",
         "displayName": "How does VISA make money? (bytebytego)",
-        "tags": []
+        "tags": [
+          "Architecture",
+          "Design",
+          "Flow",
+          "Payment",
+          "VISA"
+        ]
       },
       {
         "file": "How does VISA work.jpg",
         "displayName": "How does VISA work? (bytebytego)",
-        "tags": []
+        "tags": [
+          "Architecture",
+          "Design",
+          "Flow",
+          "Payment",
+          "VISA"
+        ]
       },
       {
         "file": "How does YouTube handle massive video content upload.png",
         "displayName": "How does YouTube handle massive video content upload? (bytebytego)",
-        "tags": []
+        "tags": [
+          "Architecture",
+          "Design",
+          "Flow",
+          "YouTube",
+          "Video",
+          "Upload"
+        ]
       },
       {
         "file": "Instagram Architecture.gif",
         "displayName": "Instagram Architecture",
-        "tags": []
+        "tags": [
+          "Architecture",
+          "Design",
+          "Flow",
+          "Instagram"
+        ]
       },
       {
         "file": "Stack Overflow Architecture.jpg",
         "displayName": "Stack Overflow Architecture (bytebytego)",
-        "tags": []
+        "tags": [
+          "Architecture",
+          "Design",
+          "Flow",
+          "Stack Overflow"
+        ]
       },
       {
         "file": "Tickets booking system.jpg",
         "displayName": "Tickets booking system (bytebytego)",
-        "tags": []
+        "tags": [
+          "Architecture",
+          "Design",
+          "Flow",
+          "Ticket",
+          "Booking"
+        ]
       },
       {
         "file": "Twitter Architecture 2022.png",
         "displayName": "Twitter Architecture 2022",
-        "tags": []
+        "tags": [
+          "Architecture",
+          "Design",
+          "Flow",
+          "Twitter"
+        ]
       }
     ]
   },
@@ -990,27 +1661,52 @@
       {
         "file": "How do modern browsers work.jpg",
         "displayName": "How do modern browsers work?",
-        "tags": []
+        "tags": [
+          "Browser",
+          "Concept"
+        ]
       },
       {
         "file": "How does the browser render a web page.jpg",
         "displayName": "How does the browser render a web page? (bytebytego)",
-        "tags": []
+        "tags": [
+          "DOM",
+          "CSSOM",
+          "Browser"
+        ]
       },
       {
         "file": "MVC, MVP, MVVM, MVVMC, VIPER.jpg",
         "displayName": "MVC, MVP, MVVM, MVVMC, VIPER pattern (bytebytego)",
-        "tags": []
+        "tags": [
+          "MVC",
+          "MVP",
+          "MVVM",
+          "MVVMC",
+          "VIPER",
+          "Pattern",
+          "Comparison"
+        ]
       },
       {
         "file": "URL, URI, URN.jpg",
         "displayName": "URL vs URI vs URN (bytebytego)",
-        "tags": []
+        "tags": [
+          "URL",
+          "URI",
+          "URN",
+          "Comparison",
+          "Concept"
+        ]
       },
       {
         "file": "What happens when you type a URL into your browser.jpg",
         "displayName": "What happens when you type a URL into your browser? (bytebytego)",
-        "tags": []
+        "tags": [
+          "URL",
+          "Browser",
+          "DNS"
+        ]
       }
     ]
   }
