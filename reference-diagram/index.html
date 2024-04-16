@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Reference Diagram V1</title>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="ReferenceDiagram.css"> 
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="ReferenceDiagram.js"></script>
+</head>
+<body onload="goDefault()">
+  <div id="banner" class="bg-primary text-light"><h1><b>Reference Diagram</b></h1></div>
+  <div id="query">
+    <input id="tagFilterInput" type="text" class="text-input" onkeyup="javascript: filterByTag();" placeholder="Filter by tag ..."/>
+    <input id="keywordFilterInput" type="text" class="text-input" onkeyup="javascript: filterByKeyword();" placeholder="Filter by keyword ..."/>
+    <input type="button" class="btn-type" onclick="javascript: goQuestionBank('Architecture')" value="Architecture"/>
+  </div>
+  <div id="resultBody"></div>
+</body>
+</html>
