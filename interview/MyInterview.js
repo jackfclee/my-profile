@@ -18,7 +18,7 @@ let xmlDocs = {
   Web: loadXMLDoc("MyInterview-Web.xml"),
 };
 let xslDoc = loadXMLDoc("MyInterview.xsl");
-let currentXmlDoc = xmlDocs['Architecture'];
+let currentXmlDoc = mergeXMLDocs(xmlDocs);
 let filterKey = "*";
 let filterType = "";
 let filterQuestion = "";
@@ -95,5 +95,28 @@ function goQuestionBank(which) {
 function resetInput() {
   document.getElementById('typeFilterInput').value = '';
   document.getElementById('questionFilterInput').value = '';
+  currentXmlDoc = mergeXMLDocs(xmlDocs);
   getQuestion();
+}
+
+function mergeXMLDocs(xmlDocs) {
+  // Create a new XML document to hold the merged entries
+  let parser = new DOMParser();
+  let xmlDoc = parser.parseFromString("<entries></entries>", "application/xml");
+  let root = xmlDoc.getElementsByTagName("entries")[0];
+
+  // Iterate over each XML document in the xmlDocs object
+  Object.values(xmlDocs).forEach(doc => {
+    // Extract all entry nodes
+    let entries = doc.getElementsByTagName("entry");
+
+    // Append each entry to the root of the new XML document
+    for (let i = 0; i < entries.length; i++) {
+      // Import the entry node into the new XML document
+      let importedNode = xmlDoc.importNode(entries[i], true);
+      root.appendChild(importedNode);
+    }
+  });
+
+  return xmlDoc;
 }
