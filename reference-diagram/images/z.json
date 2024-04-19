@@ -144,6 +144,15 @@
     "displayName": "API microservices",
     "references": [
       {
+        "file": "9 Best Practices for Building Microservices.webp",
+        "displayName": "9 Best Practices for Building Microservices (bytebytego)",
+        "tags": [
+          "Best",
+          "Practices",
+          "Microservices"
+        ]
+      },
+      {
         "file": "9 Types API Testing.gif",
         "displayName": "9 Types API Testing (bytebytego)",
         "tags": [
@@ -264,6 +273,25 @@
           "Orchestration",
           "Choreography",
           "Microservices"
+        ]
+      },
+      {
+        "file": "REST API Design.gif",
+        "displayName": "REST API Design",
+        "tags": [
+          "REST",
+          "API",
+          "Design",
+          "Concept"
+        ]
+      },
+      {
+        "file": "REST vs GraphQL.gif",
+        "displayName": "REST vs GraphQL (bytebytego)",
+        "tags": [
+          "REST",
+          "GraphQL",
+          "Comparison"
         ]
       },
       {
@@ -427,6 +455,18 @@
           "Design",
           "Layer",
           "Architecture"
+        ]
+      },
+      {
+        "file": "The Fantastic Four of System Design.gif",
+        "displayName": "The Fantastic Four of System Design (bytebytego)",
+        "tags": [
+          "System",
+          "Design",
+          "Scalability",
+          "Availability",
+          "Reliability",
+          "Performance"
         ]
       },
       {
@@ -684,6 +724,14 @@
         ]
       },
       {
+        "file": "Most Important AWS services to learn.jpg",
+        "displayName": "Most Important AWS services to learn (bytebytego)",
+        "tags": [
+          "AWS",
+          "Product"
+        ]
+      },
+      {
         "file": "What is cloud native.jpg",
         "displayName": "What is cloud native? (bytebytego)",
         "tags": [
@@ -725,6 +773,14 @@
           "Filter",
           "Map",
           "Reduce"
+        ]
+      },
+      {
+        "file": "Concurrency is not Parallelism.gif",
+        "displayName": "Concurrency is not Parallelism (bytebytego)",
+        "tags": [
+          "Concurrency",
+          "Parallelism"
         ]
       },
       {
@@ -770,6 +826,15 @@
     "displayName": "Container",
     "references": [
       {
+        "file": "CICD Tools.webp",
+        "displayName": "CICD Tools (bytebytego)",
+        "tags": [
+          "CICD",
+          "DevOps",
+          "Tool"
+        ]
+      },
+      {
         "file": "Docker vs Container vs Podman.jpg",
         "displayName": "Docker vs Container vs Podman",
         "tags": [
@@ -778,6 +843,16 @@
           "Container",
           "Podman",
           "Comparison"
+        ]
+      },
+      {
+        "file": "How does Docker work (animated).gif",
+        "displayName": "How does Docker work? (bytebytego)",
+        "tags": [
+          "Docker",
+          "Flow",
+          "Practice",
+          "Development"
         ]
       },
       {
@@ -945,13 +1020,21 @@
         ]
       },
       {
+        "file": "Types of Databases.gif",
+        "displayName": "Types of Databases",
+        "tags": [
+          "Type",
+          "Databases",
+          "Comparison"
+        ]
+      },
+      {
         "file": "Upload a file to S3.jpg",
         "displayName": "Upload a file to S3",
         "tags": [
           "AWS",
           "Storage",
           "S3",
-          "Upload",
           "File",
           "Flow"
         ]
@@ -1196,6 +1279,16 @@
     "displayName": "Messaging (Queue and PubSub)",
     "references": [
       {
+        "file": "Can Kafka lose messages.webp",
+        "displayName": "Can Kafka lose messages? (bytebytego)",
+        "tags": [
+          "Kafka",
+          "Messaging",
+          "Flow",
+          "Resilience"
+        ]
+      },
+      {
         "file": "How do Message Queues evolve.gif",
         "displayName": "How do Message Queues evolve? (bytebytego)",
         "tags": [
@@ -1249,12 +1342,12 @@
       },
       {
         "file": "Cloud Load Balancer CheatSheet.gif",
-        "displayName": "Cloud Load Balancer CheatSheet",
+        "displayName": "Cloud Load Balancer CheatSheet (bytebytego)",
         "tags": [
           "Cloud",
           "Load",
           "Balancer",
-          "CheatSheet"
+          "Cheatsheet"
         ]
       },
       {
@@ -1507,6 +1600,16 @@
         ]
       },
       {
+        "file": "CheatSheet for Designing Secure Systems.gif",
+        "displayName": "CheatSheet for Designing Secure Systems (bytebytego)",
+        "tags": [
+          "Cheatsheet",
+          "Design",
+          "Secure",
+          "System"
+        ]
+      },
+      {
         "file": "Encoding vs Encryption vs Tokenization.webp",
         "displayName": "Encoding vs Encryption vs Tokenization (bytebytego)",
         "tags": [
@@ -1681,6 +1784,17 @@
           "Flow",
           "Map",
           "Google"
+        ]
+      },
+      {
+        "file": "How Netflix really uses Java.gif",
+        "displayName": "How Netflix really uses Java? (bytebytego)",
+        "tags": [
+          "Netflix",
+          "Coding",
+          "Design",
+          "Flow",
+          "Java"
         ]
       },
       {
