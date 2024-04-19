@@ -11,7 +11,7 @@ if len(sys.argv) < 2:
 root_path = sys.argv[1]
 
 # Define image extensions you expect to encounter
-image_extensions = {'.jpg', '.jpeg', '.png', '.gif', '.bmp'}
+image_extensions = {'.jpg', '.jpeg', '.png', '.gif', '.bmp', '.webp'}
 
 # Initialize data from existing JSON file if it exists
 try:

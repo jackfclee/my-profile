@@ -417,6 +417,24 @@
           "Layer",
           "Architecture"
         ]
+      },
+      {
+        "file": "Top 9 System Integration.webp",
+        "displayName": "Top 9 System Integration",
+        "tags": [
+          "System",
+          "Integration",
+          "Comparison",
+          "PubSub",
+          "Gateway",
+          "Peer-to-Peer",
+          "Request-Response",
+          "Event-Sourcing",
+          "ETL",
+          "Orchestrator",
+          "Streaming Processing",
+          "Batching"
+        ]
       }
     ]
   },
@@ -695,6 +713,14 @@
         "tags": [
           "Diagram",
           "Code"
+        ]
+      },
+      {
+        "file": "Java Developer Roadmap 2023.webp",
+        "displayName": "",
+        "tags": [
+          "Java",
+          "Roadmap"
         ]
       },
       {
