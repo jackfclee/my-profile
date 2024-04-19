@@ -409,6 +409,17 @@
         ]
       },
       {
+        "file": "Software Architecture Styles.jpg",
+        "displayName": "Software Architecture Styles",
+        "tags": [
+          "Software",
+          "Architecture",
+          "Style",
+          "Pattern",
+          "Design"
+        ]
+      },
+      {
         "file": "System Design Interview - Step by Step guide.jpg",
         "displayName": "System Design Interview - Step by Step guide",
         "tags": [
@@ -722,6 +733,17 @@
         "tags": [
           "Diagram",
           "Code"
+        ]
+      },
+      {
+        "file": "How do C++ Java Python work.gif",
+        "displayName": "How do C++, Java, Python work?",
+        "tags": [
+          "C++",
+          "Java",
+          "Python",
+          "Coding",
+          "Comparison"
         ]
       },
       {
@@ -1226,6 +1248,16 @@
         ]
       },
       {
+        "file": "Cloud Load Balancer CheatSheet.gif",
+        "displayName": "Cloud Load Balancer CheatSheet",
+        "tags": [
+          "Cloud",
+          "Load",
+          "Balancer",
+          "CheatSheet"
+        ]
+      },
+      {
         "file": "Forward Proxy and Reverse Proxy.jpg",
         "displayName": "Forward Proxy and Reverse Proxy (bytebytego)",
         "tags": [
@@ -1454,6 +1486,26 @@
     "topic": "security",
     "displayName": "Security",
     "references": [
+      {
+        "file": "12 Tips for API Security.gif",
+        "displayName": "12 Tips for API Security (bytebytego)",
+        "tags": [
+          "API",
+          "Security",
+          "HTTPS",
+          "OAuths",
+          "WebAuthn",
+          "Key",
+          "Authorization",
+          "Rate Limiting",
+          "OWASP",
+          "Allowlist",
+          "Versioning",
+          "Gateway",
+          "Error Handling",
+          "Validation"
+        ]
+      },
       {
         "file": "Encoding vs Encryption vs Tokenization.webp",
         "displayName": "Encoding vs Encryption vs Tokenization (bytebytego)",
