@@ -420,7 +420,7 @@
       },
       {
         "file": "Top 9 System Integration.webp",
-        "displayName": "Top 9 System Integration",
+        "displayName": "Top 9 System Integrations",
         "tags": [
           "System",
           "Integration",
@@ -532,6 +532,15 @@
     "topic": "cicd-devops",
     "displayName": "CICD and DevOps",
     "references": [
+      {
+        "file": "12 Factor App.webp",
+        "displayName": "12 Factor App",
+        "tags": [
+          "12",
+          "Factor",
+          "App"
+        ]
+      },
       {
         "file": "CICD pipeline explained in 5 minutes.jpg",
         "displayName": "CICD pipeline explained in 5 minutes",
@@ -870,6 +879,15 @@
         ]
       },
       {
+        "file": "How to Learn SQL.webp",
+        "displayName": "How to Learn SQL (bytebytego)",
+        "tags": [
+          "SQL",
+          "Command",
+          "Syntax"
+        ]
+      },
+      {
         "file": "Inner, Left, Right, Full Join.jpg",
         "displayName": "Inner, Left, Right, Full Join",
         "tags": [
@@ -1152,6 +1170,42 @@
     ]
   },
   {
+    "topic": "messaging",
+    "displayName": "Messaging (Queue and PubSub)",
+    "references": [
+      {
+        "file": "How do Message Queues evolve.gif",
+        "displayName": "How do Message Queues evolve? (bytebytego)",
+        "tags": [
+          "Message",
+          "Messaging",
+          "Queue",
+          "Comparison",
+          "Tool"
+        ]
+      },
+      {
+        "file": "Top 5 Kafka Use Cases.webp",
+        "displayName": "Top 5 Kafka Use Cases (bytebytego)",
+        "tags": [
+          "Kafka",
+          "Use",
+          "Case",
+          "Messaging"
+        ]
+      },
+      {
+        "file": "Why is Kafka fast.jpg",
+        "displayName": "Why is Kafka fast? (bytebytego)",
+        "tags": [
+          "Kafka",
+          "Flow",
+          "Messaging"
+        ]
+      }
+    ]
+  },
+  {
     "topic": "network",
     "displayName": "Network",
     "references": [
@@ -1228,6 +1282,23 @@
           "RPC",
           "Comparison",
           "Flow"
+        ]
+      },
+      {
+        "file": "Internet Traffic Routing Policies.gif",
+        "displayName": "Internet Traffic Routing Policies (bytebytego)",
+        "tags": [
+          "Simple",
+          "Failover",
+          "Geolocation",
+          "Latency",
+          "Multivalue Answer",
+          "Weighted",
+          "DNS",
+          "Internet",
+          "Traffic",
+          "Routing",
+          "Policy"
         ]
       },
       {
@@ -1380,33 +1451,18 @@
     ]
   },
   {
-    "topic": "queue-n-pubsub",
-    "displayName": "Message Queue and PubSub",
-    "references": [
-      {
-        "file": "How do Message Queues evolve.gif",
-        "displayName": "How do Message Queues evolve? (bytebytego)",
-        "tags": [
-          "Message",
-          "Queue",
-          "Comparison",
-          "Tool"
-        ]
-      },
-      {
-        "file": "Why is Kafka fast.jpg",
-        "displayName": "Why is Kafka fast? (bytebytego)",
-        "tags": [
-          "Kafka",
-          "Flow"
-        ]
-      }
-    ]
-  },
-  {
     "topic": "security",
     "displayName": "Security",
     "references": [
+      {
+        "file": "Encoding vs Encryption vs Tokenization.webp",
+        "displayName": "Encoding vs Encryption vs Tokenization (bytebytego)",
+        "tags": [
+          "Encoding",
+          "Encryption",
+          "Tokenization"
+        ]
+      },
       {
         "file": "How SSO works.jpg",
         "displayName": "How Single Sign-On (SSO) works? (bytebytego)",
@@ -1439,6 +1495,20 @@
           "JSON",
           "Concept",
           "Structure"
+        ]
+      },
+      {
+        "file": "REST API Authentication Methods.webp",
+        "displayName": "REST API Authentication Methods (bytebytego)",
+        "tags": [
+          "REST",
+          "API",
+          "Authentication",
+          "Methods",
+          "Basic",
+          "Token",
+          "OAuth",
+          "Key"
         ]
       },
       {
