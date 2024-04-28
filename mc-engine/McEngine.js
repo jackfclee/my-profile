@@ -7,7 +7,8 @@ const qbList = [
   "qb-06-Smart-Analytics-Machine-Learning-and-AI-on-Google-Cloud.xml",
   "qb-07-Serverless-Data-Processing-with-Dataflow-Foundations.xml",
   "qb-08-Serverless-Data-Processing-with-Dataflow-Develop-Pipelines.xml",
-  "qb-09-Serverless-Data-Processing-with-Dataflow-Operations.xml"
+  "qb-09-Serverless-Data-Processing-with-Dataflow-Operations.xml",
+  "qb-10-brain-dump.xml"
 ];
 
 function setQuestions(currentQuestions) {
