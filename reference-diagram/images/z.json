@@ -470,6 +470,24 @@
         ]
       },
       {
+        "file": "Top 5 Trade-offs in System Designs.gif",
+        "displayName": "Top 5 Trade-offs in System Designs",
+        "tags": [
+          "Tradeoff",
+          "System",
+          "Design"
+        ]
+      },
+      {
+        "file": "Top 6 Tools to Turn Code into Beautiful Diagrams.webp",
+        "displayName": "Top 6 Tools to Turn Code into Beautiful Diagrams (bytebytego)",
+        "tags": [
+          "Tools",
+          "Diagram",
+          "Design"
+        ]
+      },
+      {
         "file": "Top 9 System Integration.webp",
         "displayName": "Top 9 System Integrations",
         "tags": [
@@ -537,6 +555,14 @@
         ]
       },
       {
+        "file": "Top 8 Cache Eviction Strategies.gif",
+        "displayName": "Top 8 Cache Eviction Strategies (bytebytego)",
+        "tags": [
+          "Caching",
+          "Eviction"
+        ]
+      },
+      {
         "file": "Top Redis Use Cases.jpg",
         "displayName": "Top Redis Use Cases (bytebytego)",
         "tags": [
@@ -590,6 +616,15 @@
           "12",
           "Factor",
           "App"
+        ]
+      },
+      {
+        "file": "Agile Development with DevOps.gif",
+        "displayName": "Agile Development with DevOps",
+        "tags": [
+          "Agile",
+          "DevOps",
+          "Flow"
         ]
       },
       {
@@ -808,6 +843,14 @@
         "tags": [
           "Java",
           "Roadmap"
+        ]
+      },
+      {
+        "file": "To Crack Coding Interviews.gif",
+        "displayName": "To Crack Coding Interviews",
+        "tags": [
+          "Coding",
+          "Interview"
         ]
       },
       {
@@ -1460,6 +1503,16 @@
         ]
       },
       {
+        "file": "Networking Models.gif",
+        "displayName": "Networking Models",
+        "tags": [
+          "Networking",
+          "Model",
+          "OSI",
+          "TCPIP"
+        ]
+      },
+      {
         "file": "Reliable UDP in Gaming.jpg",
         "displayName": "Reliable UDP in Gaming (bytebytego)",
         "tags": [
@@ -1467,6 +1520,13 @@
           "UDP",
           "Gaming",
           "Flow"
+        ]
+      },
+      {
+        "file": "The Working of Firewall Explained.gif",
+        "displayName": "The Working of Firewall Explained",
+        "tags": [
+          "Firewall"
         ]
       },
       {
@@ -1706,12 +1766,30 @@
         ]
       },
       {
+        "file": "How Linux Works.gif",
+        "displayName": "How Linux Works",
+        "tags": [
+          "Linux",
+          "Flow",
+          "Core"
+        ]
+      },
+      {
         "file": "Linux File Permissions.jpg",
         "displayName": "Linux File Permissions (bytebytego)",
         "tags": [
           "Linux",
           "File",
           "Permissions"
+        ]
+      },
+      {
+        "file": "Linux Files Systems.gif",
+        "displayName": "Linux Files Systems",
+        "tags": [
+          "Linux",
+          "Files",
+          "Systems"
         ]
       },
       {
