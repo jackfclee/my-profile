@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bank>
+  <topic>PDE13 - Brain Dump (google.examcollection.professional-data-engineer.sample.question.2023-dec-26.by.len.184q.vce)</topic>
+  <!-- STRUCTURE DEFINITION:
+  <entry>
+    <question>XXX</question></question>
+    <answer>
+      <options>
+        <option>
+          <valid>false</valid>
+          <detail>XXX</detail>
+        </option>
+      </options>
+    </answer>
+  </entry> 
+  -->
+
+</bank>
