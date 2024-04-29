@@ -69,54 +69,6 @@
   </entry>
 
   <entry>
-    <question>
-You create an important report for your large team in Google Data Studio 360. The report uses Google BigQuery as its data source. You notice that visualizations are not showing data that is less than 1 hour old. What should you do?</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>Disable caching by editing the report settings.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Disable caching in BigQuery by editing table details.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Refresh your browser tab showing the visualizations.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Clear your browser history for the past hour then reload the tab showing the virtualizations.</detail>
-        </option>
-      </options>
-    </answer>Answer:  A
-  </entry>
-  <entry>
-    <question>Flowlogistic is rolling out their real-time inventory tracking system. The tracking devices will all send package-tracking messages, which will now go to a single Google Cloud Pub/Sub topic instead of the Apache Kafka cluster. A subscriber application will then process the messages for real-time reporting and store them in Google BigQuery for historical analysis. You want to ensure the package data can be analyzed over time.
-Which approach should you take?</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>Attach the timestamp on each message in the Cloud Pub/Sub subscriber application as they are received.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Attach the timestamp and Package ID on the outbound message from each publisher device as they are sent to Clod Pub/Sub.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use the NOW () function in BigQuery to record the event’s time.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use the automatically generated timestamp from Cloud Pub/Sub to order the data.</detail>
-        </option>
-      </options>
-    </answer>Answer:  B
-  </entry>
-  <entry>
     <question>Flowlogistic’s management has determined that the current Apache Kafka servers cannot handle the data volume for their real-time inventory tracking system. You need to build a new system on Google Cloud Platform (GCP) that will feed the proprietary tracking software. The system must be able to ingest data from a variety of global sources, process and query in real-time, and store the data reliably. Which combination of GCP products should you choose?</question>
     <answer>
       <options>
@@ -168,29 +120,6 @@ Which two actions should you take? (Choose two.)</question>
     </answer>Answer:  BD
   </entry>
 
-  <entry>
-    <question>Your company is loading comma-separated values (CSV) files into Google BigQuery. The data is fully imported successfully; however, the imported data is not matching byte-to-byte to the source file. What is the most likely cause of this problem?</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>The CSV data loaded in BigQuery is not flagged as CSV.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>The CSV data has invalid rows that were skipped on import.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>The CSV data loaded in BigQuery is not using BigQuery’s default encoding.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>The CSV data has not gone through an ETL phase before loading into BigQuery.</detail>
-        </option>
-      </options>
-    </answer>Answer:  B
-  </entry>
 
   <entry>
     <question>All Google Cloud Bigtable client requests go through a front-end server they are sent to a Cloud Bigtable node.</question>
@@ -264,29 +193,6 @@ Which two actions should you take? (Choose two.)</question>
     </answer>Answer:  B
   </entry>
   <entry>
-    <question>Does Dataflow process batch data pipelines or streaming data pipelines?</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>Only Batch Data Pipelines</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Both Batch and Streaming Data Pipelines</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Only Streaming Data Pipelines</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>None of the above</detail>
-        </option>
-      </options>
-    </answer>Answer:  B
-  </entry>
-  <entry>
     <question>What are two methods that can be used to denormalize tables in BigQuery?</question>
     <answer>
       <options>
@@ -333,75 +239,6 @@ Which two actions should you take? (Choose two.)</question>
     </answer>Answer:  A
   </entry>
   <entry>
-    <question>Which of the following statements is NOT true regarding Bigtable access roles?</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>Using IAM roles, you cannot give a user access to only one table in a project, rather than all tables in a project.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>To give a user access to only one table in a project, grant the user the Bigtable Editor role for that table.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>You can configure access control only at the project level.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>To give a user access to only one table in a project, you must configure access through your application.</detail>
-        </option>
-      </options>
-    </answer>Answer:  B
-  </entry>
-  <entry>
-    <question>Which row keys are likely to cause a disproportionate number of reads and/or writes on a particular node in a Bigtable cluster (select 2 answers)?</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>A sequential numeric ID</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>A timestamp followed by a stock symbol</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>A non-sequential numeric ID</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>A stock symbol followed by a timestamp</detail>
-        </option>
-      </options>
-    </answer>Answer:  AB
-  </entry>
-  <entry>
-    <question>Which of these statements about BigQuery caching is true?</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>By default, a query's results are not cached.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>BigQuery caches query results for 48 hours.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Query results are cached even if you specify a destination table.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>There is no charge for a query that retrieves its results from cache.</detail>
-        </option>
-      </options>
-    </answer>Answer:  D
-  </entry>
-  <entry>
     <question>Which Java SDK class can you use to run your Dataflow programs locally?</question>
     <answer>
       <options>
@@ -423,29 +260,6 @@ Which two actions should you take? (Choose two.)</question>
         </option>
       </options>
     </answer>Answer:  B
-  </entry>
-  <entry>
-    <question>How would you query specific partitions in a BigQuery table?</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>Use the DAY column in the WHERE clause</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use the EXTRACT(DAY) clause</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use the PARTITIONTIME pseudo-column in the WHERE clause</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use DATE BETWEEN in the WHERE clause</detail>
-        </option>
-      </options>
-    </answer>Answer:  C
   </entry>
   <entry>
     <question>Which is not a valid reason for poor Cloud Bigtable performance?</question>
@@ -541,29 +355,6 @@ Which two actions should you take? (Choose two.)</question>
     </answer>Answer:  A
   </entry>
   <entry>
-    <question>Which of the following are examples of hyperparameters? (Select 2 answers.)</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>Number of hidden layers</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Number of nodes in each hidden layer</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Biases</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Weights</detail>
-        </option>
-      </options>
-    </answer>Answer:  AB
-  </entry>
-  <entry>
     <question>
 Cloud Dataproc is a managed Apache Hadoop and Apache service.</question>
     <answer>
@@ -613,61 +404,7 @@ Which action can a Cloud Dataproc Viewer perform?</question>
     </answer>Answer:  D
   </entry>
 
-  <entry>
-    <question>9
 
-Which is the preferred method to use to avoid hotspotting in time series data in Bigtable?</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>Field promotion</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Randomization</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Salting</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Hashing</detail>
-        </option>
-      </options>
-    </answer>Answer:  A
-  </entry>
-
-  <entry>
-    <question>6
-
-You have a data pipeline with a Cloud Dataflow job that aggregates and writes time series metrics to Cloud Bigtable. This data feeds a dashboard used by thousands of users across the organization. You need to support additional concurrent users and reduce the amount of time required to write the data. Which two actions should you take? (Choose two.)</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>Configure your Cloud Dataflow pipeline to use local execution</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Increase the maximum number of Cloud Dataflow workers by setting maxNumWorkers in PipelineOptions</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Increase the number of nodes in the Cloud Bigtable cluster</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Modify your Cloud Dataflow pipeline to use the Flatten transform before writing to Cloud Bigtable</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Modify your Cloud Dataflow pipeline to use the CoGroupByKey transform before writing to Cloud Bigtable</detail>
-        </option>
-      </options>
-    </answer>Answer:  DE
-  </entry>
   <entry>
     <question>9
 
@@ -701,32 +438,6 @@ You are running a pipeline in Cloud Dataflow that receives messages from a Cloud
       </options>
     </answer>Answer:  BE
   </entry>
-  <entry>
-    <question>1
-
-You work on a regression problem in a natural language processing domain, and you have 100M labeled exmaples in your dataset. You have randomly shuffled your data and split your dataset into train and test samples (in a 90/10 ratio). After you trained the neural network and evaluated your model on a test set, you discover that the root-mean-squared error (RMSE) of your model is twice as high on the train set as on the test set. How should you improve the performance of your model?</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>Increase the share of the test sample in the train-test split.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Try to collect more data and increase the size of your dataset.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Try out regularization techniques (e.g., dropout of batch normalization) to avoid overfitting.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Increase the complexity of your model by, e.g., introducing an additional layer or increase sizing the size of vocabularies or n-grams used.</detail>
-        </option>
-      </options>
-    </answer>Answer:  D
-  </entry>
-
   <entry>
     <question>9
 
@@ -807,31 +518,6 @@ What should you do?</question>
   </entry>
 
   <entry>
-    <question>3
-
-Your analytics team wants to build a simple statistical model to determine which customers are most likely to work with your company again, based on a few different metrics. They want to run the model on Apache Spark, using data housed in Google Cloud Storage, and you have recommended using Google Cloud Dataproc to execute this job. Testing has shown that this workload can run in approximately 30 minutes on a 15-node cluster, outputting the results into Google BigQuery. The plan is to run this workload weekly. How should you optimize the cluster for cost?</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>Migrate the workload to Google Cloud Dataflow</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use pre-emptible virtual machines (VMs) for the cluster</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use a higher-memory node so that the job runs faster</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use SSDs on the worker nodes so that the job can run faster</detail>
-        </option>
-      </options>
-    </answer>Answer:  A
-  </entry>
-  <entry>
     <question>7
 
 You are designing storage for two relational tables that are part of a 10-TB database on Google Cloud. You want to support transactions that scale horizontally. You also want to optimize data for range queries on nonkey columns. What should you do?</question>
@@ -867,116 +553,6 @@ You are designing storage for two relational tables that are part of a 10-TB dat
         </option>
       </options>
     </answer>Answer:  D
-  </entry>
-  <entry>
-    <question>9
-
-You are a retailer that wants to integrate your online sales capabilities with different in-home assistants, such as Google Home. You need to interpret customer voice commands and issue an order to the backend systems. Which solutions should you choose?</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>Cloud Speech-to-Text API</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Cloud Natural Language API</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Dialogflow Enterprise Edition</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Cloud AutoML Natural Language</detail>
-        </option>
-      </options>
-    </answer>Answer:  D
-  </entry>
-  <entry>
-    <question>5
-
-You need to move 2 PB of historical data from an on-premises storage appliance to Cloud Storage within six months, and your outbound network capacity is constrained to 20 Mb/sec. How should you migrate this data to Cloud Storage?</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>Use Transfer Appliance to copy the data to Cloud Storage</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use gsutil cp –J to compress the content being uploaded to Cloud Storage</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Create a private URL for the historical data, and then use Storage Transfer Service to copy the data to Cloud Storage</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use trickle or ionice along with gsutil cp to limit the amount of bandwidth gsutil utilizes to less than 20 Mb/sec so it does not interfere with the production traffic</detail>
-        </option>
-      </options>
-    </answer>Answer:  A
-  </entry>
-  <entry>
-    <question>8
-
-You want to automate execution of a multi-step data pipeline running on Google Cloud. The pipeline includes Cloud Dataproc and Cloud Dataflow jobs that have multiple dependencies on each other. You want to use managed services where possible, and the pipeline will run every day. Which tool should you use?</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>cron</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Cloud Composer</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Cloud Scheduler</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Workflow Templates on Cloud Dataproc</detail>
-        </option>
-      </options>
-    </answer>Answer:  D
-  </entry>
-  <entry>
-    <question>1
-
-You are integrating one of your internal IT applications and Google BigQuery, so users can query BigQuery from the application’s interface. You do not want individual users to authenticate to BigQuery and you do not want to give them access to the dataset. You need to securely access BigQuery from your IT
- application.
-What should you do?</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>Create groups for your users and give those groups access to the dataset</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Integrate with a single sign-on (SSO) platform, and pass each user’s credentials along with the query request</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Create a service account and grant dataset access to that accoun</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use the service account’s private key to access the dataset</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Create a dummy user and grant dataset access to that use</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Store the username and password for that user in a file on the files system, and use those credentials to access the BigQuery dataset</detail>
-        </option>
-      </options>
-    </answer>Answer:  C
   </entry>
 
   <entry>
@@ -1025,31 +601,6 @@ You have a data pipeline that writes data to Cloud Bigtable using well-designed 
     </answer>Answer:  AC
   </entry>
   <entry>
-    <question>2
-
-You work for a manufacturing company that sources up to 750 different components, each from a different supplier. You’ve collected a labeled dataset that has on average 1000 examples for each unique component. Your team wants to implement an app to help warehouse workers recognize incoming components based on a photo of the component. You want to implement the first working version of this app (as Proof-Of-Concept) within a few working days. What should you do?</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>Use Cloud Vision AutoML with the existing dataset.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use Cloud Vision AutoML, but reduce your dataset twice.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use Cloud Vision API by providing custom labels as recognition hints.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Train your own image recognition model leveraging transfer learning techniques.</detail>
-        </option>
-      </options>
-    </answer>Answer:  A
-  </entry>
-  <entry>
     <question>6
 
 Government regulations in your industry mandate that you have to maintain an auditable record of access to certain types of datA. Assuming that all expiring logs will be archived correctly, where should you store data that is subject to that mandate?</question>
@@ -1081,46 +632,6 @@ Government regulations in your industry mandate that you have to maintain an aud
         </option>
       </options>
     </answer>Answer:  B
-  </entry>
-  <entry>
-    <question>7
-
-You need to set access to BigQuery for different departments within your company. Your solution should comply with the following requirements:
-Each department should have access only to their data.
-Each department will have one or more leads who need to be able to create and update tables and provide them to their team.
-Each department has data analysts who need to be able to query but not modify data. How should you set access to the data in BigQuery?</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>Create a dataset for each departmen</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Assign the department leads the role of OWNER, and assign the data analysts the role of WRITER on their dataset.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Create a dataset for each departmen</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Assign the department leads the role of WRITER, and assign the data analysts the role of READER on their dataset.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Create a table for each departmen</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Assign the department leads the role of Owner, and assign the data analysts the role of Editor on the project the table is in. G. Create a table for each departmen</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Assign the department leads the role of Editor, and assign the data analysts the role of Viewer on the project the table is in.</detail>
-        </option>
-      </options>
-    </answer>Answer:  D
   </entry>
   <entry>
     <question>2
@@ -1250,32 +761,6 @@ L. Replicate external Hive tables to the native ones.</detail>
     </answer>Answer:  BC
   </entry>
   <entry>
-    <question>6
-
-You are deploying MariaDB SQL databases on GCE VM Instances and need to configure monitoring and alerting. You want to collect metrics including network connections, disk IO and replication status from MariaDB with minimal development effort and use StackDriver for dashboards and alerts.
-What should you do?</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>Install the OpenCensus Agent and create a custom metric collection application with a StackDriver exporter.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Place the MariaDB instances in an Instance Group with a Health Check.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Install the StackDriver Logging Agent and configure fluentd in_tail plugin to read MariaDB logs.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Install the StackDriver Agent and configure the MySQL plugin.</detail>
-        </option>
-      </options>
-    </answer>Answer:  C
-  </entry>
-  <entry>
     <question>9
 
 You have a petabyte of analytics data and need to design a storage and processing platform for it. You must be able to perform data warehouse-style analytics on the data in Google Cloud and expose the dataset as files for batch analysis tools in other cloud providers. What should you do?</question>
@@ -1327,60 +812,6 @@ What should you do?
         <option>
           <valid>false</valid>
           <detail>Use federated tables in BigQuery with queries to detect errors and perform transformations.</detail>
-        </option>
-      </options>
-    </answer>Answer:  A
-  </entry>
-  <entry>
-    <question>5
-
-The marketing team at your organization provides regular updates of a segment of your customer dataset. The marketing team has given you a CSV with 1 million records that must be updated in BigQuery. When you use the UPDATE statement in BigQuery, you receive a quotaExceeded error. What should you do?</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>Reduce the number of records updated each day to stay within the BigQuery UPDATE DML statement limit.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Increase the BigQuery UPDATE DML statement limit in the Quota management section of the Google Cloud Platform Console.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Split the source CSV file into smaller CSV files in Cloud Storage to reduce the number of BigQuery UPDATE DML statements per BigQuery job.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Import the new records from the CSV file into a new BigQuery tabl</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Create a BigQuery job that merges the new records with the existing records and writes the results to a new BigQuery table.</detail>
-        </option>
-      </options>
-    </answer>Answer:  A
-  </entry>
-  <entry>
-    <question>0
-
-You work for an advertising company, and you’ve developed a Spark ML model to predict click-through rates at advertisement blocks. You’ve been developing everything at your on-premises data center, and now your company is migrating to Google Cloud. Your data center will be migrated to BigQuery. You periodically retrain your Spark ML models, so you need to migrate existing training pipelines to Google Cloud. What should you do?</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>Use Cloud ML Engine for training existing Spark ML models</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Rewrite your models on TensorFlow, and start using Cloud ML Engine</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use Cloud Dataproc for training existing Spark ML models, but start reading data directly from BigQuery</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Spin up a Spark cluster on Compute Engine, and train Spark ML models on the data exported from BigQuery</detail>
         </option>
       </options>
     </answer>Answer:  A
