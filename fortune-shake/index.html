@@ -31,6 +31,7 @@
 <script>
   if (window.DeviceMotionEvent) {
     window.addEventListener('devicemotion', function(event) {
+      alert(`${event.acceleration.x} m/s2`);
       var acceleration = event.accelerationIncludingGravity;
       var shaking = Math.abs(acceleration.x) + Math.abs(acceleration.y) + Math.abs(acceleration.z);
 
