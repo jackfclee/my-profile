@@ -21,7 +21,7 @@
       },
       {
         "file": "GPT (Generative Pre-Train) Timeline.png",
-        "displayName": "",
+        "displayName": "GPT (Generative Pre-Train) Timeline",
         "tags": [
           "GPT",
           "Timeline"
@@ -144,6 +144,15 @@
     "displayName": "API microservices",
     "references": [
       {
+        "file": "18 most common HTTP status codes.gif",
+        "displayName": "18 most common HTTP status codes",
+        "tags": [
+          "HTTP",
+          "Status",
+          "Code"
+        ]
+      },
+      {
         "file": "9 Best Practices for Building Microservices.webp",
         "displayName": "9 Best Practices for Building Microservices (bytebytego)",
         "tags": [
@@ -228,6 +237,15 @@
         ]
       },
       {
+        "file": "API Tools Ecosystem.gif",
+        "displayName": "API Tools Ecosystem",
+        "tags": [
+          "API",
+          "Tool",
+          "Ecosystem"
+        ]
+      },
+      {
         "file": "Design Effective and Safe APIs.jpg",
         "displayName": "Design Effective and Safe APIs (bytebytego)",
         "tags": [
@@ -242,7 +260,7 @@
       },
       {
         "file": "Evolution of an API Architecture.jpg",
-        "displayName": "",
+        "displayName": "Evolution of an API Architecture",
         "tags": [
           "Monolith",
           "Direct",
@@ -264,6 +282,14 @@
           "Code",
           "API",
           "Comparison"
+        ]
+      },
+      {
+        "file": "Microservice Best Practices.jpg",
+        "displayName": "Microservice Best Practices (bytebytego)",
+        "tags": [
+          "Microservice",
+          "Best Practices"
         ]
       },
       {
@@ -316,7 +342,7 @@
         ]
       },
       {
-        "file": "What does API Gateway do.jpg",
+        "file": "What does API Gateway do.gif",
         "displayName": "What does API Gateway do (bytebytego)",
         "tags": [
           "API",
@@ -336,6 +362,21 @@
         "tags": [
           "Design",
           "Pattern"
+        ]
+      },
+      {
+        "file": "9 Data Terms Explained.jpg",
+        "displayName": "9 Data Terms Explained",
+        "tags": [
+          "Data Warehouse",
+          "Data Lake",
+          "Data Mart",
+          "Data Pipeline",
+          "Data Mesh",
+          "Delta Lake",
+          "Data Governance",
+          "Big Data Processing",
+          "Cloud Computing"
         ]
       },
       {
@@ -448,6 +489,23 @@
         ]
       },
       {
+        "file": "System Design Blueprint - The Ultimate Guide.jpg",
+        "displayName": "System Design Blueprint - The Ultimate Guide (bytebytego)",
+        "tags": [
+          "System Design",
+          "Guide"
+        ]
+      },
+      {
+        "file": "System Design Cheat Sheet.jpg",
+        "displayName": "System Design Cheat Sheet (bytebytego)",
+        "tags": [
+          "Availability",
+          "Throughput",
+          "Scalability"
+        ]
+      },
+      {
         "file": "System Design Interview - Step by Step guide.jpg",
         "displayName": "System Design Interview - Step by Step guide",
         "tags": [
@@ -470,6 +528,13 @@
         ]
       },
       {
+        "file": "Top 12 concepts every programmers must know.gif",
+        "displayName": "Top 12 concepts every programmers must know",
+        "tags": [
+          "Concept"
+        ]
+      },
+      {
         "file": "Top 5 Trade-offs in System Designs.gif",
         "displayName": "Top 5 Trade-offs in System Designs",
         "tags": [
@@ -485,6 +550,18 @@
           "Tools",
           "Diagram",
           "Design"
+        ]
+      },
+      {
+        "file": "Top 6 Xaas - Anything as a service model.gif",
+        "displayName": "Top 6 Xaas - Anything as a service model",
+        "tags": [
+          "STaaS",
+          "DaaS",
+          "FaaS",
+          "IaaS",
+          "PaaS",
+          "SaaS"
         ]
       },
       {
@@ -619,6 +696,14 @@
         ]
       },
       {
+        "file": "12 steps to optimize software delivery.gif",
+        "displayName": "12 steps to optimize software delivery",
+        "tags": [
+          "Software delivery",
+          "Optimization"
+        ]
+      },
+      {
         "file": "Agile Development with DevOps.gif",
         "displayName": "Agile Development with DevOps",
         "tags": [
@@ -738,6 +823,21 @@
         ]
       },
       {
+        "file": "Data Pipelines on AWS, Azure, GCP.gif",
+        "displayName": "Data Pipelines on AWS, Azure, GCP",
+        "tags": [
+          "Data",
+          "Pipelines",
+          "AWS",
+          "Azure",
+          "GCP",
+          "Comparison",
+          "Lake",
+          "Ingestion",
+          "Warehouse"
+        ]
+      },
+      {
         "file": "Google Sheets as backend.jpg",
         "displayName": "Levels.fyi scaled to millions with Google Sheets as backend",
         "tags": [
@@ -756,6 +856,15 @@
           "Lambda",
           "AWS",
           "Flow"
+        ]
+      },
+      {
+        "file": "Microsoft Azure Overall Network Architecture.gif",
+        "displayName": "Microsoft Azure Overall Network Architecture",
+        "tags": [
+          "Azure",
+          "Network",
+          "Architecture"
         ]
       },
       {
@@ -789,6 +898,19 @@
           "SOILD",
           "Design",
           "Pattern"
+        ]
+      },
+      {
+        "file": "Algorithms and Data Structure.gif",
+        "displayName": "Algorithms and Data Structure",
+        "tags": [
+          "Algorithms",
+          "Data Structure",
+          "Time Complexity",
+          "Search Algorithms",
+          "Sorting Algorithms",
+          "Graph Traversal",
+          "Tree Traversal Algorithms"
         ]
       },
       {
@@ -839,7 +961,7 @@
       },
       {
         "file": "Java Developer Roadmap 2023.webp",
-        "displayName": "",
+        "displayName": "Java Developer Roadmap 2023",
         "tags": [
           "Java",
           "Roadmap"
@@ -851,6 +973,16 @@
         "tags": [
           "Coding",
           "Interview"
+        ]
+      },
+      {
+        "file": "Top 4 Data Sharding Algorithms.gif",
+        "displayName": "Top 4 Data Sharding Algorithms",
+        "tags": [
+          "Data",
+          "Sharding",
+          "Algorithms",
+          "Hash"
         ]
       },
       {
@@ -909,6 +1041,14 @@
         ]
       },
       {
+        "file": "Kubernetes K8S.jpg",
+        "displayName": "Kubernetes K8S",
+        "tags": [
+          "Kubernetes",
+          "K8S"
+        ]
+      },
+      {
         "file": "Kubernetes-1-comparison.png",
         "displayName": "Kubernetes comparison (bytebytego)",
         "tags": [
@@ -960,8 +1100,8 @@
     ]
   },
   {
-    "topic": "datastore",
-    "displayName": "Datastore",
+    "topic": "data",
+    "displayName": "Data",
     "references": [
       {
         "file": "At most once, At least once, Exactly once.png",
@@ -972,6 +1112,16 @@
           "Exactly-once",
           "Comparison",
           "Concept"
+        ]
+      },
+      {
+        "file": "DB Types.jpg",
+        "displayName": "DB Types (bytebytego)",
+        "tags": [
+          "Database",
+          "Types",
+          "NOSQL",
+          "SQL"
         ]
       },
       {
@@ -1051,6 +1201,14 @@
           "Tradeoffs",
           "Data",
           "Replication"
+        ]
+      },
+      {
+        "file": "Roadmap to mastering Data Engineering.gif",
+        "displayName": "Roadmap to mastering Data Engineering",
+        "tags": [
+          "Data Engineering",
+          "Roadmap"
         ]
       },
       {
@@ -1332,6 +1490,23 @@
         ]
       },
       {
+        "file": "Data Pipeline Overview.gif",
+        "displayName": "Data Pipeline Overview (bytebytego)",
+        "tags": [
+          "Data Pipeline"
+        ]
+      },
+      {
+        "file": "Design a Notification Push System.jpg",
+        "displayName": "Design a Notification Push System (bytebytego)",
+        "tags": [
+          "Push",
+          "Notification",
+          "Design",
+          "Queue"
+        ]
+      },
+      {
         "file": "How do Message Queues evolve.gif",
         "displayName": "How do Message Queues evolve? (bytebytego)",
         "tags": [
@@ -1340,6 +1515,16 @@
           "Queue",
           "Comparison",
           "Tool"
+        ]
+      },
+      {
+        "file": "Top 5 Kafka Use Cases.gif",
+        "displayName": "Top 5 Kafka Use Cases",
+        "tags": [
+          "Kafka",
+          "Use",
+          "Case",
+          "Messaging"
         ]
       },
       {
@@ -1453,6 +1638,14 @@
         ]
       },
       {
+        "file": "IPv4 vs IPv6.gif",
+        "displayName": "IPv4 vs IPv6 (bytebytego)",
+        "tags": [
+          "IPv4",
+          "IPv6"
+        ]
+      },
+      {
         "file": "Internet Traffic Routing Policies.gif",
         "displayName": "Internet Traffic Routing Policies (bytebytego)",
         "tags": [
@@ -1527,6 +1720,15 @@
         "displayName": "The Working of Firewall Explained",
         "tags": [
           "Firewall"
+        ]
+      },
+      {
+        "file": "Top 12 Load Balancing Techniques.gif",
+        "displayName": "Top 12 Load Balancing Techniques",
+        "tags": [
+          "Load Balancer",
+          "Load Balancing",
+          "Techniques"
         ]
       },
       {
@@ -1692,6 +1894,19 @@
         ]
       },
       {
+        "file": "How does SSO work.jpg",
+        "displayName": "How does SSO work (bytebytego)",
+        "tags": [
+          "SSO",
+          "Single",
+          "Sign-on",
+          "Security",
+          "Token",
+          "Flow",
+          "SAML"
+        ]
+      },
+      {
         "file": "How to design secure web API.jpg",
         "displayName": "How to design secure web API",
         "tags": [
@@ -1699,6 +1914,15 @@
           "Token",
           "HMAC",
           "Algorithm"
+        ]
+      },
+      {
+        "file": "How to store passwords in DB.jpg",
+        "displayName": "How to store passwords in DB",
+        "tags": [
+          "Password",
+          "Database",
+          "Storage"
         ]
       },
       {
@@ -1710,6 +1934,20 @@
           "JSON",
           "Concept",
           "Structure"
+        ]
+      },
+      {
+        "file": "REST API Authentication Methods.gif",
+        "displayName": "REST API Authentication Methods",
+        "tags": [
+          "REST",
+          "API",
+          "Authentication",
+          "Methods",
+          "Basic",
+          "Token",
+          "OAuth",
+          "Key"
         ]
       },
       {
@@ -1742,6 +1980,17 @@
         ]
       },
       {
+        "file": "Symmetric vs Asymmetric Encryption.jpg",
+        "displayName": "Symmetric vs Asymmetric Encryption (bytebytego)",
+        "tags": [
+          "Symmetric Encryption",
+          "Asymmetric Encryption",
+          "Encryption",
+          "Symmetric",
+          "Asymmetric"
+        ]
+      },
+      {
         "file": "The payment security - problem and solution.png",
         "displayName": "The payment security - problem and solution",
         "tags": [
@@ -1749,6 +1998,36 @@
           "Problem",
           "Solution",
           "Techniques"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "soft-skills",
+    "references": [
+      {
+        "file": "Everything you can do in Excel.jpg",
+        "displayName": "Everything you can do in Excel",
+        "tags": [
+          "Excel"
+        ]
+      },
+      {
+        "file": "How to Cope wih Work Stress.jpg",
+        "displayName": "How to Cope wih Work Stress",
+        "tags": [
+          "Work Stress",
+          "Stress",
+          "Soft Skill"
+        ]
+      },
+      {
+        "file": "The Scrum Journey.gif",
+        "displayName": "The Scrum Journey",
+        "tags": [
+          "Soft Skill",
+          "Scrum",
+          "Journey"
         ]
       }
     ]
@@ -1800,6 +2079,14 @@
           "Performance",
           "Observability",
           "Tool"
+        ]
+      },
+      {
+        "file": "List of Important Linux Commands.gif",
+        "displayName": "List of Important Linux Commands.",
+        "tags": [
+          "Linux",
+          "Command"
         ]
       },
       {
@@ -1990,6 +2277,16 @@
           "Design",
           "Flow",
           "Twitter"
+        ]
+      },
+      {
+        "file": "What happens when you switch on your mobile.gif",
+        "displayName": "What happens when you switch on your mobile",
+        "tags": [
+          "Architecture",
+          "Design",
+          "Mobile",
+          "Flow"
         ]
       }
     ]
