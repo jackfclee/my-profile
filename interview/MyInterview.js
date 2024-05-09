@@ -24,7 +24,9 @@ let filterType = "";
 let filterQuestion = "";
 
 function goDefault() {
+  document.getElementById('loadingBanner').style.display = 'block';
   displayResult(currentXmlDoc);
+  document.getElementById('loadingBanner').style.display = 'none';
 }
 
 function loadXMLDoc(filename) {
