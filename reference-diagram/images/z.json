@@ -45,6 +45,13 @@
           "Tool",
           "DevOps"
         ]
+      },
+      {
+        "file": "Model Registry.gif",
+        "displayName": "Model Registry",
+        "tags": [
+          "Model Registry"
+        ]
       }
     ]
   },
@@ -365,6 +372,15 @@
         ]
       },
       {
+        "file": "5 Pillars of the well-architected framework.gif",
+        "displayName": "5 Pillars of the well-architected framework",
+        "tags": [
+          "Architecture",
+          "Framework",
+          "Factor"
+        ]
+      },
+      {
         "file": "9 Data Terms Explained.jpg",
         "displayName": "9 Data Terms Explained",
         "tags": [
@@ -440,6 +456,15 @@
           "Architecture",
           "Design",
           "Flow"
+        ]
+      },
+      {
+        "file": "Knowledge Map for Software Engineering.gif",
+        "displayName": "Knowledge Map for Software Engineering",
+        "tags": [
+          "Knowledge",
+          "Guide",
+          "Software Engineering"
         ]
       },
       {
@@ -890,6 +915,13 @@
     "displayName": "Coding",
     "references": [
       {
+        "file": "10 Algorithms that dominate our world.gif",
+        "displayName": "10 Algorithms that dominate our world",
+        "tags": [
+          "Algorithms"
+        ]
+      },
+      {
         "file": "10 Good Coding Principles.gif",
         "displayName": "10 Good Coding Principles (bytebytego)",
         "tags": [
@@ -960,11 +992,27 @@
         ]
       },
       {
+        "file": "JVM Explained.gif",
+        "displayName": "JVM Explained",
+        "tags": [
+          "JVM"
+        ]
+      },
+      {
         "file": "Java Developer Roadmap 2023.webp",
         "displayName": "Java Developer Roadmap 2023",
         "tags": [
           "Java",
           "Roadmap"
+        ]
+      },
+      {
+        "file": "Polling vs Webhook.gif",
+        "displayName": "Polling vs Webhook (bytebytego)",
+        "tags": [
+          "Polling",
+          "Webhook",
+          "Comparison"
         ]
       },
       {
