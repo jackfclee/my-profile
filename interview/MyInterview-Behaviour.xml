@@ -12,6 +12,15 @@
 -->
 <entries>
   <entry>
+    <type>Example</type>
+    <question>
+Example Question Patterns
+    </question>
+    <answer>
+How do you work on SOMETHING if/when this EVENT happens?
+    </answer>
+  </entry>
+  <entry>
     <type>Customer</type>
     <question>
 If the customer is so emotional, how should I handle it?  
