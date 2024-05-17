@@ -2,6 +2,8 @@ html {
   font-size: 10px;
 }
 #imageDisplay {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
   display: flex; /* Use flexbox for image container */
   flex-wrap: wrap; /* Allow images to wrap if multiple */
   justify-content: center; /* Center-align images horizontally */
