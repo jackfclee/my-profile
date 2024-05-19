@@ -1175,11 +1175,72 @@
         ]
       },
       {
+        "file": "Java Collections CheatSheet.webp",
+        "displayName": "Java Collections CheatSheet",
+        "tags": [
+          "Java",
+          "Collections"
+        ]
+      },
+      {
+        "file": "Java Collections Comparison.webp",
+        "displayName": "",
+        "tags": [
+          "Java",
+          "Collections",
+          "Comparison"
+        ]
+      },
+      {
+        "file": "Java Collections Implementation.webp",
+        "displayName": "Java Collection Implementation",
+        "tags": [
+          "Java",
+          "Collections"
+        ]
+      },
+      {
+        "file": "Java Collections Selection Flow.webp",
+        "displayName": "Java Collections Selection Flow",
+        "tags": [
+          "Java",
+          "Collections",
+          "Selection",
+          "Flow"
+        ]
+      },
+      {
+        "file": "Java Collections Summary.webp",
+        "displayName": "Java Collections Summary",
+        "tags": [
+          "Java",
+          "Collections",
+          "Summary"
+        ]
+      },
+      {
+        "file": "Java Collections Table CheatSheet.png",
+        "displayName": "Java Collections Table CheatSheet",
+        "tags": [
+          "Java",
+          "Collections"
+        ]
+      },
+      {
         "file": "Java Developer Roadmap 2023.webp",
         "displayName": "Java Developer Roadmap 2023",
         "tags": [
           "Java",
           "Roadmap"
+        ]
+      },
+      {
+        "file": "Java Stream.png",
+        "displayName": "Java Stream",
+        "tags": [
+          "Java",
+          "Stream",
+          "Stream API"
         ]
       },
       {
