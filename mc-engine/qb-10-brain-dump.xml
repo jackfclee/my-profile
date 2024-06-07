@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <bank>
   <topic>PDE10 - Brain Dump</topic>
+  <!--
+    Reference:
+
+    https://gcp-examquestions.com/google-professional-data-engineer-practice-exam-part-1/
+    https://sdhyani0705.medium.com/professional-data-engineer-gcp-exam-question-27a5123bdca9
+    https://www.passnexam.com/google/professional-data-engineer/2
+    https://www.examtopics.com/discussions/google/view/16730-exam-professional-data-engineer-topic-1-question-17/
+    https://www.dumpspedia.com/professional-data-engineer-google-professional-data-engineer-exam-dumps.html
+
+  -->
   <!-- STRUCTURE DEFINITION:
   <entry>
     <question>XXX</question></question>
@@ -56,11 +66,11 @@ You use Google Cloud Dataflow to process the data and decide if a message should
           <detail>Use a sliding time window with a duration of 60 minutes.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Use a session window with a gap time duration of 60 minutes.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Use a global window with a time based trigger with a delay of 60 minutes.</detail>
         </option>
       </options>
@@ -71,7 +81,7 @@ You use Google Cloud Dataflow to process the data and decide if a message should
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Create a Google Cloud Dataflow job to process the data.</detail>
         </option>
         <option>
@@ -83,7 +93,7 @@ You use Google Cloud Dataflow to process the data and decide if a message should
           <detail>Create a Hadoop cluster on Google Compute Engine that uses persistent disks. </detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Create a Cloud Dataproc cluster that uses the Google Cloud Storage connector. </detail>
         </option>
         <option>
@@ -121,7 +131,7 @@ You use Google Cloud Dataflow to process the data and decide if a message should
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Use a row key of the form {timestamp}.</detail>
         </option>
         <option>
@@ -133,7 +143,7 @@ You use Google Cloud Dataflow to process the data and decide if a message should
           <detail>Use a row key of the form {timestamp}#{sensorid}. </detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Use a row key of the form {}#{sensorid}#{timestamp}.</detail>
         </option>
       </options>
@@ -156,11 +166,11 @@ You use Google Cloud Dataflow to process the data and decide if a message should
           <detail>Clustering to divide the transactions into N categories based on feature similarity.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Supervised learning to predict the location of a transaction.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Reinforcement learning to predict the location of a transaction.</detail>
         </option>
         <option>
@@ -175,7 +185,7 @@ You use Google Cloud Dataflow to process the data and decide if a message should
     <answer>
       <options>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Update the current pipeline and use the drain flag.</detail>
         </option>
         <option>
@@ -187,7 +197,7 @@ You use Google Cloud Dataflow to process the data and decide if a message should
           <detail>Create a new pipeline that has the same Cloud Pub/Sub subscription and cancel the old pipeline. </detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Create a new pipeline that has a new Cloud Pub/Sub subscription and cancel the old pipeline.</detail>
         </option>
       </options>
@@ -263,7 +273,7 @@ You use Google Cloud Dataflow to process the data and decide if a message should
     </answer>
   </entry>
   <entry>
-    <question>Your company is using WHILECARD tables to query data across multiple tables with similar names. The SQL statement is currently failing with the following error:
+    <question>Your company is using WILDCARD tables to query data across multiple tables with similar names. The SQL statement is currently failing with the following error:
 ```
 # Syntax error : Expected end of statement but got “-“ at [4:11] SELECT age
 FROM
@@ -279,19 +289,19 @@ Which table name will make the SQL statement work correctly?
       <options>
         <option>
           <valid>false</valid>
-          <detail>‘bigquery-public-data.noaa_gsod.gsod‘ </detail>
+          <detail>'bigquery-public-data.noaa_gsod.gsod'</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>bigquery-public-data.noaa_gsod.gsod* </detail>
+          <detail>bigquery-public-data.noaa_gsod.gsod*</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>‘bigquery-public-data.noaa_gsod.gsod’* </detail>
+          <detail>'bigquery-public-data.noaa_gsod.gsod'* </detail>
         </option>
         <option>
           <valid>true</valid>
-          <detail>‘bigquery-public-data.noaa_gsod.gsod*`</detail>
+          <detail>'bigquery-public-data.noaa_gsod.gsod*'</detail>
         </option>
       </options>
     </answer>
@@ -347,12 +357,12 @@ Which table name will make the SQL statement work correctly?
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Attach the timestamp on each message in the Cloud Pub/Sub subscriber application as they are received.</detail>
         </option>
         <option>
-          <valid>false</valid>
-          <detail>Attach the timestamp and Package ID on the outbound message from each publisher device as they are sent to Clod Pub/Sub. </detail>
+          <valid>true</valid>
+          <detail>Attach the timestamp and Package ID on the outbound message from each publisher device as they are sent to Cloud Pub/Sub. </detail>
         </option>
         <option>
           <valid>false</valid>
@@ -371,23 +381,23 @@ Which table name will make the SQL statement work correctly?
       <options>
         <option>
           <valid>false</valid>
-          <detail>Rowkey: date#device_idColumn data: data_point </detail>
+          <detail>Rowkey: date#device_id | Column data: data_point </detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Rowkey: dateColumn data: device_id, data_point </detail>
+          <detail>Rowkey: date | Column data: device_id, data_point </detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Rowkey: device_idColumn data: date, data_point </detail>
+          <detail>Rowkey: device_id | Column data: date, data_point </detail>
         </option>
         <option>
           <valid>true</valid>
-          <detail>Rowkey: data_pointColumn data: device_id, date </detail>
+          <detail>Rowkey: data_point | Column data: device_id, date </detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Rowkey: date#data_pointColumn data: device_id</detail>
+          <detail>Rowkey: date#data_point | Column data: device_id</detail>
         </option>
       </options>
     </answer>
@@ -448,7 +458,7 @@ Which combination of Google Cloud Platform products should you recommend?
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>The zone</detail>
         </option>
         <option>
@@ -460,14 +470,22 @@ Which combination of Google Cloud Platform products should you recommend?
           <detail>The disk size per worker</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>The maximum number of workers</detail>
         </option>
       </options>
     </answer>
   </entry>
   <entry>
-    <question>You need to compose visualizations for operations teams with the following requirements: Which approach meets the requirements?</question>
+    <question>You need to compose visualizations for operations teams with the following requirements: 
+- The report must include telemetry data from all 50,000 installations for the most resent 6 weeks (sampling once every minute).
+- The report must not be more than 3 hours delayed from live data.
+- The actionable report should only show suboptimal links.
+- Most suboptimal links should be sorted to the top.
+- Suboptimal links can be grouped and filtered by regional geography.
+- User response time to load the report must be less than 5 seconds.
+
+Which approach meets the requirements?</question>
     <answer>
       <options>
         <option>
@@ -479,11 +497,11 @@ Which combination of Google Cloud Platform products should you recommend?
           <detail>Load the data into Google BigQuery tables, write Google Apps Script that queries the data, calculates the metric, and shows only suboptimal rows in a table in Google Sheets.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Load the data into Google Cloud Datastore tables, write a Google App Engine Application that queries all rows, applies a function to derive the metric, and then renders results in a table using the Google charts and visualization API.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Load the data into Google BigQuery tables, write a Google Data Studio 360 report that connects to your data, calculates a metric, and then uses a filter expression to show only suboptimal rows in a table.</detail>
         </option>
       </options>
@@ -494,16 +512,12 @@ Which combination of Google Cloud Platform products should you recommend?
     <answer>
       <options>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Create a view in BigQuery that concatenates the FirstName and LastName field values to produce the FullName.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Add a new column called FullName to the Users tabl</detail>
-        </option>
-        <option>
-          <valid>true</valid>
-          <detail>Run an UPDATE statement that updates the FullName column for each user with the concatenation of the FirstName and LastName values.</detail>
+          <detail>Add a new column called FullName to the Users table. Run an UPDATE statement that updates the FullName column for each user with the concatenation of the FirstName and LastName values.</detail>
         </option>
         <option>
           <valid>false</valid>
@@ -511,15 +525,7 @@ Which combination of Google Cloud Platform products should you recommend?
         </option>
         <option>
           <valid>false</valid>
-          <detail>Use BigQuery to export the data for the table to a CSV fil</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Create a Google Cloud Dataproc job to process the CSV file and output a new CSV file containing the proper values for FirstName, LastName and FullNam</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Run a BigQuery load job to load the new CSV file into BigQuery.</detail>
+          <detail>Use BigQuery to export the data for the table to a CSV file. Create a Google Cloud Dataproc job to process the CSV file and output a new CSV file containing the proper values for FirstName, LastName and FullName. Run a BigQuery load job to load the new CSV file into BigQuery.</detail>
         </option>
       </options>
     </answer>
@@ -529,34 +535,26 @@ Which combination of Google Cloud Platform products should you recommend?
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Load the data every 30 minutes into a new partitioned table in BigQuery.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Store and update the data in a regional Google Cloud Storage bucket and create a federated data source in BigQuery</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Store the data in Google Cloud Datastor</detail>
+          <detail>Store the data in Google Cloud Datastore. Use Google Cloud Dataflow to query BigQuery and combine the data programmatically with the data stored in Cloud Datastore.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Use Google Cloud Dataflow to query BigQuery and combine the data programmatically with the data stored in Cloud Datastore </detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Store the data in a file in a regional Google Cloud Storage bucke</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use Cloud Dataflow to query BigQuery and combine the data programmatically with the data stored in Google Cloud Storage.</detail>
+          <detail>Store the data in a file in a regional Google Cloud Storage bucket. Use Cloud Dataflow to query BigQuery and combine the data programmatically with the data stored in Google Cloud Storage.</detail>
         </option>
       </options>
     </answer>
   </entry>
   <entry>
-    <question>When you design a Google Cloud Bigtable schema it is recommended that you .</question>
+    <question>When you design a Google Cloud Bigtable schema it is recommended that you ...</question>
     <answer>
       <options>
         <option>
@@ -825,7 +823,7 @@ Which combination of Google Cloud Platform products should you recommend?
           <detail>Reduces the amount of storage required, increases query speed</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Reduces the amount of data processed, increases query speed</detail>
         </option>
       </options>
@@ -855,7 +853,7 @@ Which combination of Google Cloud Platform products should you recommend?
     </answer>
   </entry>
   <entry>
-    <question>Google Cloud Bigtable indexes a single value in each row. This value is called the .</question>
+    <question>Google Cloud Bigtable indexes a single value in each row. This value is called the _____.</question>
     <answer>
       <options>
         <option>
@@ -937,7 +935,7 @@ Which combination of Google Cloud Platform products should you recommend?
         </option>
         <option>
           <valid>true</valid>
-          <detail>Use the PARTITIONTIME pseudo-column in the WHERE clause </detail>
+          <detail>Use the _PARTITIONTIME pseudo-column in the WHERE clause </detail>
         </option>
         <option>
           <valid>false</valid>
@@ -1062,7 +1060,7 @@ Which combination of Google Cloud Platform products should you recommend?
     </answer>
   </entry>
   <entry>
-    <question>When a Cloud Bigtable node fails, is lost.</question>
+    <question>When a Cloud Bigtable node fails, _____ is lost.</question>
     <answer>
       <options>
         <option>
@@ -1085,7 +1083,7 @@ Which combination of Google Cloud Platform products should you recommend?
     </answer>
   </entry>
   <entry>
-    <question>The for Cloud Bigtable makes it possible to use Cloud Bigtable in a Cloud Dataflow pipeline.</question>
+    <question>The _____ for Cloud Bigtable makes it possible to use Cloud Bigtable in a Cloud Dataflow pipeline.</question>
     <answer>
       <options>
         <option>
@@ -1202,7 +1200,9 @@ Which combination of Google Cloud Platform products should you recommend?
   <entry>
     <question>You are planning to use Google's Dataflow SDK to analyze customer data such as displayed below. Your project requirement is to extract only the customer name from the data source and then write to an output PCollection.
 ```
-Tom,555 X street Tim,553 Y street Sam, 111 Z street
+Tom,555 X street –
+Tim,553 Y street –
+Sam, 111 Z street –
 ```
 
 Which operation is best suited for the above data processing requirement?
@@ -1306,19 +1306,19 @@ Which operation is best suited for the above data processing requirement?
           <detail>Configure your Cloud Dataflow pipeline to use local execution</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Increase the maximum number of Cloud Dataflow workers by setting maxNumWorkers in PipelineOptions </detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Increase the number of nodes in the Cloud Bigtable cluster</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Modify your Cloud Dataflow pipeline to use the Flatten transform before writing to Cloud Bigtable</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Modify your Cloud Dataflow pipeline to use the CoGroupByKey transform before writing to Cloud Bigtable</detail>
         </option>
       </options>
@@ -1337,11 +1337,11 @@ Which operation is best suited for the above data processing requirement?
           <detail>Try to collect more data and increase the size of your dataset.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Try out regularization techniques (e.g., dropout of batch normalization) to avoid overfitting.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Increase the complexity of your model by, E.g., introducing an additional layer or increase sizing the size of vocabularies or n-grams used.</detail>
         </option>
       </options>
@@ -1352,11 +1352,11 @@ Which operation is best suited for the above data processing requirement?
     <answer>
       <options>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Use Storage Transfer Service to transfer the offsite backup files to a Cloud Storage Multi-Regional storage bucket as a final destination.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Use Storage Transfer Service to transfer the offsite backup files to a Cloud Storage Regional bucket as a final destination.</detail>
         </option>
         <option>
@@ -1379,28 +1379,20 @@ Which operation is best suited for the above data processing requirement?
     <answer>
       <options>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Use Cloud Dataprep to build and maintain the transformation recipes, and execute them on a scheduled basis </detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Load each month’s CSV data into BigQuery, and write a SQL query to transform the data to a standard schem </detail>
+          <detail>Load each month’s CSV data into BigQuery, and write a SQL query to transform the data to a standard schema. Merge the transformed tables together with a SQL query</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Merge the transformed tables together with a SQL query</detail>
-        </option>
-        <option>
-          <valid>true</valid>
-          <detail>Help the analysts write a Cloud Dataflow pipeline in Python to perform the transformatio</detail>
+          <detail>Help the analysts write a Cloud Dataflow pipeline in Python to perform the transformation. The Python code should be stored in a revision control system and modified as the incoming data’s schema changes</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>The Python code should be stored in a revision control system and modified as the incoming data’s schema changes</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use Apache Spark on Cloud Dataproc to infer the schema of the CSV file before creating a Dataframe.Then implement the transformations in Spark SQL before writing the data out to Cloud Storage and loading into BigQuery</detail>
+          <detail>Use Apache Spark on Cloud Dataproc to infer the schema of the CSV file before creating a Dataframe. Then implement the transformations in Spark SQL before writing the data out to Cloud Storage and loading into BigQuery.</detail>
         </option>
       </options>
     </answer>
@@ -1410,7 +1402,7 @@ Which operation is best suited for the above data processing requirement?
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Use Cloud Deployment Manager to automate access provision.</detail>
         </option>
         <option>
@@ -1422,16 +1414,12 @@ Which operation is best suited for the above data processing requirement?
           <detail>Create distinct groups for various teams, and specify groups in Cloud IAM policies.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Only use service accounts when sharing data for Cloud Storage buckets and BigQuery datasets.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>For each Cloud Storage bucket or BigQuery dataset, decide which projects need acces</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Find all the active members who have access to these projects, and create a Cloud IAM policy to grant access to all these users.</detail>
+          <detail>For each Cloud Storage bucket or BigQuery dataset, decide which projects need access. Find all the active members who have access to these projects, and create a Cloud IAM policy to grant access to all these users.</detail>
         </option>
       </options>
     </answer>
@@ -1445,11 +1433,11 @@ Which operation is best suited for the above data processing requirement?
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Cloud Dataflow, Cloud SQL, Cloud Spanner </detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Cloud Pub/Sub, Cloud Storage, BigQuery</detail>
         </option>
         <option>
@@ -1468,11 +1456,11 @@ Which operation is best suited for the above data processing requirement?
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Migrate the workload to Google Cloud Dataflow</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Use pre-emptible virtual machines (VMs) for the cluster</detail>
         </option>
         <option>
@@ -1500,11 +1488,11 @@ Which operation is best suited for the above data processing requirement?
           <detail>Use an SSH tunnel to give the Cloud Dataproc cluster access to the Internet</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Copy all dependencies to a Cloud Storage bucket within your VPC security perimeter</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Use Resource Manager to add the service account used by the Cloud Dataproc cluster to the Network User role</detail>
         </option>
       </options>
@@ -1523,11 +1511,11 @@ Which operation is best suited for the above data processing requirement?
           <detail>Cloud Natural Language API</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Dialogflow Enterprise Edition</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Cloud AutoML Natural Language</detail>
         </option>
       </options>
@@ -1561,44 +1549,20 @@ Which operation is best suited for the above data processing requirement?
     <answer>
       <options>
         <option>
-          <valid>false</valid>
-          <detail>Call the Cloud Natural Language API from your applicatio </detail>
-        </option>
-        <option>
           <valid>true</valid>
-          <detail>Process the generated Entity Analysis as labels.</detail>
+          <detail>Call the Cloud Natural Language API from your application. Process the generated Entity Analysis as labels.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Call the Cloud Natural Language API from your application.</detail>
+          <detail>Call the Cloud Natural Language API from your application. Process the generated Sentiment Analysis as labels.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Process the generated Sentiment Analysis as labels.</detail>
+          <detail>Build and train a text classification model using TensorFlow. Deploy the model using Cloud Machine Learning Engine. Call the model from your application and process the results as labels.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Build and train a text classification model using TensorFlo</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Deploy the model using Cloud Machine Learning Engin</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Call the model from your application and process the results as labels.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Build and train a text classification model using TensorFlo</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Deploy the model using a KubernetesEngine cluste</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Call the model from your application and process the results as labels.</detail>
+          <detail>Build and train a text classification model using TensorFlow. Deploy the model using a Kubernetes Engine cluster. Call the model from your application and process the results as labels.</detail>
         </option>
       </options>
     </answer>
@@ -1608,52 +1572,20 @@ Which operation is best suited for the above data processing requirement?
     <answer>
       <options>
         <option>
-          <valid>false</valid>
-          <detail>Consume the stream of data in Cloud Dataflow using Kafka I</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Set a sliding time window of 1 hour every 5 minute</detail>
-        </option>
-        <option>
           <valid>true</valid>
-          <detail>Compute the average when the window closes, and send an alert if the average is less than 4000 messages.</detail>
+          <detail>Consume the stream of data in Cloud Dataflow using Kafka IO. Set a sliding time window of 1 hour every 5 minutes. Compute the average when the window closes, and send an alert if the average is less than 4000 messages.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Consume the stream of data in Cloud Dataflow using Kafka I</detail>
+          <detail>Consume the stream of data in Cloud Dataflow using Kafka IO. Set a fixed time window of 1 hour. Compute the average when the window closes, and send an alert if the average is less than 4000 messages.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Set a fixed time window of 1 hour.Compute the average when the window closes, and send an alert if the average is less than 4000 messages. F. Use Kafka Connect to link your Kafka message queue to Cloud Pub/Su</detail>
+          <detail>Use Kafka Connect to link your Kafka message queue to Cloud Pub/Sub. Use a Cloud Dataflow template to write your messages from Cloud Pub/Sub to Cloud Bigtable. Use Cloud Scheduler to run a script every hour that counts the number of rows created in Cloud Bigtable in the last hour. If that number falls below 4000, send an alert.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Use a Cloud Dataflow template to write your messages from Cloud Pub/Sub to Cloud Bigtabl</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use Cloud Scheduler to run a script every hour that counts the number of rows created in Cloud Bigtable in the last hou</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>If that number falls below 4000, send an alert.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use Kafka Connect to link your Kafka message queue to Cloud Pub/Su</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use a Cloud Dataflow template to write your messages from Cloud Pub/Sub to BigQuer</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use Cloud Scheduler to run a script every five minutes that counts the number of rows created in BigQuery in the last hou</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>If that number falls below 4000, send an alert.</detail>
+          <detail>Use Kafka Connect to link your Kafka message queue to Cloud Pub/Sub. Use a Cloud Dataflow template to write your messages from Cloud Pub/Sub to BigQuery. Use Cloud Scheduler to run a script every five minutes that counts the number of rows created in BigQuery in the last hour. If that number falls below 4000, send an alert.</detail>
         </option>
       </options>
     </answer>
@@ -1663,7 +1595,7 @@ Which operation is best suited for the above data processing requirement?
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Create a new view over events using standard SQL</detail>
         </option>
         <option>
@@ -1675,7 +1607,7 @@ Which operation is best suited for the above data processing requirement?
           <detail>Create a new view over events_partitioned using standard SQL</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Create a service account for the ODBC connection to use for authentication</detail>
         </option>
         <option>
@@ -1690,11 +1622,11 @@ Which operation is best suited for the above data processing requirement?
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Deploy small Kafka clusters in your data centers to buffer events.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Have the data acquisition devices publish data to Cloud Pub/Sub.</detail>
         </option>
         <option>
@@ -1740,7 +1672,7 @@ Which operation is best suited for the above data processing requirement?
           <detail>cron</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Cloud Composer</detail>
         </option>
         <option>
@@ -1748,7 +1680,7 @@ Which operation is best suited for the above data processing requirement?
           <detail>Cloud Scheduler</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Workflow Templates on Cloud Dataproc</detail>
         </option>
       </options>
@@ -1759,7 +1691,7 @@ Which operation is best suited for the above data processing requirement?
     <answer>
       <options>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Create a Direct Acyclic Graph in Cloud Composer to schedule and monitor the jobs.</detail>
         </option>
         <option>
@@ -1771,7 +1703,7 @@ Which operation is best suited for the above data processing requirement?
           <detail>Develop an App Engine application to schedule and request the status of the jobs using GCP API calls.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Set up cron jobs in a Compute Engine instance to schedule and monitor the pipelines using GCP API calls.</detail>
         </option>
       </options>
@@ -1792,19 +1724,11 @@ Which operation is best suited for the above data processing requirement?
         </option>
         <option>
           <valid>true</valid>
-          <detail>Create a service account and grant dataset access to that accoun</detail>
+          <detail>Create a service account and grant dataset access to that account. Use the service account's private key to access the dataset</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Use the service account’s private key to access the dataset</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Create a dummy user and grant dataset access to that use</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Store the username and password for that user in a file on the files system, and use those credentials to access the BigQuery dataset</detail>
+          <detail>Create a dummy user and grant dataset access to that user. Store the username and password for that user in a file on the files system, and use those credentials to access the BigQuery dataset</detail>
         </option>
       </options>
     </answer>
@@ -1814,36 +1738,20 @@ Which operation is best suited for the above data processing requirement?
     <answer>
       <options>
         <option>
+          <valid>false</valid>
+          <detail>Use Cloud Bigtable for storage. Install the HBase shell on a Compute Engine instance to query the Cloud Bigtable data.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Use Cloud Bigtable for storage. Link as permanent tables in BigQuery for query.</detail>
+        </option>
+        <option>
           <valid>true</valid>
-          <detail>Use Cloud Bigtable for storag</detail>
+          <detail>Use Cloud Storage for storage. Link as permanent tables in BigQuery for query.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Install the HBase shell on a Compute Engine instance to query the Cloud Bigtable data. </detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use Cloud Bigtable for storag</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Link as permanent tables in BigQuery for query.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use Cloud Storage for storag</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Link as permanent tables in BigQuery for query.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use Cloud Storage for storag</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Link as temporary tables in BigQuery for query.</detail>
+          <detail>Use Cloud Storage for storage. Link as temporary tables in BigQuery for query.</detail>
         </option>
       </options>
     </answer>
@@ -1877,7 +1785,7 @@ Which operation is best suited for the above data processing requirement?
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Batch job, PubSubIO, side-inputs</detail>
         </option>
         <option>
@@ -1885,7 +1793,7 @@ Which operation is best suited for the above data processing requirement?
           <detail>Streaming job, PubSubIO, JdbcIO, side-outputs</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Streaming job, PubSubIO, BigQueryIO, side-inputs </detail>
         </option>
         <option>
@@ -1901,35 +1809,19 @@ Which operation is best suited for the above data processing requirement?
       <options>
         <option>
           <valid>false</valid>
-          <detail>Create a file on a shared file and have the application servers write all bid events to that fil</detail>
+          <detail>Create a file on a shared file and have the application servers write all bid events to that file. Process the file with Apache Hadoop to identify which user bid first.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Process the file with Apache Hadoop to identify which user bid first.</detail>
+          <detail>Have each application server write the bid events to Cloud Pub/Sub as they occur. Push the events from Cloud Pub/Sub to a custom endpoint that writes the bid event information into Cloud SQL. </detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Set up a MySQL database for each application server to write bid events into. Periodically query each of those distributed MySQL databases and update a master MySQL database with bid event information.</detail>
         </option>
         <option>
           <valid>true</valid>
-          <detail>Have each application server write the bid events to Cloud Pub/Sub as they occu</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Push the events from Cloud Pub/Sub to a custom endpoint that writes the bid event information into Cloud SQL. </detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Set up a MySQL database for each application server to write bid events int</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Periodically query each of those distributed MySQL databases and update a master MySQL database with bid event information. G. Have each application server write the bid events to Google Cloud Pub/Sub as they occu</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use a pull subscription to pull the bid events using Google Cloud Dataflo</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Give the bid for each item to the userIn the bid event that is processed first.</detail>
+          <detail>Have each application server write the bid events to Google Cloud Pub/Sub as they occur. Use a pull subscription to pull the bid events using Google Cloud Dataflow. Give the bid for each item to the userIn the bid event that is processed first.</detail>
         </option>
       </options>
     </answer>
@@ -1939,11 +1831,11 @@ Which operation is best suited for the above data processing requirement?
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Allocate sufficient memory to the Hadoop cluster, so that the intermediary data of that particular Hadoop job can be held in memory</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Allocate sufficient persistent disk space to the Hadoop cluster, and store the intermediate data of that particular Hadoop job on native HDFS</detail>
         </option>
         <option>
@@ -1962,15 +1854,22 @@ Which operation is best suited for the above data processing requirement?
 ```
 SELECT country, state, city FROM [myproject:mydataset.mytable] GROUP BY country
 ```
-
 You check the query plan for the query and see the following output in the Read section of Stage:1:
+Selection:  Assign to Folds | Sampling | Head
+Partition or sample mode
+- [ ] Use replacement in the partitioning
+- [x] Randomized split
+- Random seed: `0`
+Selection: True | False | Partition evenly | Partition with custom partitions
+Specify the partitioner method: Partition evenly
+Specify number of folds to split evenly into: `3`
 
 What is the most likely cause of the delay for this query?
     </question>
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Users are running too many concurrent queries in the system</detail>
         </option>
         <option>
@@ -1982,7 +1881,7 @@ What is the most likely cause of the delay for this query?
           <detail>Either the state or the city columns in the [myproject:mydataset.mytable] table have too many NULL values</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Most rows in the [myproject:mydataset.mytable] table have the same value in the country column, causing data skew</detail>
         </option>
       </options>
@@ -2021,31 +1920,19 @@ What is the most likely cause of the delay for this query?
       <options>
         <option>
           <valid>false</valid>
-          <detail>Create a dataset for each departmen</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Assign the department leads the role of OWNER, and assign the data analysts the role of WRITER on their dataset. </detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Create a dataset for each departmen</detail>
+          <detail>Create a dataset for each department. Assign the department leads the role of OWNER, and assign the data analysts the role of WRITER on their dataset.</detail>
         </option>
         <option>
           <valid>true</valid>
-          <detail>Assign the department leads the role of WRITER, and assign the data analysts the role of READER on their dataset. </detail>
+          <detail>Create a dataset for each department. Assign the department leads the role of WRITER, and assign the data analysts the role of READER on their dataset.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Create a table for each department.</detail>
+          <detail>Create a table for each department. Assign the department leads the role of Owner, and assign the data analysts the role of Editor on the project the table is in.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Assign the department leads the role of Owner, and assign the data analysts the role of Editor on the project the table is in. G. Create a table for each departmen</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Assign the department leads the role of Editor, and assign the data analysts the role of Viewer on the project the table is in.</detail>
+          <detail>Create a table for each department. Assign the department leads the role of Editor, and assign the data analysts the role of Viewer on the project the table is in.</detail>
         </option>
       </options>
     </answer>
@@ -2063,11 +1950,11 @@ What is the most likely cause of the delay for this query?
           <detail>Create an App Engine cron job to schedule the execution of the Cloud Dataprep job.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Export the recipe as a Cloud Dataprep template, and create a job in Cloud Scheduler.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Export the Cloud Dataprep job as a Cloud Dataflow template, and incorporate it into a Cloud Composer job.</detail>
         </option>
       </options>
@@ -2084,18 +1971,14 @@ What is the most likely cause of the delay for this query?
         </option>
         <option>
           <valid>false</valid>
-          <detail>Switch to TFRecords formats (app</detail>
-        </option>
-        <option>
-          <valid>true</valid>
-          <detail>200MB per file) instead of parquet files.</detail>
+          <detail>Switch to TFRecords formats (appr. 200MB per file) instead of parquet files.</detail>
         </option>
         <option>
           <valid>false</valid>
           <detail>Switch from HDDs to SSDs, copy initial data from GCS to HDFS, run the Spark job and copy results back to GCS. </detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Switch from HDDs to SSDs, override the preemptible VMs configuration to increase the boot disk size.</detail>
         </option>
       </options>
@@ -2133,11 +2016,11 @@ What is the most likely cause of the delay for this query?
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Convert all daily log tables into date-partitioned tables</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Convert the sharded tables into a single partitioned table</detail>
         </option>
         <option>
@@ -2207,11 +2090,11 @@ What is the most likely cause of the delay for this query?
     <answer>
       <options>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Export the information to Cloud Stackdriver, and set up an Alerting policy</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Run a Virtual Machine in Compute Engine with Airflow, and export the information to Stackdriver</detail>
         </option>
         <option>
@@ -2234,7 +2117,7 @@ What is the most likely cause of the delay for this query?
           <detail>Organize your data in a single table, export, and compress and store the BigQuery data in Cloud Storage.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Organize your data in separate tables for each month, and export, compress, and store the data in Cloud Storage.</detail>
         </option>
         <option>
@@ -2242,7 +2125,7 @@ What is the most likely cause of the delay for this query?
           <detail>Organize your data in separate tables for each month, and duplicate your data on a separate dataset in BigQuery.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Organize your data in separate tables for each month, and use snapshot decorators to restore the table to a time prior to the corruption.</detail>
         </option>
       </options>
@@ -2253,7 +2136,7 @@ What is the most likely cause of the delay for this query?
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Create a Cloud Dataproc Workflow Template</detail>
         </option>
         <option>
@@ -2261,7 +2144,7 @@ What is the most likely cause of the delay for this query?
           <detail>Create an initialization action to execute the jobs</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Create a Directed Acyclic Graph in Cloud Composer</detail>
         </option>
         <option>
@@ -2284,11 +2167,11 @@ What is the most likely cause of the delay for this query?
           <detail>They have not set the triggers to accommodate the data coming in late, which causes the job to fail</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>They have not applied a global windowing function, which causes the job to fail when the pipeline is created</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>They have not applied a non-global windowing function, which causes the job to fail when the pipeline is created</detail>
         </option>
       </options>
@@ -2307,35 +2190,19 @@ How should you design data storage for this solution?
       <options>
         <option>
           <valid>false</valid>
-          <detail>Create a Cloud Dataproc cluster with high availabilit</detail>
+          <detail>Create a Cloud Dataproc cluster with high availability. Store the data in HDFS, and peform analysis as needed.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Store the data in HDFS, and peform analysis as needed.</detail>
+          <detail>Store the data in BigQuery. Access the data using the BigQuery Connector or Cloud Dataproc and Compute Engine. </detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Store the data in a regional Cloud Storage bucket. Aceess the bucket directly using Cloud Dataproc, BigQuery, and Compute Engine.</detail>
         </option>
         <option>
           <valid>true</valid>
-          <detail>Store the data in BigQuer</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Access the data using the BigQuery Connector or Cloud Dataproc and Compute Engine. </detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Store the data in a regional Cloud Storage bucket.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Aceess the bucket directly using Cloud Dataproc, BigQuery, and Compute Engine.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Store the data in a multi-regional Cloud Storage bucket.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Access the data directly using Cloud Dataproc, BigQuery, and Compute Engine.</detail>
+          <detail>Store the data in a multi-regional Cloud Storage bucket. Access the data directly using Cloud Dataproc, BigQuery, and Compute Engine.</detail>
         </option>
       </options>
     </answer>
@@ -2373,11 +2240,11 @@ How should you design data storage for this solution?
           <detail>Use Cloud TPUs without any additional adjustment to your code.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Use Cloud TPUs after implementing GPU kernel support for your customs ops. </detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Use Cloud GPUs after implementing GPU kernel support for your customs ops. </detail>
         </option>
         <option>
@@ -2404,11 +2271,11 @@ How should you design data storage for this solution?
           <detail>Error handling in the subscriber code is not handling run-time errors properly. </detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>The subscriber code cannot keep up with the messages.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>The subscriber code does not acknowledge the messages that it pulls.</detail>
         </option>
       </options>
@@ -2419,7 +2286,7 @@ How should you design data storage for this solution?
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Reduce the number of records updated each day to stay within the BigQuery UPDATE DML statement limit.</detail>
         </option>
         <option>
@@ -2431,12 +2298,8 @@ How should you design data storage for this solution?
           <detail>Split the source CSV file into smaller CSV files in Cloud Storage to reduce the number of BigQuery UPDATE DML statements per BigQuery job. </detail>
         </option>
         <option>
-          <valid>false</valid>
-          <detail>Import the new records from the CSV file into a new BigQuery tabl</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Create a BigQuery job that merges the new records with the existing records and writes the results to a new BigQuery table.</detail>
+          <valid>true</valid>
+          <detail>Import the new records from the CSV file into a new BigQuery table. Create a BigQuery job that merges the new records with the existing records and writes the results to a new BigQuery table.</detail>
         </option>
       </options>
     </answer>
@@ -2446,7 +2309,7 @@ How should you design data storage for this solution?
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Use Cloud ML Engine for training existing Spark ML models</detail>
         </option>
         <option>
@@ -2454,7 +2317,7 @@ How should you design data storage for this solution?
           <detail>Rewrite your models on TensorFlow, and start using Cloud ML Engine</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Use Cloud Dataproc for training existing Spark ML models, but start reading data directly from BigQuery</detail>
         </option>
         <option>
@@ -2492,28 +2355,20 @@ How should you design data storage for this solution?
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Use BigQuery machine learning to be able to train the model at scale, so you can analyze the packages in batches.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Train an AutoML model on your corpus of images, and build an API around that model to integrate with the package tracking applications. </detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Use the Cloud Vision API to detect for damage, and raise an alert through Cloud Function</detail>
+          <detail>Use the Cloud Vision API to detect for damage, and raise an alert through Cloud Function. Integrate the package tracking applications with this function.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Integrate the package tracking applications with this function.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use TensorFlow to create a model that is trained on your corpus of image</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Create a Python notebook in Cloud Datalab that uses this model so you can analyze for damaged packages.</detail>
+          <detail>Use TensorFlow to create a model that is trained on your corpus of image. Create a Python notebook in Cloud Datalab that uses this model so you can analyze for damaged packages.</detail>
         </option>
       </options>
     </answer>
@@ -2524,27 +2379,19 @@ How should you design data storage for this solution?
       <options>
         <option>
           <valid>false</valid>
-          <detail>Assign the users/groups data viewer access at the table level for each table</detail>
+          <detail>Assign the users/groups data viewer access at the table level for each table.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Create SQL views for each team in the same dataset in which the data resides, and assign the users/groups data viewer access to the SQL views</detail>
+          <detail>Create SQL views for each team in the same dataset in which the data resides, and assign the users/groups data viewer access to the SQL views.</detail>
         </option>
         <option>
           <valid>true</valid>
-          <detail>Create authorized views for each team in the same dataset in which the data resides, and assign theusers/groups data viewer access to the authorized views </detail>
+          <detail>Create authorized views for each team in the same dataset in which the data resides, and assign the users/groups data viewer access to the authorized views.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Create authorized views for each team in datasets created for each tea</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Assign the authorized views data viewer access to the dataset in which the data reside</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Assign the users/groups data viewer access to the datasets in which the authorized views reside</detail>
+          <detail>Create authorized views for each team in datasets created for each team. Assign the authorized views data viewer access to the dataset in which the data reside. Assign the users/groups data viewer access to the datasets in which the authorized views reside.</detail>
         </option>
       </options>
     </answer>
@@ -2554,11 +2401,11 @@ How should you design data storage for this solution?
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Create an API using App Engine to receive and send messages to the applications </detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Use a Cloud Pub/Sub topic to publish jobs, and use subscriptions to execute them </detail>
         </option>
         <option>
@@ -2595,7 +2442,6 @@ How should you design data storage for this solution?
       </options>
     </answer>
   </entry>
-
   <entry>
     <question>Your company produces 20,000 files every hour. Each data file is formatted as a comma separated values (CSV) file that is less than 4 KB. All files must be ingested on Google Cloud Platform before they can be processed. Your company site has a 200 ms latency to Google Cloud, and your Internet connection bandwidth is limited as 50 Mbps. You currently deploy a secure FTP (SFTP) server on a virtual machine in Google Compute Engine as the data ingestion point. A local SFTP client runs on a dedicated machine to transmit the CSV files as is. The goal is to make reports with data from the previous day available to the executives by 10:00 a.m. each day. This design is barely able to keep up with the current volume, even though the bandwidth utilization is rather low. You are told that due to seasonality, your company expects the number of files to double for the next three months. Which two actions should you take? (choose two.)</question>
     <answer>
@@ -2613,12 +2459,8 @@ How should you design data storage for this solution?
           <detail>Redesign the data ingestion process to use gsutil tool to send the CSV files to a storage bucket in parallel.</detail>
         </option>
         <option>
-          <valid>false</valid>
-          <detail>Assemble 1,000 files into a tape archive (TAR) fil</detail>
-        </option>
-        <option>
           <valid>true</valid>
-          <detail>Transmit the TAR files instead, and disassemble the CSV files in the cloud upon receiving them.</detail>
+          <detail>Assemble 1,000 files into a tape archive (TAR) file. Transmit the TAR files instead, and disassemble the CSV files in the cloud upon receiving them.</detail>
         </option>
         <option>
           <valid>false</valid>
@@ -2632,7 +2474,7 @@ How should you design data storage for this solution?
     <answer>
       <options>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Use Google Stackdriver Audit Logs to review data access.</detail>
         </option>
         <option>
@@ -2640,7 +2482,7 @@ How should you design data storage for this solution?
           <detail>Get the identity and access management IIAM) policy of each table</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Use Stackdriver Monitoring to see the usage of BigQuery query slots.</detail>
         </option>
         <option>
@@ -2682,11 +2524,11 @@ How should you design data storage for this solution?
           <detail>Grant the consultant the Viewer role on the project.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Grant the consultant the Cloud Dataflow Developer role on the project.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Create a service account and allow the consultant to log on with it.</detail>
         </option>
         <option>
@@ -2728,11 +2570,11 @@ How should you design data storage for this solution?
           <detail>The CSV data loaded in BigQuery is not flagged as CSV.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>The CSV data has invalid rows that were skipped on import.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>The CSV data loaded in BigQuery is not using BigQuery’s default encoding.</detail>
         </option>
         <option>
@@ -2858,7 +2700,7 @@ How should you design data storage for this solution?
     </answer>
   </entry>
   <entry>
-    <question>When creating a new Cloud Dataproc cluster with the projects.regions.clusters.create operation, these four values are required: project, region, name, and .</question>
+    <question>When creating a new Cloud Dataproc cluster with the projects.regions.clusters.create operation, these four values are required: project, region, name, and _____.</question>
     <answer>
       <options>
         <option>
@@ -2939,11 +2781,11 @@ How should you design data storage for this solution?
           <detail>Add a try... catch block to your DoFn that transforms the data, extract erroneous rows from logs.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Add a try... catch block to your DoFn that transforms the data, write erroneous rows to PubSub directly from the DoFn.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Add a try... catch block to your DoFn that transforms the data, use a sideOutput to create a PCollection that can be stored to PubSub later.</detail>
         </option>
       </options>
@@ -3004,7 +2846,7 @@ How should you design data storage for this solution?
           <detail>Cloud Dataflow</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Cloud Composer</detail>
         </option>
         <option>
@@ -3012,7 +2854,7 @@ How should you design data storage for this solution?
           <detail>Cloud Dataprep</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Cloud Dataproc</detail>
         </option>
       </options>
@@ -3027,16 +2869,12 @@ How should you design data storage for this solution?
           <detail>Select random samples from the tables using the RAND() function and compare the samples.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Select random samples from the tables using the HASH() function and compare the samples.</detail>
         </option>
         <option>
-          <valid>false</valid>
-          <detail>Use a Dataproc cluster and the BigQuery Hadoop connector to read the data from each table and calculate a hash from non-timestamp columns of the table after sortin</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Compare the hashes of each table.</detail>
+          <valid>true</valid>
+          <detail>Use a Dataproc cluster and the BigQuery Hadoop connector to read the data from each table and calculate a hash from non-timestamp columns of the table after sorting. Compare the hashes of each table.</detail>
         </option>
         <option>
           <valid>false</valid>
@@ -3050,11 +2888,11 @@ How should you design data storage for this solution?
     <answer>
       <options>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Create an authorized view on the BigQuery table to control data access, and provide third-party companies with access to that view.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Use Cloud Scheduler to export the data on a regular basis to Cloud Storage, and provide third-party companies with access to the bucket.</detail>
         </option>
         <option>
@@ -3100,7 +2938,7 @@ How should you design data storage for this solution?
           <detail>Create a Stackdriver Monitoring dashboard based on the BigQuery metric query/scanned_bytes</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Create a Stackdriver Monitoring dashboard based on the BigQuery metric slots/allocated_for_project</detail>
         </option>
         <option>
@@ -3108,14 +2946,14 @@ How should you design data storage for this solution?
           <detail>Create a log export for each project, capture the BigQuery job execution logs, create a custom metric based on the totalSlotMs, and create a Stackdriver Monitoring dashboard based on the custom metric</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Create an aggregated log export at the organization level, capture the BigQuery job execution logs, create a custom metric based on the totalSlotMs, and create a Stackdriver Monitoring dashboard based on the custom metric </detail>
         </option>
       </options>
     </answer>
   </entry>
   <entry>
-    <question> You need to create a new transaction table in Cloud Spanner that stores product sales data. You are deciding what to use as a primary key. From a performance perspective, which strategy should you choose?</question>
+    <question>You need to create a new transaction table in Cloud Spanner that stores product sales data. You are deciding what to use as a primary key. From a performance perspective, which strategy should you choose?</question>
     <answer>
       <options>
         <option>
@@ -3188,7 +3026,7 @@ How should you design data storage for this solution?
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Leverage BigQuery UPDATE statements to update the inventory balances as they are changing.</detail>
         </option>
         <option>
@@ -3196,24 +3034,12 @@ How should you design data storage for this solution?
           <detail>Partition the inventory balance table by item to reduce the amount of data scanned with each inventory update.</detail>
         </option>
         <option>
-          <valid>false</valid>
-          <detail>Use the BigQuery streaming the stream changes into a daily inventory movement table.</detail>
+          <valid>true</valid>
+          <detail>Use the BigQuery streaming the stream changes into a daily inventory movement table. Calculate balances in a view that joins it to the historical inventory balance table. Update the inventory balance table nightly.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Calculate balances in a view that joins it to the historical inventory balance table.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Update the inventory balance table nightly.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use the BigQuery bulk loader to batch load inventory changes into a daily inventory movement table.Calculate balances in a view that joins it to the historical inventory balance tabl</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Update the inventory balance table nightly.</detail>
+          <detail>Use the BigQuery bulk loader to batch load inventory changes into a daily inventory movement table.Calculate balances in a view that joins it to the historical inventory balance table. Update the inventory balance table nightly.</detail>
         </option>
       </options>
     </answer>
@@ -3223,7 +3049,7 @@ How should you design data storage for this solution?
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Cloud Scheduler</detail>
         </option>
         <option>
@@ -3235,7 +3061,7 @@ How should you design data storage for this solution?
           <detail>Cloud Functions</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Cloud Composer</detail>
         </option>
       </options>
@@ -3250,11 +3076,11 @@ How should you design data storage for this solution?
           <detail>Set the BigQuery dataset to be regional. In the event of an emergency, use a point-in-time snapshot to recover the data.</detail>
         </option>
         <option>
-          <valid>true</valid>
-          <detail>Set the BigQuery dataset to be regiona. Create a scheduled query to make copies of the data to tables suffixed with the time of the backu E. In the event of an emergency, use the backup copy of the table.</detail>
+          <valid>false</valid>
+          <detail>Set the BigQuery dataset to be regional. Create a scheduled query to make copies of the data to tables suffixed with the time of the backu E. In the event of an emergency, use the backup copy of the table.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Set the BigQuery dataset to be multi-regional. In the event of an emergency, use a point-in-time snapshot to recover the data.</detail>
         </option>
         <option>
@@ -3396,11 +3222,11 @@ How should you design data storage for this solution?
           <detail>Add a node to the MySQL cluster and build an OLAP cube there.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Use an ETL tool to load the data from MySQL into Google BigQuery.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Connect an on-premises Apache Hadoop cluster to MySQL and perform ETL.</detail>
         </option>
         <option>
@@ -3419,7 +3245,7 @@ How should you design data storage for this solution?
           <detail>Run a local version of Jupiter on the laptop.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Grant the user access to Google Cloud Shell.</detail>
         </option>
         <option>
@@ -3427,7 +3253,7 @@ How should you design data storage for this solution?
           <detail>Host a visualization tool on a VM on Google Compute Engine.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Deploy Google Cloud Datalab to a virtual machine (VM) on Google Compute Engine.</detail>
         </option>
       </options>
@@ -3442,7 +3268,7 @@ How should you design data storage for this solution?
           <detail>Continuously retrain the model on just the new data.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Continuously retrain the model on a combination of existing data and the new data.</detail>
         </option>
         <option>
@@ -3450,7 +3276,7 @@ How should you design data storage for this solution?
           <detail>Train on the existing data while using the new data as your test set.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Train on the new data while using the existing data as your test set.</detail>
         </option>
       </options>
