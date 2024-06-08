@@ -9,6 +9,8 @@
     https://www.passnexam.com/google/professional-data-engineer/2
     https://www.examtopics.com/discussions/google/view/16730-exam-professional-data-engineer-topic-1-question-17/
     https://www.dumpspedia.com/professional-data-engineer-google-professional-data-engineer-exam-dumps.html
+    https://www.lead2pass.com/downloadable/download/sample/sample_id/7072/
+    https://www.itexams.com/exam/Professional-Data-Engineer
 
   -->
   <!-- STRUCTURE DEFINITION:
@@ -3671,11 +3673,11 @@ You create a data source to store the last 6 weeks of data, and create visualiza
           <detail>Use Apache Kafka for message ingestion and use Cloud Dataflow for streaming analysis.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Use Cloud Pub/Sub for message ingestion and Cloud Dataproc for streaming analysis.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Use Cloud Pub/Sub for message ingestion and Cloud Dataflow for streaming analysis.</detail>
         </option>
       </options>
@@ -3686,7 +3688,7 @@ You create a data source to store the last 6 weeks of data, and create visualiza
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Update the Cloud Dataflow pipeline inflight by passing the --update option with the --jobName set to the existing job name</detail>
         </option>
         <option>
@@ -3698,7 +3700,7 @@ You create a data source to store the last 6 weeks of data, and create visualiza
           <detail>Stop the Cloud Dataflow pipeline with the Cancel option. Create a new Cloud Dataflow job with the updated code.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Stop the Cloud Dataflow pipeline with the Drain option. Create a new Cloud Dataflow job with the updated code.</detail>
         </option>
       </options>
@@ -3717,11 +3719,11 @@ You create a data source to store the last 6 weeks of data, and create visualiza
           <detail>HiveQL using Hive</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Java using MapReduce</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Python using MapReduce</detail>
         </option>
       </options>
@@ -3732,7 +3734,7 @@ You create a data source to store the last 6 weeks of data, and create visualiza
     <answer>
       <options>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Denormalize the data as must as possible.</detail>
         </option>
         <option>
@@ -3745,11 +3747,11 @@ You create a data source to store the last 6 weeks of data, and create visualiza
         </option>
         <option>
           <valid>true</valid>
-          <detail>Develop a data pipeline where status updates are appended to BigQuery instead of updated. E. Copy a daily snapshot of transaction data to Cloud Storage and store it as an Avro fil</detail>
+          <detail>Develop a data pipeline where status updates are appended to BigQuery instead of updated.</detail>
         </option>
         <option>
-          <valid>true</valid>
-          <detail>Use BigQuery’ssupport for external data sources to query.</detail>
+          <valid>false</valid>
+          <detail>Copy a daily snapshot of transaction data to Cloud Storage and store it as an Avro file. Use BigQuery’ssupport for external data sources to query.</detail>
         </option>
       </options>
     </answer>
@@ -3833,28 +3835,19 @@ You create a data source to store the last 6 weeks of data, and create visualiza
         </option>
         <option>
           <valid>true</valid>
-          <detail>Use gcloud kms keys create to create a symmetric key. Then use gcloud kms encrypt to encrypt each archival file with the ke</detail>
+          <detail>Use gcloud kms keys create to create a symmetric key. Then use gcloud kms encrypt to encrypt each archival file with the key. Use gsutil cp to upload each encrypted file to the Cloud Storage bucket. Manually destroy the key previously used for encryption, and rotate the key once.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Use gsutil cp to upload each encrypted file to the Cloud Storage bucket. Manually destroy the key previously used for encryption, and rotate the key once and rotate the key once.</detail>
+          <detail>Specify customer-supplied encryption key (CSEK) in the .boto configuration file. Use gsutil cp to upload each archival file to the Cloud Storage bucket. Save the CSEK in Cloud Memorystore as permanent storage of the secret.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Specify customer-supplied encryption key (CSEK) in the .boto configuration file. Use gsutil cp to upload each archival file to the Cloud Storage bucke</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Save the CSEK in Cloud Memorystore as permanent storage of the secret. Specify customer-supplied encryption key (CSEK) in the .boto configuration file.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use gsutil cp to upload each archival file to the Cloud Storage bucket. Save the CSEK in a different project that only the security team can access.</detail>
+          <detail>Specify customer-supplied encryption key (CSEK) in the .boto configuration file. Use gsutil cp to upload each archival file to the Cloud Storage bucket. Save the CSEK in a different project that only the security team can access.</detail>
         </option>
       </options>
     </answer>
   </entry>
-
   <entry>
     <question>You want to use a database of information about tissue samples to classify future tissue samples as either normal or mutated. You are evaluating an unsupervised anomaly detection method for classifying the tissue samples. Which two characteristic support this method? (Choose two.)</question>
     <answer>
@@ -3906,7 +3899,7 @@ You create a data source to store the last 6 weeks of data, and create visualiza
     </answer>
   </entry>
   <entry>
-    <question>Flowlogistic’s management has determined that the current Apache Kafka servers cannot handle the data volume for their real-time inventory tracking system. You need to build a new system on Google Cloud Platform (GCP) that will feed the proprietary tracking software. The system must be able to ingest data from a variety of global sources, process and query in real-time, and store the data reliably. Which combination of GCP products should you choose?</question>
+    <question>Flowlogistic's management has determined that the current Apache Kafka servers cannot handle the data volume for their real-time inventory tracking system. You need to build a new system on Google Cloud Platform (GCP) that will feed the proprietary tracking software. The system must be able to ingest data from a variety of global sources, process and query in real-time, and store the data reliably. Which combination of GCP products should you choose?</question>
     <answer>
       <options>
         <option>
@@ -3924,6 +3917,10 @@ You create a data source to store the last 6 weeks of data, and create visualiza
         <option>
           <valid>false</valid>
           <detail>Cloud Load Balancing, Cloud Dataflow, and Cloud Storage</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Cloud Dataflow, Cloud SQL, and Cloud Storage</detail>
         </option>
       </options>
     </answer>
@@ -3945,11 +3942,11 @@ You create a data source to store the last 6 weeks of data, and create visualiza
           <detail>Adjust the settings for each table to allow a related region-based security group view access.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Adjust the settings for each view to allow a related region-based security group view access.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Adjust the settings for each dataset to allow a related region-based security group view access.</detail>
         </option>
       </options>
@@ -4018,7 +4015,7 @@ You create a data source to store the last 6 weeks of data, and create visualiza
           <detail>Upload a 20 MB file.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Upload multiple files using a wildcard.</detail>
         </option>
       </options>
@@ -4030,19 +4027,19 @@ You create a data source to store the last 6 weeks of data, and create visualiza
       <options>
         <option>
           <valid>false</valid>
-          <detail>1) Split table into multiple tables; 2) Use a partitioned table</detail>
+          <detail>Split table into multiple tables; Use a partitioned table</detail>
         </option>
         <option>
           <valid>true</valid>
-          <detail>1) Join tables into one table; 2) Use nested repeated fields</detail>
+          <detail>Join tables into one table; Use nested repeated fields</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>1) Use a partitioned table; 2) Join tables into one table</detail>
+          <detail>Use a partitioned table; Join tables into one table</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>1) Use nested repeated fields; 2) Use a partitioned table</detail>
+          <detail>Use nested repeated fields; Use a partitioned table</detail>
         </option>
       </options>
     </answer>
@@ -4117,7 +4114,7 @@ You create a data source to store the last 6 weeks of data, and create visualiza
     </answer>
   </entry>
   <entry>
-    <question>Scaling a Cloud Dataproc cluster typically involves .</question>
+    <question>Scaling a Cloud Dataproc cluster typically involves _____.</question>
     <answer>
       <options>
         <option>
@@ -4236,7 +4233,7 @@ You create a data source to store the last 6 weeks of data, and create visualiza
     <answer>
       <options>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Increase the number of max workers</detail>
         </option>
         <option>
@@ -4249,15 +4246,11 @@ You create a data source to store the last 6 weeks of data, and create visualiza
         </option>
         <option>
           <valid>false</valid>
-          <detail>Create a temporary table in Cloud Bigtable that will act as a buffer for new dat</detail>
-        </option>
-        <option>
-          <valid>true</valid>
-          <detail>Create a new step in your pipeline to write to this table first, and then create a new pipeline to write from Cloud Bigtable to BigQuery F. Create a temporary table in Cloud Spanner that will act as a buffer for new dat</detail>
+          <detail>Create a temporary table in Cloud Bigtable that will act as a buffer for new data. Create a new step in your pipeline to write to this table first, and then create a new pipeline to write from Cloud Bigtable to BigQuery.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Create a new step in your pipeline to write to this table first, and then create a new pipeline to write from Cloud Spanner to BigQuery</detail>
+          <detail>Create a temporary table in Cloud Spanner that will act as a buffer for new data. Create a new step in your pipeline to write to this table first, and then create a new pipeline to write from Cloud Spanner to BigQuery.</detail>
         </option>
       </options>
     </answer>
@@ -4267,11 +4260,11 @@ You create a data source to store the last 6 weeks of data, and create visualiza
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Implement clustering in BigQuery on the ingest date column.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Implement clustering in BigQuery on the package-tracking ID column.</detail>
         </option>
         <option>
@@ -4294,11 +4287,11 @@ You create a data source to store the last 6 weeks of data, and create visualiza
           <detail>Use bq load to load a batch of sensor data every 60 seconds.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Use a Cloud Dataflow pipeline to stream data into the BigQuery table.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Use the INSERT statement to insert a batch of data every 60 seconds.</detail>
         </option>
         <option>
@@ -4344,11 +4337,11 @@ You create a data source to store the last 6 weeks of data, and create visualiza
           <detail>Use Cloud Dataflow to transform data to support query patterns.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Use Cloud Spanner for storage. Add secondary indexes to support query patterns.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Use Cloud Dataflow to transform data to support query patterns.</detail>
         </option>
       </options>
@@ -4387,23 +4380,15 @@ You create a data source to store the last 6 weeks of data, and create visualiza
       <options>
         <option>
           <valid>false</valid>
-          <detail>Encrypted on Cloud Storage with user-supplied encryption key</detail>
+          <detail>Encrypted on Cloud Storage with user-supplied encryption keys. A separate decryption key will be given to each authorized user.</detail>
         </option>
         <option>
           <valid>true</valid>
-          <detail>A separate decryption key will be given to each authorized user.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
           <detail>In a BigQuery dataset that is viewable only by authorized personnel, with the Data Access log used to provide the auditability.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>In Cloud SQL, with separate database user names to each use</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>The Cloud SQL Admin activity logs will be used to provide the auditability.</detail>
+          <detail>In Cloud SQL, with separate database user names to each user. The Cloud SQL Admin activity logs will be used to provide the auditability.</detail>
         </option>
         <option>
           <valid>false</valid>
@@ -4441,35 +4426,19 @@ You create a data source to store the last 6 weeks of data, and create visualiza
       <options>
         <option>
           <valid>true</valid>
-          <detail>Deploy a Cloud Dataproc cluster. Use a standard persistent disk and 50% preemptible worker</detail>
+          <detail>Deploy a Cloud Dataproc cluster. Use a standard persistent disk and 50% preemptible workers. Store data in Cloud Storage, and change references in scripts from hdfs:// to gs://</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Store data in Cloud Storage, and change references in scripts from hdfs:// to gs://</detail>
+          <detail>Deploy a Cloud Dataproc cluster. Use an SSD persistent disk and 50% preemptible workers. Store data in Cloud Storage, and change references in scripts from hdfs:// to gs://</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Deploy a Cloud Dataproc cluste</detail>
+          <detail>Install Hadoop and Spark on a 10-node Compute Engine instance group with standard instances. Install the Cloud Storage connector, and store the data in Cloud Storage. Change references in scripts from hdfs:// to gs://</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Use an SSD persistent disk and 50% preemptible worker</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Store data in Cloud Storage, and change references in scripts from hdfs:// to gs://</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Install Hadoop and Spark on a 10-node Compute Engine instance group with standard instance</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Install the Cloud Storage connector, and store the data in Cloud Storage. Change references in scripts from hdfs:// to gs://</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Install Hadoop and Spark on a 10-node Compute Engine instance group with preemptible instances.Store data in HDF. Change references in scripts from hdfs:// to gs://</detail>
+          <detail>Install Hadoop and Spark on a 10-node Compute Engine instance group with preemptible instances. Store data in HDFS. Change references in scripts from hdfs:// to gs://</detail>
         </option>
       </options>
     </answer>
@@ -4519,11 +4488,7 @@ You create a data source to store the last 6 weeks of data, and create visualiza
         </option>
         <option>
           <valid>true</valid>
-          <detail>Store the warm data as files in Cloud Storage, and store the active data in BigQuer</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Keep this ratio as 80% warm and 20% active.</detail>
+          <detail>Store the warm data as files in Cloud Storage, and store the active data in BigQuery. Keep this ratio as 80% warm and 20% active.</detail>
         </option>
       </options>
     </answer>
@@ -4533,11 +4498,11 @@ You create a data source to store the last 6 weeks of data, and create visualiza
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Use Cloud Dataflow with Beam to detect errors and perform transformations.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Use Cloud Dataprep with recipes to detect errors and perform transformations.</detail>
         </option>
         <option>
@@ -4564,11 +4529,11 @@ You create a data source to store the last 6 weeks of data, and create visualiza
           <detail>There are roughly equal occurrences of both normal and mutated samples in the database.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>You expect future mutations to have different features from the mutated samples in the database.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>You expect future mutations to have similar features to the mutated samples in the database.</detail>
         </option>
         <option>
@@ -4584,31 +4549,23 @@ You create a data source to store the last 6 weeks of data, and create visualiza
       <options>
         <option>
           <valid>false</valid>
-          <detail>Delete the table CLICK_STREAM, and then re-create it such that the column DT is of the TIMESTAMP type. </detail>
+          <detail>Delete the table CLICK_STREAM, and then re — create it such that the column DT is of the TIMESTAMP type. Reload the data.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Reload the data.</detail>
+          <detail>Add a column TS of the TIMESTAMP type to the table CLICK_STREAM, and populate the numeric values from the column TS for each row. Reference the column TS instead of the column DT from now on.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Add a column TS of the TIMESTAMP type to the table CLICK_STREAM, and populate the numeric values from the column TS for each ro</detail>
+          <detail>Create a view CLICK_STREAM_V, where strings from the column DT are cast into TIMESTAMP values. Reference the view CLICK_STREAM_V instead of the table CLICK_STREAM from now on.</detail>
+        </option>
+        <option>
+          <valid>true</valid>
+          <detail>Add two columns to the table CLICK STREAM: TS of the TIMESTAMP type and IS_NEW of the BOOLEAN type. Reload all data in append mode. For each appended row, set the value of IS_NEW to true. For future queries, reference the column TS instead of the column DT, with the WHERE clause ensuring that the value of IS_NEW must be true.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Reference the column TS instead of the column DT from now on.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Create a view CLICK_STREAM_V, where strings from the column DT are cast into TIMESTAMP value</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Reference the view CLICK_STREAM_V instead of the table CLICK_STREAM from now on.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Add two columns to the table CLICK STREAM: TS of the TIMESTAMP type and IS_NEW of the BOOLEAN typ</detail>
+          <detail>Construct a query to return every row of the table CLICK_STREAM, while using the built — in function to cast strings from the column DT into TIMESTAMP values. Run the query into a destination table NEW_CLICK_STREAM, in which the column TS is the TIMESTAMP type. Reference the table NEW_CLICK_STREAM instead of the table CLICK_STREAM from now on. In the future, new data is loaded into the table NEW_CLICK_STREAM.</detail>
         </option>
       </options>
     </answer>
@@ -4622,7 +4579,7 @@ You create a data source to store the last 6 weeks of data, and create visualiza
           <detail>The message body for the sensor event is too large.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Your custom endpoint has an out-of-date SSL certificate.</detail>
         </option>
         <option>
@@ -4630,7 +4587,7 @@ You create a data source to store the last 6 weeks of data, and create visualiza
           <detail>The Cloud Pub/Sub topic has too many messages published to it.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Your custom endpoint is not acknowledging messages within the acknowledgement deadline.</detail>
         </option>
       </options>
@@ -4653,7 +4610,7 @@ You want to improve the performance of this data read. What should you do?</ques
           <detail>Specify the TableReference object in the code.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Use .fromQuery operation to read specific fields from the table.</detail>
         </option>
         <option>
@@ -4661,7 +4618,7 @@ You want to improve the performance of this data read. What should you do?</ques
           <detail>Use of both the Google BigQuery TableSchema and TableFieldSchema classes.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Call a transform that returns TableRow objects, where each element in the PCollexction represents a single row in the table.</detail>
         </option>
       </options>
@@ -4719,17 +4676,16 @@ You want to improve the performance of this data read. What should you do?</ques
 The user profile: What the user likes and doesn’t like to eat
 The user account information: Name, address, preferred meal times
 The order information: When orders are made, from where, to whom
-The database will be used to store all the transactional data of the product. 
 
-You want to optimize the data schema. Which Google Cloud Platform product should you use?</question>
+The database will be used to store all the transactional data of the product. You want to optimize the data schema. Which Google Cloud Platform product should you use?</question>
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>BigQuery</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Cloud SQL</detail>
         </option>
         <option>
@@ -4932,50 +4888,30 @@ You want to optimize the data schema. Which Google Cloud Platform product should
     <answer>
       <options>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Use managed export, and store the data in a Cloud Storage bucket using Nearline or Coldline class.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Use managed export, and then import to Cloud Datastore in a separate project under a unique namespace reserved for that export.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Use managed export, and then import the data into a BigQuery table created just for that export, and delete temporary export files.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Write an application that uses Cloud Datastore client libraries to read all the entitie</detail>
-        </option>
-        <option>
-          <valid>true</valid>
-          <detail>Treat each entity as a BigQuery table row via BigQuery streaming inser</detail>
+          <detail>Write an application that uses Cloud Datastore client libraries to read all the entities. Treat each entity as a BigQuery table row via BigQuery streaming insert. Assign an export timestamp for each export, and attach it as an extra column for each row. Make sure that the BigQuery table is partitioned using the export timestamp column.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Assign an export timestamp for each export, and attach it as an extra column for each ro</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Make sure that the BigQuery table is partitioned using the export timestamp column.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Write an application that uses Cloud Datastore client libraries to read all the entitie</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Format the exported data into a JSON fil</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Apply compression before storing the data in Cloud Source Repositories.</detail>
+          <detail>Write an application that uses Cloud Datastore client libraries to read all the entities. Format the exported data into a JSON file. Apply compression before storing the data in Cloud Source Repositories.</detail>
         </option>
       </options>
     </answer>
   </entry>
   <entry>
-    <question>online retailer has built their current application on Google App Engine. A new initiative at the company mandates that they extend their application to allow their customers to transact directly via the application. They need to manage their shopping transactions and analyze combined data from multiple datasets using a business intelligence (BI) tool. They want to use only a single database for this purpose. Which Google Cloud database should they choose?</question>
+    <question>An online retailer has built their current application on Google App Engine. A new initiative at the company mandates that they extend their application to allow their customers to transact directly via the application. They need to manage their shopping transactions and analyze combined data from multiple datasets using a business intelligence (BI) tool. They want to use only a single database for this purpose. Which Google Cloud database should they choose?</question>
     <answer>
       <options>
         <option>
@@ -4983,11 +4919,11 @@ You want to optimize the data schema. Which Google Cloud Platform product should
           <detail>BigQuery</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Cloud SQL</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Cloud BigTable</detail>
         </option>
         <option>
@@ -5003,39 +4939,19 @@ You want to optimize the data schema. Which Google Cloud Platform product should
       <options>
         <option>
           <valid>true</valid>
-          <detail>Export the records from the database as an Avro fil</detail>
+          <detail>Export the records from the database as an Avro file. Upload the file to GCS using gsutil, and then load the Avro file into BigQuery using the BigQuery web UI in the GCP Console.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Upload the file to GCS using gsutil, and then load the Avro file into BigQuery using the BigQuery web UI in the GCP Console.</detail>
+          <detail>Export the records from the database as an Avro file. Copy the file onto a Transfer Appliance and send it to Google, and then load the Avro file into BigQuery using the BigQuery web UI in the GCP Console.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Export the records from the database as an Avro fil</detail>
+          <detail>Export the records from the database into a CSV file. Create a public URL for the CSV file, and then use Storage Transfer Service to move the file to Cloud Storage. Load the CSV file into BigQuery using the BigQuery web UI in the GCP Console.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Copy the file onto a Transfer Appliance and send it to Google, and then load the Avro file into BigQuery using the BigQuery web UI in the GCP Console. E. Export the records from the database into a CSV fil</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Create a public URL for the CSV file, and then use Storage Transfer Service to move the file to Cloud Storag</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Load the CSV file into BigQuery using the BigQuery web UI in the GCP Console.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Export the records from the database as an Avro fil</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Create a public URL for the Avro file, and thenuse Storage Transfer Service to move the file to Cloud Storag</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Load the Avro file into BigQuery using the BigQuery web UI in the GCP Console.</detail>
+          <detail>Export the records from the database as an Avro file. Create a public URL for the Avro file, and then use Storage Transfer Service to move the file to Cloud Storage.</detail>
         </option>
       </options>
     </answer>
@@ -5081,11 +4997,7 @@ You want to optimize the data schema. Which Google Cloud Platform product should
         </option>
         <option>
           <valid>true</valid>
-          <detail>Build a Cloud Function that reads the topics and makes a call to the Cloud Data Loss Prevention AP</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use the tagging and confidence levels to either pass or quarantine the data in a bucket for review.</detail>
+          <detail>Build a Cloud Function that reads the topics and makes a call to the Cloud Data Loss Prevention API. Use the tagging and confidence levels to either pass or quarantine the data in a bucket for review.</detail>
         </option>
       </options>
     </answer>
@@ -5095,15 +5007,11 @@ You want to optimize the data schema. Which Google Cloud Platform product should
     <answer>
       <options>
         <option>
-          <valid>false</valid>
-          <detail>Re-create the tables using DD</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Partition the tables by a column containing a TIMESTAMP or DATEType.</detail>
-        </option>
-        <option>
           <valid>true</valid>
+          <detail>Re-create the tables using DDL. Partition the tables by a column containing a TIMESTAMP or DATE Type.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
           <detail>Recommend that the Data Science team export the table to a CSV file on Cloud Storage and use Cloud Datalab to explore the data by reading the files directly.</detail>
         </option>
         <option>
@@ -5112,11 +5020,7 @@ You want to optimize the data schema. Which Google Cloud Platform product should
         </option>
         <option>
           <valid>false</valid>
-          <detail>Write an Apache Beam pipeline that creates a BigQuery table per da</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Recommend that the Data Science team use wildcards on the table name suffixes to select the data they need.</detail>
+          <detail>Write an Apache Beam pipeline that creates a BigQuery table per day. Recommend that the Data Science team use wildcards on the table name suffixes to select the data they need.</detail>
         </option>
       </options>
     </answer>
@@ -5145,7 +5049,7 @@ You want to optimize the data schema. Which Google Cloud Platform product should
     </answer>
   </entry>
   <entry>
-    <question>aerospace company uses a proprietary data format to store its night data. You need to connect this new data source to BigQuery and stream the data into BigQuery. You want to efficiency import the data into BigQuery where consuming as few resources as possible. What should you do?</question>
+    <question>An aerospace company uses a proprietary data format to store its night data. You need to connect this new data source to BigQuery and stream the data into BigQuery. You want to efficiency import the data into BigQuery where consuming as few resources as possible. What should you do?</question>
     <answer>
       <options>
         <option>
@@ -5168,12 +5072,21 @@ You want to optimize the data schema. Which Google Cloud Platform product should
     </answer>
   </entry>
   <entry>
-    <question>A live TV show asks viewers to cast votes using their mobile phones. The event generates a large volume of data during a 3 minute period. You are in charge of the Voting restructure* and must ensure that the platform can handle the load and Hal all votes are processed. You must display partial results write voting is open. After voting doses you need to count the votes exactly once white optimizing cost. What should you do?</question>
+    <question>A live TV show asks viewers to cast votes using their mobile phones. The event generates a large volume of data during a 3 minute period. You are in charge of the Voting restructure* and must ensure that the platform can handle the load and Hal all votes are processed. You must display partial results write voting is open. After voting doses you need to count the votes exactly once white optimizing cost. What should you do?
+
+- Voters and Viewers
+- Serving Platform
+- Voting Infrastructure
+    </question>
     <answer>
       <options>
         <option>
           <valid>false</valid>
-          <detail>Create a Memorystore instance with a high availability (HA) configuration</detail>
+          <detail>Create a Memorystore instance with a high availability (HA) configuration.</detail>
+        </option>
+        <option>
+          <valid>false</valid>
+          <detail>Create a Cloud SQL for PostgreSQL database with high availability (HA) configuration and multiple read replicas.</detail>
         </option>
         <option>
           <valid>false</valid>
@@ -5181,7 +5094,7 @@ You want to optimize the data schema. Which Google Cloud Platform product should
         </option>
         <option>
           <valid>true</valid>
-          <detail>Write votes to a Pub/Sub tope and toad into both Bigtable and BigQuery via a Dataflow pipeline Query Bigtable for real-time results and BigQuery for later analysis Shutdown the Bigtable instance when voting concludesD Create a Cloud SQL for PostgreSQL database with high availability (HA) configuration and multiple read replicas</detail>
+          <detail>Write votes to a Pub/Sub topic and load into both Bigtable and BigQuery via a Dataflow pipeline. Query Bigtable for real-time results and BigQuery for later analysis. Shut down the Bigtable instance when voting concludes.</detail>
         </option>
       </options>
     </answer>
@@ -5200,11 +5113,7 @@ You want to optimize the data schema. Which Google Cloud Platform product should
         </option>
         <option>
           <valid>false</valid>
-          <detail>Use Cloud Dataflow to run your transformation. Monitor the job system lag with Stackdriver.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use the default autoscaling setting for worker instances.</detail>
+          <detail>Use Cloud Dataflow to run your transformation. Monitor the job system lag with Stackdriver. Use the default autoscaling setting for worker instances.</detail>
         </option>
         <option>
           <valid>false</valid>
@@ -5222,11 +5131,11 @@ You want to optimize the data schema. Which Google Cloud Platform product should
           <detail>Use bq load to load a batch of sensor data every 60 seconds.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Use a Cloud Dataflow pipeline to stream data into the BigQuery table.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Use the INSERT statement to insert a batch of data every 60 seconds.</detail>
         </option>
         <option>
@@ -5268,7 +5177,7 @@ You want to optimize the data schema. Which Google Cloud Platform product should
           <detail>Subsample your test dataset.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Subsample your training dataset.</detail>
         </option>
         <option>
@@ -5276,7 +5185,7 @@ You want to optimize the data schema. Which Google Cloud Platform product should
           <detail>Increase the number of input features to your model.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Increase the number of layers in your neural network.</detail>
         </option>
       </options>
@@ -5360,11 +5269,11 @@ You want to optimize the data schema. Which Google Cloud Platform product should
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Implement clustering in BigQuery on the ingest date column.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Implement clustering in BigQuery on the package-tracking ID column.</detail>
         </option>
         <option>
@@ -5414,7 +5323,7 @@ You want to optimize the data schema. Which Google Cloud Platform product should
           <detail>Use Cloud Dataflow to transform data to support query patterns.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Use Cloud Spanner for storage. Add secondary indexes to support query patterns.</detail>
         </option>
         <option>
