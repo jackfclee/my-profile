@@ -75,96 +75,14 @@
         "tags": [
           "Model Registry"
         ]
-      }
-    ]
-  },
-  {
-    "topic": "alerting-auditing-logging-monitoring",
-    "displayName": "Alerting, Auditing, Logging and Monitoring",
-    "references": [
-      {
-        "file": "Debugging Tactics.jpg",
-        "displayName": "Debugging Tactics",
-        "tags": [
-          "Log",
-          "Logging",
-          "Debug",
-          "Debugging"
-        ]
       },
       {
-        "file": "ELK Stack.png",
-        "displayName": "ELK Stack Illustrated (bytebytego)",
+        "file": "Retrieval Augmented Generation (RAG).gif",
+        "displayName": "Retrieval Augmented Generation (RAG) based LLM System",
         "tags": [
-          "Log",
-          "Logging",
-          "Debug",
-          "Debugging",
-          "ELK",
-          "Architecture",
-          "Design",
-          "Flow"
-        ]
-      },
-      {
-        "file": "How are Notifications pushed to our devices.jpg",
-        "displayName": "How are Notifications pushed to our devices (bytebytego)",
-        "tags": [
-          "Notification",
-          "Alert",
-          "Alerting",
-          "Architecture",
-          "Design",
-          "Flow"
-        ]
-      },
-      {
-        "file": "Log Parsing Cheat Sheet.jpg",
-        "displayName": "Log Parsing Cheat Sheet",
-        "tags": [
-          "Log",
-          "Logging",
-          "Parse",
-          "Parsing",
-          "Cheat",
-          "Command",
-          "Comparison"
-        ]
-      },
-      {
-        "file": "Logging Tracing Metrics.gif",
-        "displayName": "Logging, Tracing, Metrics (bytebytego)",
-        "tags": [
-          "Log",
-          "Logging",
-          "Trace",
-          "Tracing",
-          "Metric",
-          "Flow",
-          "Comparison"
-        ]
-      },
-      {
-        "file": "Metric Monitoring and Alerting system.png",
-        "displayName": "Metric, Monitoring and Alerting System",
-        "tags": [
-          "Metric",
-          "Monitoring",
-          "Alerting",
-          "Architecture",
-          "Design"
-        ]
-      },
-      {
-        "file": "The log4j JNDI attack.jpg",
-        "displayName": "The Log4j JNDI Attack and how to prevent it",
-        "tags": [
-          "Log",
-          "Logging",
-          "Incident",
-          "Bug",
-          "Attack",
-          "Flow"
+          "Retrieval Augmented Generation",
+          "RAG",
+          "LLM"
         ]
       }
     ]
@@ -192,16 +110,6 @@
         ]
       },
       {
-        "file": "9 Types API Testing.gif",
-        "displayName": "9 Types API Testing (bytebytego)",
-        "tags": [
-          "REST",
-          "Testing",
-          "API",
-          "Comparison"
-        ]
-      },
-      {
         "file": "API Architectural Styles - Comparison.jpg",
         "displayName": "API Architectural Styles Comparison",
         "tags": [
@@ -213,6 +121,17 @@
           "Format",
           "Timeline",
           "Comparison"
+        ]
+      },
+      {
+        "file": "API Architectural Styles - Illustration.jpg",
+        "displayName": "",
+        "tags": [
+          "REST",
+          "API",
+          "Architecture",
+          "Design",
+          "Flow"
         ]
       },
       {
@@ -286,6 +205,14 @@
         ]
       },
       {
+        "file": "CheatSheet for API Design.gif",
+        "displayName": "CheatSheet for API Design",
+        "tags": [
+          "CheatSheet",
+          "API Design"
+        ]
+      },
+      {
         "file": "Design Effective and Safe APIs.jpg",
         "displayName": "Design Effective and Safe APIs (bytebytego)",
         "tags": [
@@ -340,6 +267,14 @@
         ]
       },
       {
+        "file": "Microservices Design Patterns.jpg",
+        "displayName": "Microservices Design Patterns",
+        "tags": [
+          "Microservices",
+          "Design Patterns"
+        ]
+      },
+      {
         "file": "Orchestration vs Choreography of Microservices.jpg",
         "displayName": "Orchestration vs Choreography of Microservices",
         "tags": [
@@ -386,6 +321,15 @@
         ]
       },
       {
+        "file": "Roadmap to Become an API Pro.gif",
+        "displayName": "Roadmap to Become an API Pro",
+        "tags": [
+          "API",
+          "Roadmap",
+          "CheatSheet"
+        ]
+      },
+      {
         "file": "Top 9 HTTP Request Methods.gif",
         "displayName": "Top 9 HTTP Request Methods (bytebytego)",
         "tags": [
@@ -423,7 +367,7 @@
     "references": [
       {
         "file": "15 System Design Core Concepts.gif",
-        "displayName": "15 System Design Core Concepts",
+        "displayName": "15 System Design Core Concepts (bytebytego)",
         "tags": [
           "Core Concepts",
           "System Design"
@@ -519,6 +463,14 @@
         ]
       },
       {
+        "file": "Learn about 8 important System Design Concepts.png",
+        "displayName": "Learn about 8 important System Design Concepts",
+        "tags": [
+          "System Design",
+          "Concepts"
+        ]
+      },
+      {
         "file": "Microservice Architecture.jpg",
         "displayName": "Microservice Architecture (bytebytego)",
         "tags": [
@@ -554,15 +506,43 @@
         ]
       },
       {
-        "file": "Software Architectural Patterns.gif",
-        "displayName": "Software Architectural Patterns",
+        "file": "Software Architect Mindmap.gif",
+        "displayName": "Software Architect Mindmap",
         "tags": [
-          "Software Architectural Patterns"
+          "Software Architect",
+          "Mindmap"
         ]
       },
       {
-        "file": "Software Architecture Styles.jpg",
-        "displayName": "Software Architecture Styles",
+        "file": "Software Architectural Patterns (6 types).gif",
+        "displayName": "Software Architectural Patterns (6 types)",
+        "tags": [
+          "Software Architectural",
+          "Patterns"
+        ]
+      },
+      {
+        "file": "Software Architectural Patterns (8 types).gif",
+        "displayName": "Software Architectural Patterns (8 types)",
+        "tags": [
+          "Software Architectural",
+          "Patterns"
+        ]
+      },
+      {
+        "file": "Software Architecture Styles (10 types).gif",
+        "displayName": "Software Architecture Styles (10 types)",
+        "tags": [
+          "Software",
+          "Architecture",
+          "Style",
+          "Pattern",
+          "Design"
+        ]
+      },
+      {
+        "file": "Software Architecture Styles (bytebytego).jpg",
+        "displayName": "Software Architecture Styles (bytebytego)",
         "tags": [
           "Software",
           "Architecture",
@@ -594,6 +574,13 @@
           "Availability",
           "Throughput",
           "Scalability"
+        ]
+      },
+      {
+        "file": "System Design Concepts.gif",
+        "displayName": "System Design Concepts",
+        "tags": [
+          "System Design Concepts"
         ]
       },
       {
@@ -694,6 +681,15 @@
           "Miss",
           "Attack",
           "Incident"
+        ]
+      },
+      {
+        "file": "Database Caching Strategies.jpg",
+        "displayName": "Database Caching Strategies",
+        "tags": [
+          "Database",
+          "Caching",
+          "Strategies"
         ]
       },
       {
@@ -825,6 +821,24 @@
         ]
       },
       {
+        "file": "Basic Git Flow in DevOps CICD.jpg",
+        "displayName": "Basic Git Flow in DevOps CICD",
+        "tags": [
+          "Git",
+          "DevOps",
+          "CICD"
+        ]
+      },
+      {
+        "file": "Basic Terraform Flow in DevOps CICD.jpg",
+        "displayName": "Basic Terraform Flow in DevOps CICD",
+        "tags": [
+          "Terraform",
+          "DevOps",
+          "CICD"
+        ]
+      },
+      {
         "file": "CICD pipeline explained in 5 minutes.jpg",
         "displayName": "CICD pipeline explained in 5 minutes",
         "tags": [
@@ -865,6 +879,13 @@
           "Canary",
           "Feature",
           "Toggle"
+        ]
+      },
+      {
+        "file": "DevOps Tools.gif",
+        "displayName": "DevOps Tools",
+        "tags": [
+          "DevOps Tools"
         ]
       },
       {
@@ -916,6 +937,14 @@
         ]
       },
       {
+        "file": "Life is Short, Use Dev Tools.gif",
+        "displayName": "Life is Short, Use Dev Tools (bytebytego)",
+        "tags": [
+          "DevOps",
+          "Tools"
+        ]
+      },
+      {
         "file": "Netflix Tech Stack for CICD pipeline.jpg",
         "displayName": "Netflix Tech Stack CICD pipeline (bytebytego)",
         "tags": [
@@ -938,6 +967,14 @@
         ]
       },
       {
+        "file": "Popular DevOps Tools.jpg",
+        "displayName": "Popular DevOps Tools",
+        "tags": [
+          "DevOps",
+          "Tools"
+        ]
+      },
+      {
         "file": "Shipping Code to Production.gif",
         "displayName": "How companies ship code to production? (bytebytego)",
         "tags": [
@@ -951,10 +988,10 @@
         ]
       },
       {
-        "file": "System Design Concepts.gif",
-        "displayName": "System Design Concepts",
+        "file": "Software Tools.png",
+        "displayName": "Software Tools",
         "tags": [
-          "System Design Concepts"
+          "Software Tools"
         ]
       },
       {
@@ -980,6 +1017,15 @@
         ]
       },
       {
+        "file": "AWS Cloud Services CheatSheet.gif",
+        "displayName": "AWS Cloud Services CheatSheet (bytebytego)",
+        "tags": [
+          "AWS",
+          "Cloud",
+          "CheatSheet"
+        ]
+      },
+      {
         "file": "AWS Network Architecture.gif",
         "displayName": "AWS Network Architecture",
         "tags": [
@@ -987,11 +1033,28 @@
         ]
       },
       {
+        "file": "Azure Cloud Services CheatSheet.gif",
+        "displayName": "Azure Cloud Services CheatSheet (bytebytego)",
+        "tags": [
+          "Azure",
+          "Cloud",
+          "CheatSheet"
+        ]
+      },
+      {
+        "file": "Azure Solution Architect Map.gif",
+        "displayName": "Azure Solution Architect Map",
+        "tags": [
+          "Azure",
+          "Solution Architect"
+        ]
+      },
+      {
         "file": "Cloud Comparison Cheat Sheet.jpg",
         "displayName": "Cloud Comparison Cheat Sheet",
         "tags": [
           "Cloud",
-          "Cheatsheet",
+          "CheatSheet",
           "Comparison"
         ]
       },
@@ -1000,7 +1063,7 @@
         "displayName": "Cloud Monitoring Cheat Sheet",
         "tags": [
           "Cloud",
-          "Cheatsheet",
+          "CheatSheet",
           "Comparison",
           "Monitoring"
         ]
@@ -1009,7 +1072,7 @@
         "file": "Cloud Services.gif",
         "displayName": "Cloud Services",
         "tags": [
-          "Cheatsheet",
+          "CheatSheet",
           "Cloud",
           "Product",
           "Comparison"
@@ -1040,6 +1103,14 @@
           "Strategy",
           "Flow",
           "Performance"
+        ]
+      },
+      {
+        "file": "How AWS Disaster Recovery Works.gif",
+        "displayName": "How AWS Disaster Recovery Works",
+        "tags": [
+          "AWS",
+          "Disaster Recovery"
         ]
       },
       {
@@ -1157,6 +1228,13 @@
         ]
       },
       {
+        "file": "How Computer Programs Run.gif",
+        "displayName": "How Computer Programs Run",
+        "tags": [
+          "Computer Programs"
+        ]
+      },
+      {
         "file": "How do C++ Java Python work.gif",
         "displayName": "How do C++, Java, Python work?",
         "tags": [
@@ -1165,6 +1243,14 @@
           "Python",
           "Coding",
           "Comparison"
+        ]
+      },
+      {
+        "file": "How we retry on failures.gif",
+        "displayName": "How we retry on failures (bytebytego)",
+        "tags": [
+          "Retry Mechanism",
+          "Failure Handling"
         ]
       },
       {
@@ -1250,6 +1336,22 @@
           "Polling",
           "Webhook",
           "Comparison"
+        ]
+      },
+      {
+        "file": "Program vs Process vs Thread.jpg",
+        "displayName": "Program vs Process vs Thread",
+        "tags": [
+          "Program",
+          "Process",
+          "Thread"
+        ]
+      },
+      {
+        "file": "The Code Review Pyramid.jpg",
+        "displayName": "The Code Review Pyramid",
+        "tags": [
+          "Code Review"
         ]
       },
       {
@@ -1357,6 +1459,16 @@
         ]
       },
       {
+        "file": "Kubernetes Tools Ecosystem.gif",
+        "displayName": "Kubernetes Tools Ecosystem",
+        "tags": [
+          "Kubernetes",
+          "K8S",
+          "Tools",
+          "Ecosystem"
+        ]
+      },
+      {
         "file": "Kubernetes-1-comparison.png",
         "displayName": "Kubernetes comparison (bytebytego)",
         "tags": [
@@ -1404,6 +1516,14 @@
           "deployment",
           "control-plane"
         ]
+      },
+      {
+        "file": "kubectl command behind the scene.jpg",
+        "displayName": "kubectl command behind the scene",
+        "tags": [
+          "kubectl",
+          "command"
+        ]
       }
     ]
   },
@@ -1427,6 +1547,13 @@
         ]
       },
       {
+        "file": "9 Types of Databases you must know.gif",
+        "displayName": "9 Types of Databases you must know",
+        "tags": [
+          "Database Types"
+        ]
+      },
+      {
         "file": "At most once, At least once, Exactly once.png",
         "displayName": "At most once, At least once, Exactly once",
         "tags": [
@@ -1445,6 +1572,15 @@
           "Types",
           "NOSQL",
           "SQL"
+        ]
+      },
+      {
+        "file": "Database Scaling CheatSheet.gif",
+        "displayName": "Database Scaling CheatSheet (bytebytego)",
+        "tags": [
+          "Database",
+          "Scaling",
+          "CheatSheet"
         ]
       },
       {
@@ -1527,6 +1663,13 @@
         ]
       },
       {
+        "file": "Open Data Architecture.gif",
+        "displayName": "Open Data Architecture",
+        "tags": [
+          "Open Data Architecture"
+        ]
+      },
+      {
         "file": "Roadmap to mastering Data Engineering.gif",
         "displayName": "Roadmap to mastering Data Engineering",
         "tags": [
@@ -1535,11 +1678,28 @@
         ]
       },
       {
+        "file": "SQL JOINs CheatSheet.gif",
+        "displayName": "SQL JOINs CheatSheet",
+        "tags": [
+          "SQL",
+          "JOIN",
+          "CheatSheet"
+        ]
+      },
+      {
         "file": "SQL Query Execution Order.gif",
         "displayName": "SQL Query Execution Order",
         "tags": [
           "SQL Query",
           "Execution Order"
+        ]
+      },
+      {
+        "file": "SQLite - The Database behing billions of Devices.jpg",
+        "displayName": "SQLite - The Database behing billions of Devices",
+        "tags": [
+          "SQLite",
+          "Database"
         ]
       },
       {
@@ -1864,6 +2024,15 @@
         ]
       },
       {
+        "file": "Kafka vs RabbitMQ.gif",
+        "displayName": "Kafka vs RabbitMQ",
+        "tags": [
+          "Kafka",
+          "RabbitMQ",
+          "Comparison"
+        ]
+      },
+      {
         "file": "Top 5 Kafka Use Cases.gif",
         "displayName": "Top 5 Kafka Use Cases",
         "tags": [
@@ -1899,6 +2068,14 @@
     "displayName": "Network",
     "references": [
       {
+        "file": "7 Layers of the OSI Model.gif",
+        "displayName": "7 Layers of the OSI Model",
+        "tags": [
+          "7 Layers",
+          "OSI Model"
+        ]
+      },
+      {
         "file": "8 Popular Network Protocols.gif",
         "displayName": "8 Popular Network Protocols (bytebytego)",
         "tags": [
@@ -1915,13 +2092,20 @@
         ]
       },
       {
+        "file": "API Protocols.gif",
+        "displayName": "API Protocols",
+        "tags": [
+          "API Protocols"
+        ]
+      },
+      {
         "file": "Cloud Load Balancer CheatSheet.gif",
         "displayName": "Cloud Load Balancer CheatSheet (bytebytego)",
         "tags": [
           "Cloud",
           "Load",
           "Balancer",
-          "Cheatsheet"
+          "CheatSheet"
         ]
       },
       {
@@ -2090,7 +2274,7 @@
         "displayName": "Types of VPNs",
         "tags": [
           "VPN",
-          "Cheatsheet"
+          "CheatSheet"
         ]
       },
       {
@@ -2234,7 +2418,7 @@
         "file": "CheatSheet for Designing Secure Systems.gif",
         "displayName": "CheatSheet for Designing Secure Systems (bytebytego)",
         "tags": [
-          "Cheatsheet",
+          "CheatSheet",
           "Design",
           "Secure",
           "System"
@@ -2247,6 +2431,30 @@
           "Encoding",
           "Encryption",
           "Tokenization"
+        ]
+      },
+      {
+        "file": "End-to-End Encryption.jpg",
+        "displayName": "End-to-End Encryption",
+        "tags": [
+          "Encryption"
+        ]
+      },
+      {
+        "file": "How OAuth 2 works.gif",
+        "displayName": "How OAuth 2 works",
+        "tags": [
+          "OAuth2"
+        ]
+      },
+      {
+        "file": "How SSO works (SAML 2).gif",
+        "displayName": "How SSO works (SAML 2.0)",
+        "tags": [
+          "SSO",
+          "Single",
+          "Sign-on",
+          "SAML2"
         ]
       },
       {
@@ -2416,12 +2624,117 @@
         ]
       },
       {
+        "file": "Journey of Becoming a Software Architect.gif",
+        "displayName": "Journey of Becoming a Software Architect",
+        "tags": [
+          "Software Architect"
+        ]
+      },
+      {
+        "file": "My Recommended Resources for Tech Interviews.gif",
+        "displayName": "My Recommended Resources for Tech Interviews (bytebytego)",
+        "tags": [
+          "Interview"
+        ]
+      },
+      {
         "file": "The Scrum Journey.gif",
         "displayName": "The Scrum Journey",
         "tags": [
           "Soft Skill",
           "Scrum",
           "Journey"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "support",
+    "displayName": "Support (Alerting, Auditing, Logging and Monitoring)",
+    "references": [
+      {
+        "file": "Debugging Tactics.jpg",
+        "displayName": "Debugging Tactics",
+        "tags": [
+          "Log",
+          "Logging",
+          "Debug",
+          "Debugging"
+        ]
+      },
+      {
+        "file": "ELK Stack.png",
+        "displayName": "ELK Stack Illustrated (bytebytego)",
+        "tags": [
+          "Log",
+          "Logging",
+          "Debug",
+          "Debugging",
+          "ELK",
+          "Architecture",
+          "Design",
+          "Flow"
+        ]
+      },
+      {
+        "file": "How are Notifications pushed to our devices.jpg",
+        "displayName": "How are Notifications pushed to our devices (bytebytego)",
+        "tags": [
+          "Notification",
+          "Alert",
+          "Alerting",
+          "Architecture",
+          "Design",
+          "Flow"
+        ]
+      },
+      {
+        "file": "Log Parsing Cheat Sheet.jpg",
+        "displayName": "Log Parsing Cheat Sheet",
+        "tags": [
+          "Log",
+          "Logging",
+          "Parse",
+          "Parsing",
+          "Cheat",
+          "Command",
+          "Comparison"
+        ]
+      },
+      {
+        "file": "Logging Tracing Metrics.gif",
+        "displayName": "Logging, Tracing, Metrics (bytebytego)",
+        "tags": [
+          "Log",
+          "Logging",
+          "Trace",
+          "Tracing",
+          "Metric",
+          "Flow",
+          "Comparison"
+        ]
+      },
+      {
+        "file": "Metric Monitoring and Alerting system.png",
+        "displayName": "Metric, Monitoring and Alerting System",
+        "tags": [
+          "Metric",
+          "Monitoring",
+          "Alerting",
+          "Architecture",
+          "Design"
+        ]
+      },
+      {
+        "file": "The log4j JNDI attack.jpg",
+        "displayName": "The Log4j JNDI Attack and how to prevent it",
+        "tags": [
+          "Log",
+          "Logging",
+          "Incident",
+          "Bug",
+          "Attack",
+          "Flow"
         ]
       }
     ]
@@ -2435,7 +2748,7 @@
         "displayName": "Cron Cheatsheet",
         "tags": [
           "Cron",
-          "Cheatsheet"
+          "CheatSheet"
         ]
       },
       {
@@ -2504,10 +2817,34 @@
     "topic": "testing",
     "references": [
       {
+        "file": "9 Types API Testing.gif",
+        "displayName": "9 Types API Testing (bytebytego)",
+        "tags": [
+          "REST",
+          "Testing",
+          "API",
+          "Comparison"
+        ]
+      },
+      {
+        "file": "API Testing.gif",
+        "displayName": "API Testing",
+        "tags": [
+          "API Testing"
+        ]
+      },
+      {
         "file": "Best Ways to Test System Functionality.gif",
         "displayName": "Best Ways to Test System Functionality",
         "tags": [
-          "Test"
+          "System Functionality Test"
+        ]
+      },
+      {
+        "file": "Types of Software Testing.gif",
+        "displayName": "Types of Software Testing",
+        "tags": [
+          "Software Testing"
         ]
       }
     ]
@@ -2515,12 +2852,30 @@
   {
     "topic": "ui-ux",
     "displayName": "UI and UX",
-    "references": []
+    "references": [
+      {
+        "file": "Frontend Performance Cheatsheet.gif",
+        "displayName": "Frontend Performance Cheatsheet (bytebytego)",
+        "tags": [
+          "Frontend",
+          "Performance",
+          "CheatSheet"
+        ]
+      }
+    ]
   },
   {
     "topic": "use-case",
     "displayName": "Use Cases",
     "references": [
+      {
+        "file": "AWS Healthcare analytics reference architecture.gif",
+        "displayName": "AWS Healthcare analytics reference architecture",
+        "tags": [
+          "AWS Healthcare analytics",
+          "Architecture"
+        ]
+      },
       {
         "file": "Airbnb Microservice Architecture.jpg",
         "displayName": "Airbnb Microservice Architecture",
@@ -2560,6 +2915,14 @@
           "Use Case",
           "Database",
           "Netflix"
+        ]
+      },
+      {
+        "file": "Facebook System Design.gif",
+        "displayName": "Facebook System Design",
+        "tags": [
+          "Facebook",
+          "System Design"
         ]
       },
       {
@@ -2627,7 +2990,7 @@
         ]
       },
       {
-        "file": "How does VISA make money.jpg",
+        "file": "How does VISA make money.gif",
         "displayName": "How does VISA make money? (bytebytego)",
         "tags": [
           "Architecture",
@@ -2679,6 +3042,13 @@
         ]
       },
       {
+        "file": "Prometheus Architecture.gif",
+        "displayName": "Prometheus Architecture",
+        "tags": [
+          "Prometheus Architecture"
+        ]
+      },
+      {
         "file": "Stack Overflow Architecture.jpg",
         "displayName": "Stack Overflow Architecture (bytebytego)",
         "tags": [
@@ -2686,6 +3056,22 @@
           "Design",
           "Flow",
           "Stack Overflow"
+        ]
+      },
+      {
+        "file": "Telegram System Design.gif",
+        "displayName": "Telegram System Design",
+        "tags": [
+          "Telegram",
+          "Architecture"
+        ]
+      },
+      {
+        "file": "The Core Reddit Architecture.gif",
+        "displayName": "The Core Reddit Architecture (bytebytego)",
+        "tags": [
+          "Architecture",
+          "Reddit"
         ]
       },
       {
@@ -2697,6 +3083,14 @@
           "Flow",
           "Ticket",
           "Booking"
+        ]
+      },
+      {
+        "file": "Tinder Architecture.gif",
+        "displayName": "Tinder Architecture",
+        "tags": [
+          "Tinder",
+          "Architecture"
         ]
       },
       {
@@ -2718,6 +3112,14 @@
           "Mobile",
           "Flow"
         ]
+      },
+      {
+        "file": "Whatsapp Architecture.gif",
+        "displayName": "Whatsapp Architecture",
+        "tags": [
+          "Whatsapp",
+          "Architecture"
+        ]
       }
     ]
   },
@@ -2725,6 +3127,14 @@
     "topic": "web",
     "displayName": "Web Development",
     "references": [
+      {
+        "file": "Cookies and Sessions.jpg",
+        "displayName": "Cookies and Sessions (bytebytego)",
+        "tags": [
+          "Cookies",
+          "Sessions"
+        ]
+      },
       {
         "file": "How do modern browsers work.jpg",
         "displayName": "How do modern browsers work?",
@@ -2756,6 +3166,14 @@
         ]
       },
       {
+        "file": "Typical Architecture of a Web Application.gif",
+        "displayName": "Typical Architecture of a Web Application (bytebytego)",
+        "tags": [
+          "Architecture",
+          "Web Application"
+        ]
+      },
+      {
         "file": "URL, URI, URN.jpg",
         "displayName": "URL vs URI vs URN (bytebytego)",
         "tags": [
@@ -2764,6 +3182,14 @@
           "URN",
           "Comparison",
           "Concept"
+        ]
+      },
+      {
+        "file": "Web Application and Software Architecture.gif",
+        "displayName": "Web Application and Software Architecture",
+        "tags": [
+          "Web Application",
+          "Software Architecture"
         ]
       },
       {
