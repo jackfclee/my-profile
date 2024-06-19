@@ -187,7 +187,7 @@ You use Google Cloud Dataflow to process the data and decide if a message should
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Update the current pipeline and use the drain flag.</detail>
         </option>
         <option>
@@ -199,7 +199,7 @@ You use Google Cloud Dataflow to process the data and decide if a message should
           <detail>Create a new pipeline that has the same Cloud Pub/Sub subscription and cancel the old pipeline. </detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Create a new pipeline that has a new Cloud Pub/Sub subscription and cancel the old pipeline.</detail>
         </option>
       </options>
