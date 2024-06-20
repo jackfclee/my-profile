@@ -652,7 +652,7 @@ Which approach meets the requirements?</question>
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Do not use a production instance.</detail>
         </option>
         <option>
@@ -664,7 +664,7 @@ Which approach meets the requirements?</question>
           <detail>Before you test, run a heavy pre-test for several minutes. </detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Use at least 300 GB of data.</detail>
         </option>
       </options>
