@@ -1158,7 +1158,7 @@ Which approach meets the requirements?</question>
     <answer>
       <options>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Field promotion </detail>
         </option>
         <option>
@@ -1166,7 +1166,7 @@ Which approach meets the requirements?</question>
           <detail>Randomization </detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Salting</detail>
         </option>
         <option>
@@ -1605,7 +1605,7 @@ Which operation is best suited for the above data processing requirement?
           <detail>Create a new partitioned table using a standard SQL query</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Create a new view over events_partitioned using standard SQL</detail>
         </option>
         <option>
@@ -1613,7 +1613,7 @@ Which operation is best suited for the above data processing requirement?
           <detail>Create a service account for the ODBC connection to use for authentication</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Create a Google Cloud Identity and Access Management (Cloud IAM) role for the ODBC connectionand shared “events”</detail>
         </option>
       </options>

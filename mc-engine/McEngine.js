@@ -63,12 +63,14 @@ function setQuestions(currentQuestions) {
   }
 
   //--------------------------------------------------------------------------------
+  $("#resetBtn").off('click');
   $("#resetBtn").click(function (e) {
     e.preventDefault();
     displayQuestion(currentQuestionIndex);
   });
 
   //--------------------------------------------------------------------------------
+  $("#submitBtn").off('click');
   $("#submitBtn").click(function (e) {
     e.preventDefault();
     $("#answersForm input").each(function () {
@@ -81,6 +83,7 @@ function setQuestions(currentQuestions) {
   });
 
   //--------------------------------------------------------------------------------
+  $("#nextBtn").off('click');
   $("#nextBtn").click(function (e) {
     e.preventDefault();
     currentQuestionIndex++;
@@ -90,6 +93,7 @@ function setQuestions(currentQuestions) {
   });
 
   //--------------------------------------------------------------------------------
+  $("#previousBtn").off('click');
   $("#previousBtn").click(function (e) {
     e.preventDefault();
     currentQuestionIndex--;
