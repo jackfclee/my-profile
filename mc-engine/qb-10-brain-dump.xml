@@ -1823,7 +1823,7 @@ Which operation is best suited for the above data processing requirement?
         </option>
         <option>
           <valid>true</valid>
-          <detail>Have each application server write the bid events to Google Cloud Pub/Sub as they occur. Use a pull subscription to pull the bid events using Google Cloud Dataflow. Give the bid for each item to the userIn the bid event that is processed first.</detail>
+          <detail>Have each application server write the bid events to Google Cloud Pub/Sub as they occur. Use a pull subscription to pull the bid events using Google Cloud Dataflow. Give the bid for each item to the user in the bid event that is processed first.</detail>
         </option>
       </options>
     </answer>
@@ -1857,12 +1857,12 @@ Which operation is best suited for the above data processing requirement?
 SELECT country, state, city FROM [myproject:mydataset.mytable] GROUP BY country
 ```
 You check the query plan for the query and see the following output in the Read section of Stage:1:
-Selection:  Assign to Folds | Sampling | Head
+
 Partition or sample mode
-- [ ] Use replacement in the partitioning
-- [x] Randomized split
+- Use replacement in the partitioning: No
+- Randomized split: Yes
 - Random seed: `0`
-Selection: True | False | Partition evenly | Partition with custom partitions
+
 Specify the partitioner method: Partition evenly
 Specify number of folds to split evenly into: `3`
 
@@ -2004,7 +2004,7 @@ What is the most likely cause of the delay for this query?
         </option>
         <option>
           <valid>false</valid>
-          <detail>Implement Cloud SQL for PostgreSQL with the master in Norht America and read replicas in Asia and Europe. </detail>
+          <detail>Implement Cloud SQL for PostgreSQL with the master in North America and read replicas in Asia and Europe. </detail>
         </option>
         <option>
           <valid>false</valid>
@@ -2526,7 +2526,7 @@ How should you design data storage for this solution?
           <detail>Grant the consultant the Viewer role on the project.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Grant the consultant the Cloud Dataflow Developer role on the project.</detail>
         </option>
         <option>
@@ -2534,7 +2534,7 @@ How should you design data storage for this solution?
           <detail>Create a service account and allow the consultant to log on with it.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Create an anonymized sample of the data for the consultant to work with in a different project.</detail>
         </option>
       </options>
@@ -3087,7 +3087,7 @@ How should you design data storage for this solution?
         </option>
         <option>
           <valid>false</valid>
-          <detail>Set the BigQuery dataset to be multi-regional. Create a scheduled query to make copies of the data to tables suffixed with the time of the backu J. In the event of an emergency, use the backup copy of the table.</detail>
+          <detail>Set the BigQuery dataset to be multi-regional. Create a scheduled query to make copies of the data to tables suffixed with the time of the backup. In the event of an emergency, use the backup copy of the table.</detail>
         </option>
       </options>
     </answer>
@@ -3098,19 +3098,19 @@ How should you design data storage for this solution?
       <options>
         <option>
           <valid>true</valid>
-          <detail>Deploy a Kafka cluster on GCE VM Instance. Configure your on-prem cluster to mirror your topics tothe cluster running in GC. Use a Dataproc cluster or Dataflow job to read from Kafka and write to GCS.</detail>
+          <detail>Deploy a Kafka cluster on GCE VM Instances. Configure your on-prem cluster to mirror your topics to the cluster running in GCE. Use a Dataproc cluster or Dataflow job to read from Kafka and write to GCS.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Deploy a Kafka cluster on GCE VM Instances with the PubSub Kafka connector configured as a Sink connector. Use a Dataproc cluster or Dataflow job to read from Kafka and write to GCS.</detail>
+          <detail>Deploy a Kafka cluster on GCE VM Instances with the Pub/Sub Kafka connector configured as a Sink connector. Use a Dataproc cluster or Dataflow job to read from Kafka and write to GCS.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Deploy the PubSub Kafka connector to your on-prem Kafka cluster and configure PubSub as a Source connector. Use a Dataflow job to read fron PubSub and write to GCS.</detail>
+          <detail>Deploy the Pub/Sub Kafka connector to your on-prem Kafka cluster and configure Pub/Sub as a Source connector. Use a Dataflow job to read from Pub/Sub and write to GCS.</detail>
         </option>
         <option>
           <valid>false</valid>
-          <detail>Deploy the PubSub Kafka connector to your on-prem Kafka cluster and configure PubSub as a Sink connector. Use a Dataflow job to read fron PubSub and write to GCS.</detail>
+          <detail>Deploy the Pub/Sub Kafka connector to your on-prem Kafka cluster and configure Pub/Sub as a Sink connector. Use a Dataflow job to read from Pub/Sub and write to GCS.</detail>
         </option>
       </options>
     </answer>
@@ -3125,7 +3125,7 @@ How should you design data storage for this solution?
         </option>
         <option>
           <valid>false</valid>
-          <detail>Create an Authorized View with the provided query,Share the dataset that contains the view with the application service account.</detail>
+          <detail>Create an Authorized View with the provided query. Share the dataset that contains the view with the application service account.</detail>
         </option>
         <option>
           <valid>false</valid>
@@ -3133,7 +3133,7 @@ How should you design data storage for this solution?
         </option>
         <option>
           <valid>true</valid>
-          <detail>Create a Cloud Dataflow pipeline using BigQueryIO to read predictions for all users from the query.Write the results to Cloud Bigtable using BigtableI G. Grant the Bigtable Reader role to the application service account so that the application can read predictions for individual users from Cloud Bigtable.</detail>
+          <detail>Create a Cloud Dataflow pipeline using BigQueryIO to read predictions for all users from the query. Write the results to Cloud Bigtable using BigtableIO. Grant the Bigtable Reader role to the application service account so that the application can read predictions for individual users from Cloud Bigtable.</detail>
         </option>
       </options>
     </answer>
@@ -4248,10 +4248,6 @@ You create a data source to store the last 6 weeks of data, and create visualiza
           <valid>false</valid>
           <detail>Create a temporary table in Cloud Bigtable that will act as a buffer for new data. Create a new step in your pipeline to write to this table first, and then create a new pipeline to write from Cloud Bigtable to BigQuery.</detail>
         </option>
-        <option>
-          <valid>false</valid>
-          <detail>Create a temporary table in Cloud Spanner that will act as a buffer for new data. Create a new step in your pipeline to write to this table first, and then create a new pipeline to write from Cloud Spanner to BigQuery.</detail>
-        </option>
       </options>
     </answer>
   </entry>
@@ -4334,7 +4330,7 @@ You create a data source to store the last 6 weeks of data, and create visualiza
         </option>
         <option>
           <valid>false</valid>
-          <detail>Use Cloud Dataflow to transform data to support query patterns.</detail>
+          <detail>Use Cloud SQL for storage. Use Cloud Dataflow to transform data to support query patterns.</detail>
         </option>
         <option>
           <valid>true</valid>
@@ -4342,7 +4338,7 @@ You create a data source to store the last 6 weeks of data, and create visualiza
         </option>
         <option>
           <valid>false</valid>
-          <detail>Use Cloud Dataflow to transform data to support query patterns.</detail>
+          <detail>Use Cloud Spanner for storage. Use Cloud Dataflow to transform data to support query patterns.</detail>
         </option>
       </options>
     </answer>
@@ -4439,33 +4435,6 @@ You create a data source to store the last 6 weeks of data, and create visualiza
         <option>
           <valid>false</valid>
           <detail>Install Hadoop and Spark on a 10-node Compute Engine instance group with preemptible instances. Store data in HDFS. Change references in scripts from hdfs:// to gs://</detail>
-        </option>
-      </options>
-    </answer>
-  </entry>
-  <entry>
-    <question>You want to migrate an on-premises Hadoop system to Cloud Dataproc. Hive is the primary tool in use, and the data format is Optimized Row Columnar (ORC). All ORC files have been successfully copied to a Cloud Storage bucket. You need to replicate some data to the cluster’s local Hadoop Distributed File System (HDFS) to maximize performance. What are two ways to start using Hive in Cloud Dataproc? (Choose two.)</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>Run the gsutil utility to transfer all ORC files from the Cloud Storage bucket to HDF. Mount the Hive tables locally.</detail>
-        </option>
-        <option>
-          <valid>true</valid>
-          <detail>Run the gsutil utility to transfer all ORC files from the Cloud Storage bucket to any node of the Dataproc cluster. Mount the Hive tables locally.</detail>
-        </option>
-        <option>
-          <valid>true</valid>
-          <detail>Run the gsutil utility to transfer all ORC files from the Cloud Storage bucket to the master node of the Dataproc cluste. Then run the Hadoop utility to copy them do HDF. Mount the Hive tables from HDFS.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Leverage Cloud Storage connector for Hadoop to mount the ORC files as external Hive table. Replicate external Hive tables to the native ones.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Load the ORC files into BigQuery. Leverage BigQuery connector for Hadoop to mount the BigQuery tables as external Hive table. Replicate external Hive tables to the native ones.</detail>
         </option>
       </options>
     </answer>
@@ -5108,39 +5077,16 @@ The database will be used to store all the transactional data of the product. Yo
           <detail>Use Cloud Dataproc to run your transformation. Monitor CPU utilization for the cluster. Resize the number of worker nodes in your cluster via the command line.</detail>
         </option>
         <option>
-          <valid>true</valid>
+          <valid>false</valid>
           <detail>Use Cloud Dataproc to run your transformation. Use the diagnose command to generate an operational output archive. Locate the bottleneck and adjust cluster resources.</detail>
         </option>
         <option>
-          <valid>false</valid>
+          <valid>true</valid>
           <detail>Use Cloud Dataflow to run your transformation. Monitor the job system lag with Stackdriver. Use the default autoscaling setting for worker instances.</detail>
         </option>
         <option>
           <valid>false</valid>
           <detail>Use Cloud Dataflow to run your transformation. Monitor the total execution time for a sampling of job. Configure the job to use non-default Compute Engine machine types when needed.</detail>
-        </option>
-      </options>
-    </answer>
-  </entry>
-  <entry>
-    <question>You have a requirement to insert minute-resolution data from 50,000 sensors into a BigQuery table. You expect significant growth in data volume and need the data to be available within 1 minute of ingestion for real-time analysis of aggregated trends. What should you do?</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>Use bq load to load a batch of sensor data every 60 seconds.</detail>
-        </option>
-        <option>
-          <valid>true</valid>
-          <detail>Use a Cloud Dataflow pipeline to stream data into the BigQuery table.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use the INSERT statement to insert a batch of data every 60 seconds.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use the MERGE statement to apply updates in batch every 60 seconds.</detail>
         </option>
       </options>
     </answer>
@@ -5265,29 +5211,6 @@ The database will be used to store all the transactional data of the product. Yo
     </answer>
   </entry>
   <entry>
-    <question>A shipping company has live package-tracking data that is sent to an Apache Kafka stream in real time. This is then loaded into BigQuery. Analysts in your company want to query the tracking data in BigQuery to analyze geospatial trends in the lifecycle of a package. The table was originally created with ingest-date partitioning. Over time, the query processing time has increased. You need to implement a change that would improve query performance in BigQuery. What should you do?</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>Implement clustering in BigQuery on the ingest date column.</detail>
-        </option>
-        <option>
-          <valid>true</valid>
-          <detail>Implement clustering in BigQuery on the package-tracking ID column.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Tier older data onto Cloud Storage files, and leverage extended tables.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Re-create the table using data partitioning on the package delivery date.</detail>
-        </option>
-      </options>
-    </answer>
-  </entry>
-  <entry>
     <question>You need to choose a database to store time series CPU and memory usage for millions of computers. You need to store this data in one-second interval samples. Analysts will be performing real-time, ad hoc analytics against the database. You want to avoid being charged for every query executed and ensure that the schema design will allow for future growth of the dataset. Which database and data model should you choose?</question>
     <answer>
       <options>
@@ -5306,29 +5229,6 @@ The database will be used to store all the transactional data of the product. Yo
         <option>
           <valid>false</valid>
           <detail>Create a wide table in Cloud Bigtable with a row key that combines the computer identifier with the sample time at each minute, and combine the values for each second as column data.</detail>
-        </option>
-      </options>
-    </answer>
-  </entry>
-  <entry>
-    <question>You are designing storage for two relational tables that are part of a 10-TB database on Google Cloud. You want to support transactions that scale horizontally. You also want to optimize data for range queries on nonkey columns. What should you do?</question>
-    <answer>
-      <options>
-        <option>
-          <valid>false</valid>
-          <detail>Use Cloud SQL for storage. Add secondary indexes to support query patterns.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use Cloud Dataflow to transform data to support query patterns.</detail>
-        </option>
-        <option>
-          <valid>true</valid>
-          <detail>Use Cloud Spanner for storage. Add secondary indexes to support query patterns.</detail>
-        </option>
-        <option>
-          <valid>false</valid>
-          <detail>Use Cloud Dataflow to transform data to support query patterns.</detail>
         </option>
       </options>
     </answer>
