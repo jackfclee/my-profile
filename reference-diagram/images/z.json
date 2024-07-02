@@ -12,6 +12,17 @@
         ]
       },
       {
+        "file": "AI is more than ChatGPT.jpg",
+        "displayName": "AI is more than ChatGPT",
+        "tags": [
+          "AI",
+          "Deep Learning",
+          "Neural Networks",
+          "Machine Learning",
+          "Artifical Intelligence"
+        ]
+      },
+      {
         "file": "ChatGPT - How we get here.png",
         "displayName": "ChatGPT - How we get here? (bytebytego)",
         "tags": [
@@ -125,7 +136,7 @@
       },
       {
         "file": "API Architectural Styles - Illustration.jpg",
-        "displayName": "",
+        "displayName": "API Architectural Styles - Illustration",
         "tags": [
           "REST",
           "API",
@@ -184,6 +195,27 @@
         ]
       },
       {
+        "file": "API Pagination 101.gif",
+        "displayName": "API Pagination 101",
+        "tags": [
+          "API Pagination"
+        ]
+      },
+      {
+        "file": "API Protocols (rocky).gif",
+        "displayName": "API Protocols",
+        "tags": [
+          "API Protocols"
+        ]
+      },
+      {
+        "file": "API Protocols (wallarm).gif",
+        "displayName": "API Protocols",
+        "tags": [
+          "API Protocols"
+        ]
+      },
+      {
         "file": "API Response Code.png",
         "displayName": "API Response Code",
         "tags": [
@@ -202,6 +234,13 @@
           "API",
           "Tool",
           "Ecosystem"
+        ]
+      },
+      {
+        "file": "Advantages of API Gateway.gif",
+        "displayName": "Advantages of API Gateway",
+        "tags": [
+          "API Gateway"
         ]
       },
       {
@@ -249,6 +288,13 @@
           "Code",
           "API",
           "Comparison"
+        ]
+      },
+      {
+        "file": "How to Build A Robust API Gateway.gif",
+        "displayName": "How to Build A Robust API Gateway",
+        "tags": [
+          "API Gateway"
         ]
       },
       {
@@ -303,6 +349,16 @@
       },
       {
         "file": "REST API Design.gif",
+        "displayName": "REST API Design",
+        "tags": [
+          "REST",
+          "API",
+          "Design",
+          "Concept"
+        ]
+      },
+      {
+        "file": "REST API Design.jpg",
         "displayName": "REST API Design",
         "tags": [
           "REST",
@@ -622,6 +678,20 @@
         ]
       },
       {
+        "file": "Top 6 API Architecture Styles.gif",
+        "displayName": "Top 6 API Architecture Styles",
+        "tags": [
+          "API Architecture Styles"
+        ]
+      },
+      {
+        "file": "Top 6 Cases of Leveraging Idempotency.gif",
+        "displayName": "Top 6 Cases of Leveraging Idempotency (bytebytego)",
+        "tags": [
+          "Idempotency"
+        ]
+      },
+      {
         "file": "Top 6 Tools to Turn Code into Beautiful Diagrams.webp",
         "displayName": "Top 6 Tools to Turn Code into Beautiful Diagrams (bytebytego)",
         "tags": [
@@ -658,6 +728,13 @@
           "Orchestrator",
           "Streaming Processing",
           "Batching"
+        ]
+      },
+      {
+        "file": "Top System Design Building Blocks.gif",
+        "displayName": "Top System Design Building Blocks",
+        "tags": [
+          "System Design"
         ]
       },
       {
@@ -901,6 +978,13 @@
         ]
       },
       {
+        "file": "Git - A Pictorial Walkthrough.gif",
+        "displayName": "Git - A Pictorial Walkthrough",
+        "tags": [
+          "Git Workflow"
+        ]
+      },
+      {
         "file": "Git Workflow and Immutability.jpg",
         "displayName": "Git Workflow and Immutability (bytebytego)",
         "tags": [
@@ -929,6 +1013,19 @@
         ]
       },
       {
+        "file": "How Companies Ship Code to Production.gif",
+        "displayName": "How Companies Ship Code to Production (bytebytego)",
+        "tags": [
+          "Stack",
+          "Tool",
+          "CICD",
+          "Pipeline",
+          "Flow",
+          "Development",
+          "Production"
+        ]
+      },
+      {
         "file": "How Git Commands work.jpg",
         "displayName": "How Git Commands work? (bytebytego)",
         "tags": [
@@ -939,6 +1036,14 @@
       {
         "file": "Life is Short, Use Dev Tools.gif",
         "displayName": "Life is Short, Use Dev Tools (bytebytego)",
+        "tags": [
+          "DevOps",
+          "Tools"
+        ]
+      },
+      {
+        "file": "Most Popular DevOps Tools.gif",
+        "displayName": "Most Popular DevOps Tools",
         "tags": [
           "DevOps",
           "Tools"
@@ -975,19 +1080,6 @@
         ]
       },
       {
-        "file": "Shipping Code to Production.gif",
-        "displayName": "How companies ship code to production? (bytebytego)",
-        "tags": [
-          "Stack",
-          "Tool",
-          "CICD",
-          "Pipeline",
-          "Flow",
-          "Development",
-          "Production"
-        ]
-      },
-      {
         "file": "Software Tools.png",
         "displayName": "Software Tools",
         "tags": [
@@ -999,6 +1091,13 @@
         "displayName": "Top 6 ElasticSearch Use Cases (bytebytego)",
         "tags": [
           "ElasticSearch"
+        ]
+      },
+      {
+        "file": "What is DevSecOps.gif",
+        "displayName": "What is DevSecOps (bytebytego)",
+        "tags": [
+          "DevSecOps"
         ]
       }
     ]
@@ -1050,12 +1149,17 @@
         ]
       },
       {
-        "file": "Cloud Comparison Cheat Sheet.jpg",
-        "displayName": "Cloud Comparison Cheat Sheet",
+        "file": "Cloud Comparison Cheat Sheet (bytebytego).jpg",
+        "displayName": "Cloud Comparison Cheat Sheet (bytebytego)",
         "tags": [
-          "Cloud",
-          "CheatSheet",
-          "Comparison"
+          "Cloud Comparison Cheat Sheet"
+        ]
+      },
+      {
+        "file": "Cloud Comparison Cheat Sheet (cloudairy).gif",
+        "displayName": "Cloud Comparison Cheat Sheet (cloudairy)",
+        "tags": [
+          "Cloud Comparison Cheat Sheet"
         ]
       },
       {
@@ -1137,6 +1241,14 @@
         "tags": [
           "AWS",
           "Product"
+        ]
+      },
+      {
+        "file": "Typical AWS Network Architecture.gif",
+        "displayName": "Typical AWS Network Architecture",
+        "tags": [
+          "AWS",
+          "Network Architecture"
         ]
       },
       {
@@ -1235,6 +1347,13 @@
         ]
       },
       {
+        "file": "How Java Works.gif",
+        "displayName": "How Java Works",
+        "tags": [
+          "Java"
+        ]
+      },
+      {
         "file": "How do C++ Java Python work.gif",
         "displayName": "How do C++, Java, Python work?",
         "tags": [
@@ -1270,7 +1389,7 @@
       },
       {
         "file": "Java Collections Comparison.webp",
-        "displayName": "",
+        "displayName": "Java Collections Comparison",
         "tags": [
           "Java",
           "Collections",
@@ -1355,6 +1474,13 @@
         ]
       },
       {
+        "file": "The Python Atmosphere.gif",
+        "displayName": "The Python Atmosphere",
+        "tags": [
+          "Python"
+        ]
+      },
+      {
         "file": "To Crack Coding Interviews.gif",
         "displayName": "To Crack Coding Interviews",
         "tags": [
@@ -1387,6 +1513,14 @@
         "tags": [
           "Deadlock"
         ]
+      },
+      {
+        "file": "Working of Python vs Java.gif",
+        "displayName": "Working of Python vs Java",
+        "tags": [
+          "Python",
+          "Java"
+        ]
       }
     ]
   },
@@ -1394,6 +1528,13 @@
     "topic": "container",
     "displayName": "Container",
     "references": [
+      {
+        "file": "8 must know Docker Concepts.gif",
+        "displayName": "8 must know Docker Concepts (bytebytego)",
+        "tags": [
+          "Docker Concepts"
+        ]
+      },
       {
         "file": "CICD Tools.webp",
         "displayName": "CICD Tools (bytebytego)",
@@ -1440,6 +1581,21 @@
           "Flow",
           "Practice",
           "Development"
+        ]
+      },
+      {
+        "file": "Kubernetes Architecture.gif",
+        "displayName": "Kubernetes Architecture",
+        "tags": [
+          "Kubernetes Architecture"
+        ]
+      },
+      {
+        "file": "Kubernetes Cost Reduction Techniques.jpg",
+        "displayName": "Kubernetes Cost Reduction Techniques",
+        "tags": [
+          "Kubernetes",
+          "Cost Reduction"
         ]
       },
       {
@@ -1544,6 +1700,13 @@
           "Data Governance",
           "Big Data Processing",
           "Cloud Computing"
+        ]
+      },
+      {
+        "file": "9 Types of Database Locks.gif",
+        "displayName": "9 Types of Database Locks",
+        "tags": [
+          "Database Locks"
         ]
       },
       {
@@ -1663,6 +1826,11 @@
         ]
       },
       {
+        "file": "Most Popular Open Source Database.gif",
+        "displayName": "Most Popular Open Source Database (bytebytego)",
+        "tags": []
+      },
+      {
         "file": "Open Data Architecture.gif",
         "displayName": "Open Data Architecture",
         "tags": [
@@ -1678,8 +1846,24 @@
         ]
       },
       {
+        "file": "SQL Cheatsheet.gif",
+        "displayName": "SQL Cheatsheet",
+        "tags": [
+          "SQL Cheatsheet"
+        ]
+      },
+      {
         "file": "SQL JOINs CheatSheet.gif",
         "displayName": "SQL JOINs CheatSheet",
+        "tags": [
+          "SQL",
+          "JOIN",
+          "CheatSheet"
+        ]
+      },
+      {
+        "file": "SQL JOINs Explained.gif",
+        "displayName": "SQL JOINs Explained",
         "tags": [
           "SQL",
           "JOIN",
@@ -1739,6 +1923,13 @@
         ]
       },
       {
+        "file": "What happens when you type SELECT FROM.gif",
+        "displayName": "What Happens When you type SELECT FROM",
+        "tags": [
+          "SELECT FROM"
+        ]
+      },
+      {
         "file": "Which Database should I use.jpg",
         "displayName": "Which Database should I use?",
         "tags": [
@@ -1763,6 +1954,13 @@
     "topic": "domain-concept",
     "displayName": "Domain Concepts",
     "references": [
+      {
+        "file": "Basic Search Engine.gif",
+        "displayName": "Basic Search Engine",
+        "tags": [
+          "Search Engine"
+        ]
+      },
       {
         "file": "Design a Payment System.png",
         "displayName": "Design a Payment System",
@@ -1974,9 +2172,44 @@
     ]
   },
   {
+    "topic": "frontend",
+    "references": [
+      {
+        "file": "Frontend Performance Cheatsheet.gif",
+        "displayName": "Frontend Performance Cheatsheet (bytebytego)",
+        "tags": [
+          "Frontend",
+          "Performance",
+          "CheatSheet"
+        ]
+      }
+    ]
+  },
+  {
+    "topic": "hardware",
+    "references": [
+      {
+        "file": "Key chip suppliers for Apple iPhone 15.jpg",
+        "displayName": "Key chip suppliers for Apple iPhone 15",
+        "tags": [
+          "iPhone",
+          "Chip Suppliers"
+        ]
+      }
+    ]
+  },
+  {
     "topic": "messaging",
     "displayName": "Messaging (Queue and PubSub)",
     "references": [
+      {
+        "file": "CQRS and Kafka.jpg",
+        "displayName": "CQRS and Kafka",
+        "tags": [
+          "CQRS",
+          "Kafka"
+        ]
+      },
       {
         "file": "Can Kafka lose messages.webp",
         "displayName": "Can Kafka lose messages? (bytebytego)",
@@ -2089,13 +2322,6 @@
         "displayName": "A beginner's guide to CDN (bytebytego)",
         "tags": [
           "CDN"
-        ]
-      },
-      {
-        "file": "API Protocols.gif",
-        "displayName": "API Protocols",
-        "tags": [
-          "API Protocols"
         ]
       },
       {
@@ -2215,7 +2441,7 @@
         ]
       },
       {
-        "file": "Load Balancing Algorithms.jpg",
+        "file": "Load Balancing Algorithms (bytebytego).jpg",
         "displayName": "Load Balancing Algorithms (bytebytego)",
         "tags": [
           "Load",
@@ -2223,6 +2449,25 @@
           "Algorithm",
           "Comparison",
           "Pattern"
+        ]
+      },
+      {
+        "file": "Load Balancing Algorithms (designgurus).gif",
+        "displayName": "Load Balancing Algorithms (designgurus)",
+        "tags": [
+          "Load",
+          "Balancer",
+          "Algorithm",
+          "Comparison",
+          "Pattern"
+        ]
+      },
+      {
+        "file": "Network Protocols Summarized.gif",
+        "displayName": "Network Protocols Summarized",
+        "tags": [
+          "Network",
+          "Protocols"
         ]
       },
       {
@@ -2286,6 +2531,16 @@
         ]
       },
       {
+        "file": "What is OSI model.gif",
+        "displayName": "What is OSI model (bytebytego)",
+        "tags": [
+          "OSI",
+          "Comparison",
+          "Layer",
+          "Network"
+        ]
+      },
+      {
         "file": "What is OSI model.jpg",
         "displayName": "What is OSI model (bytebytego)",
         "tags": [
@@ -2294,6 +2549,13 @@
           "Layer",
           "Network"
         ]
+      },
+      {
+        "file": "Why HTTP2 is faster than HTTP1.gif",
+        "displayName": "Why HTTP2 is faster than HTTP1 (bytebytego)",
+        "tags": [
+          "HTTP2"
+        ]
       }
     ]
   },
@@ -2301,6 +2563,21 @@
     "topic": "performance",
     "displayName": "Performance",
     "references": [
+      {
+        "file": "5 Methods to Improve API Performance.gif",
+        "displayName": "5 Methods to Improve API Performance",
+        "tags": [
+          "API Performance",
+          "Improvement"
+        ]
+      },
+      {
+        "file": "8 Must Know Strategies to Scale Your System.gif",
+        "displayName": "8 Must Know Strategies to Scale Your System (bytebytego)",
+        "tags": [
+          "Scaling"
+        ]
+      },
       {
         "file": "Design Principles for High Concurrency, High Availability, and Quick Responsiveness System.png",
         "displayName": "Design Principles for High Concurrency, High Availability, and Quick Responsiveness System",
@@ -2366,6 +2643,14 @@
           "Latency",
           "Performance",
           "Comparison"
+        ]
+      },
+      {
+        "file": "Nodejs Performance Optimization.gif",
+        "displayName": "Node.js Performance Optimization",
+        "tags": [
+          "node.js",
+          "Performance Optimization"
         ]
       },
       {
@@ -2606,6 +2891,14 @@
         ]
       },
       {
+        "file": "Full Stack Developer.jpg",
+        "displayName": "Full Stack Developer",
+        "tags": [
+          "Full Stack Developer",
+          "Skill Set"
+        ]
+      },
+      {
         "file": "How to Cope wih Work Stress.jpg",
         "displayName": "How to Cope wih Work Stress",
         "tags": [
@@ -2631,10 +2924,24 @@
         ]
       },
       {
+        "file": "Junior to Senior Developer Roadmap.gif",
+        "displayName": "Junior to Senior Developer Roadmap (bytebytego)",
+        "tags": [
+          "Developer Roadmap"
+        ]
+      },
+      {
         "file": "My Recommended Resources for Tech Interviews.gif",
         "displayName": "My Recommended Resources for Tech Interviews (bytebytego)",
         "tags": [
           "Interview"
+        ]
+      },
+      {
+        "file": "The Full Stack Atmosphere.jpg",
+        "displayName": "The Full Stack Atmosphere",
+        "tags": [
+          "Full Stack"
         ]
       },
       {
@@ -2644,6 +2951,14 @@
           "Soft Skill",
           "Scrum",
           "Journey"
+        ]
+      },
+      {
+        "file": "Time Management Cheat Sheet.jpg",
+        "displayName": "Time Management Cheat Sheet",
+        "tags": [
+          "Time Management",
+          "Cheat Sheet"
         ]
       }
     ]
@@ -2736,6 +3051,14 @@
           "Attack",
           "Flow"
         ]
+      },
+      {
+        "file": "Top 6 Log Parsing Commands.jpg",
+        "displayName": "Top 6 Log Parsing Commands (bytebytego)",
+        "tags": [
+          "Log Parsing",
+          "Linux Commands"
+        ]
       }
     ]
   },
@@ -2758,6 +3081,22 @@
           "Linux",
           "Flow",
           "Core"
+        ]
+      },
+      {
+        "file": "How to choose an OS.jpg",
+        "displayName": "How to choose an OS",
+        "tags": [
+          "OS",
+          "Operating Systems"
+        ]
+      },
+      {
+        "file": "Linux Boot Process Explained.gif",
+        "displayName": "Linux Boot Process Explained (bytebytego)",
+        "tags": [
+          "Linux",
+          "Boot Process"
         ]
       },
       {
@@ -2909,6 +3248,13 @@
         ]
       },
       {
+        "file": "Behind the Scenes - Buying with a Bank Card.jpg",
+        "displayName": "Behind the Scenes - Buying with a Bank Card (bytebytego)",
+        "tags": [
+          "Bank Card"
+        ]
+      },
+      {
         "file": "Database Used in Netflix.gif",
         "displayName": "Database Used in Netflix",
         "tags": [
@@ -3031,6 +3377,25 @@
           "Design",
           "Flow",
           "Instagram"
+        ]
+      },
+      {
+        "file": "Instagram System Design.gif",
+        "displayName": "Instagram System Design",
+        "tags": [
+          "Architecture",
+          "Design",
+          "Flow",
+          "Instagram"
+        ]
+      },
+      {
+        "file": "Netflix Tech Stack CICD Pipeline.jpg",
+        "displayName": "Netflix Tech Stack CICD Pipeline (bytebytego)",
+        "tags": [
+          "Netflix",
+          "Tech Stack",
+          "CICD Pipeline"
         ]
       },
       {
