@@ -386,6 +386,14 @@
         ]
       },
       {
+        "file": "Top 6 API Architecture Styles.gif",
+        "displayName": "Top 6 API Architecture Styles",
+        "tags": [
+          "API",
+          "Architecture Styles"
+        ]
+      },
+      {
         "file": "Top 9 HTTP Request Methods.gif",
         "displayName": "Top 9 HTTP Request Methods (bytebytego)",
         "tags": [
@@ -978,6 +986,14 @@
         ]
       },
       {
+        "file": "DevOps vs NoOps.gif",
+        "displayName": "DevOps vs NoOps (bytebytego)",
+        "tags": [
+          "DevOps",
+          "NoOps"
+        ]
+      },
+      {
         "file": "Git - A Pictorial Walkthrough.gif",
         "displayName": "Git - A Pictorial Walkthrough",
         "tags": [
@@ -1281,6 +1297,13 @@
           "SOILD",
           "Design",
           "Pattern"
+        ]
+      },
+      {
+        "file": "12 Simple Clean Code Tips.jpg",
+        "displayName": "12 Simple Clean Code Tips",
+        "tags": [
+          "Clean Code"
         ]
       },
       {
@@ -1687,6 +1710,14 @@
     "topic": "data",
     "displayName": "Data",
     "references": [
+      {
+        "file": "100X Postgres Scaling at Figma.gif",
+        "displayName": "100X Postgres Scaling at Figma (bytebytego)",
+        "tags": [
+          "Postgres",
+          "Scaling"
+        ]
+      },
       {
         "file": "9 Data Terms Explained.jpg",
         "displayName": "9 Data Terms Explained",
@@ -2877,12 +2908,27 @@
           "Tokenization",
           "Token"
         ]
+      },
+      {
+        "file": "XROSS Site Scripting.JPG",
+        "displayName": "XROSS Site Scripting (bytebytego)",
+        "tags": [
+          "XSS",
+          "XROSS Site Scripting"
+        ]
       }
     ]
   },
   {
     "topic": "soft-skills",
     "references": [
+      {
+        "file": "10 Dangerous Personalities to Avoid.jpg",
+        "displayName": "10 Dangerous Personalities to Avoid",
+        "tags": [
+          "Dangerous"
+        ]
+      },
       {
         "file": "Everything you can do in Excel.jpg",
         "displayName": "Everything you can do in Excel",
@@ -3387,6 +3433,30 @@
           "Design",
           "Flow",
           "Instagram"
+        ]
+      },
+      {
+        "file": "Netflix - New Member History Process.PNG",
+        "displayName": "Netflix - New Member History Process",
+        "tags": [
+          "Netflix",
+          "New Member History Process"
+        ]
+      },
+      {
+        "file": "Netflix - The Member Service Architecture.PNG",
+        "displayName": "Netflix - The Member Service Architecture",
+        "tags": [
+          "Netflix",
+          "Member Service Architecture"
+        ]
+      },
+      {
+        "file": "Netflix - The Signup Process.PNG",
+        "displayName": "Netflix - The Signup Process",
+        "tags": [
+          "Netflix",
+          "Signup Process"
         ]
       },
       {
