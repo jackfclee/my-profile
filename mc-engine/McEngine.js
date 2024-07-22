@@ -1,14 +1,9 @@
 const qbList = [
-  "qb-01-Preparing-for-your-Professional-Data-Engineer-Journey.xml",
-  "qb-02-Google-Cloud-Big-Data-and-Machine-Learning-Fundamentals.xml",
-  "qb-03-Modernizing-Data-Lakes-and-Data-Warehouses-with-Google-Cloud.xml",
-  "qb-04-Building-Batch-Data-Pipelines-on-Google-Cloud.xml",
-  "qb-05-Building-Resilient-Streaming-Systems-on-Google-Cloud-Platform.xml",
-  "qb-06-Smart-Analytics-Machine-Learning-and-AI-on-Google-Cloud.xml",
-  "qb-07-Serverless-Data-Processing-with-Dataflow-Foundations.xml",
-  "qb-08-Serverless-Data-Processing-with-Dataflow-Develop-Pipelines.xml",
-  "qb-09-Serverless-Data-Processing-with-Dataflow-Operations.xml",
-  "qb-10-brain-dump.xml"
+  "qb-pca/qb-01-practice-tests.xml",
+  "qb-pca/qb-02-practice-tests.xml",
+  "qb-pca/qb-03-practice-tests.xml",
+  "qb-pca/qb-04-practice-tests.xml",
+  "qb-pca/qb-05-practice-tests.xml"
 ];
 
 function setQuestions(currentQuestions) {
